@@ -3,7 +3,7 @@
     {
       "key": "视觉",
       "name": "视觉",
-      "type": 0,
+      "type": 1,
       "api": "https://www.80yy3.com//api.php/provide/vod/at/xml/",
       "playUrl": "https://www.80yy3.com/vplay/152050-2-1.html",
       "searchable": 1,
