@@ -4,12 +4,32 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "🌕QQ912297028",
+      "name": "QQ:912297028【傻柱子专属】",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
+    },
+    {
+      "key": "短剧one",
+      "name": "🥰┃短剧┃视频",
+      "type": 3,
+      "api": "csp_Panda",
+      "ext": "https://d.kstore.space/download/6296/json/短剧.json"
+    },
+    {
+      "key": "532短剧",
+      "name": "💓┃短剧┃视频",
+      "type": 3,
+      "api": "csp_Panda",
+      "ext": "分类url:http://admin.532kan.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html,分类:短剧$23,首页:短剧$16"
+    },
+    {
+      "key": "种子短剧",
+      "name": "💮┃短剧┃视频",
+      "type": 1,
+      "api": "http://zzdj.cc/api.php/provide/vod"
     },
     {
       "key": "玩偶哥哥",
