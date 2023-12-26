@@ -5,8 +5,9 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "☕️【柱子哥专属】QQ:912297028",
-      "type": 3,
+      "name": "👽|柱子哥专属|🐧912297028|",
+     "jar":"http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb",  
+     "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
