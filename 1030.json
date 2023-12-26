@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "豆豆",
-      "name": "QQ:912297028【傻柱子专属】",
+      "name": "|傻柱子专属|QQ:912297028",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -1313,7 +1313,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/woaipojie123/zjysck/main/live.txt",
+      "url": "https://ghproxy.net/https://usercontent.githubfast.com/raw/woaipojie123/zjysck/main/live.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -1322,7 +1322,7 @@
     {
       "name": "ipv6",
       "type": 0,
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/woaipojie123/zjysck/main/live.txt",
+      "url": "https://ghproxy.net/https://usercontent.githubfast.com/raw/woaipojie123/zjysck/main/live.txt",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
