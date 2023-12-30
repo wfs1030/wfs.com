@@ -26,7 +26,7 @@
       "type": 3,
       "api": "csp_Panda",
       "ext": "./json/短剧.json",
-      "jar"./jra/feimao.jar"
+      //"jar"./jra/feimao.jar"
     },
     {
       "key": "横版影院",//肥猫
