@@ -297,7 +297,7 @@
        "key": "熊掌",//天天开心开始
         "name": "🎦熊掌┃秒播",
         "type": 1,
-        "api":"https://xzcjz.com/api.php/provide/vod"
+        "api":"https://xzcjz.com/api.php/provide/vod",
     },
   {
    "key": "开心影视","name":"🎦开心影视",
