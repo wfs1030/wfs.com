@@ -1,5 +1,5 @@
 {
-  "spider": "./1030.jar",
+  "spider": "./jar/fty.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
     "sites": [
   //影视点播系列 
@@ -312,7 +312,7 @@
       "name": "🦢天天┃影视",
       "type": 3,
       "api": "csp_TTian",
-      "jar":"https://jihulab.com/bestyr1/xiaobai/-/raw/master/jar/pg.jar",
+      "jar":"./jar/小白.jar",
       "playerType": 1,
       "changeable": 2,
       "ext":"http://op.ysdqjs.cn$$$null$$$1"
