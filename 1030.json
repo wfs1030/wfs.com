@@ -297,7 +297,7 @@
        "key": "熊掌",//天天开心开始
         "name": "🎦熊掌┃秒播",
         "type": 1,
-        "api":"https://xzcjz.com/api.php/provide/vod",
+        "api":"https://xzcjz.com/api.php/provide/vod"
     },
   {
    "key": "开心影视","name":"🎦开心影视",
@@ -312,7 +312,7 @@
       "name": "🦢天天┃影视",
       "type": 3,
       "api": "csp_TTian",
-      //"jar":"https://gitee.com/happy1-is-he-who-is-content/zjysck/raw/main/pg.jar",
+      "jar":"https://gitee.com/happy1-is-he-who-is-content/zjysck/raw/main/pg.jar",
       "playerType": 1,
       "changeable": 2,
       "ext":"http://op.ysdqjs.cn$$$null$$$1"
