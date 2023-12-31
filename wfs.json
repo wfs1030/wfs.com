@@ -25,7 +25,7 @@
       "name": "🥰┃短剧┃视频",
       "type": 3,
       "api": "csp_Panda",
-      "ext": "./json/短剧.json"
+      "ext": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/json/短剧.json"
       "jar":",/jar/feimao.jar",
     },
     {
