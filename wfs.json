@@ -29,17 +29,6 @@
       "jar":"./jra/feimao.jar
     },
     {
-      "key": "横版影院",
-      "name": "😋┃短剧┃视频",
-      "type": 1,
-      "api": "https://cj.lzcaiji.com/api.php/provide/vod/from/liangzi/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": ["短剧"]
-    }
-     },
-     {
       "key": "种子短剧",
       "name": "💮┃短剧┃视频",
       "type": 1,
