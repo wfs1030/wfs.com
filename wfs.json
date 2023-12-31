@@ -435,8 +435,23 @@
       "filterable": 1,
       "timeout": 30,
       "ext":"http://小盒酷玩.xyz:71/禁止贩卖$$$https://dapanso.com$$$null",
-      "jar": "http://小盒酷玩.xyz:79/禁止贩卖"
+      "jar": "http://小盒酷玩.xyz:73/禁止贩卖"
     },
+    {
+      "key": "xb小纸条",
+      "name": "📑纸条┃网盘",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://小盒酷玩.xyz:71/禁止贩卖",
+      "timeout": 60,
+     "jar": "http://小盒酷玩.xyz:74/禁止贩卖"
+
+     },
+
     {
       "key": "相声小品",//小盒酷玩
       "name": "👺相声┃小品",
