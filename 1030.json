@@ -21,12 +21,12 @@
       "changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
     {
-      "key": "短剧one",//肥猫
-      "name": "🥰┃短剧┃视频",
-      "type": 3,
-      "api": "csp_Panda",
-      "ext": "./json/短剧.json"
-      //"jar"./jra/feimao.jar"
+      "key":"短剧one",//肥猫
+      "name":"🥰┃短剧┃视频",
+      "type":3,
+      "api":"csp_Panda",
+      "ext":"./json/短剧.json",
+      "jar":"./jra/feimao.jar"
     },
     {
       "key": "横版影院",//肥猫
