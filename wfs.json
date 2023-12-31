@@ -272,7 +272,7 @@
       "playerType": 1,
       "changeable": 0,
       "ext": "http://op.ysdqjs.cn$$$null$$$1",
-      "jar": "http://小盒酷玩.xyz:76/禁止贩卖"
+      "jar": "http://小盒酷玩.xyz:77/禁止贩卖"
     },
 
     {
@@ -449,7 +449,7 @@
       "filterable": 1,
       "timeout": 30,
       "ext":"http://小盒酷玩.xyz:71/禁止贩卖$$$https://dapanso.com$$$null",
-      "jar": "http://小盒酷玩.xyz:74/禁止贩卖"
+      "jar": "http://小盒酷玩.xyz:75/禁止贩卖"
     },
     
 
@@ -491,9 +491,9 @@
       "name": "📓国学┃经典",
       "type": 3,
       "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "searchable":0 ,
+      "quickSearch": 0,
+      "filterable": 0,
       "ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/国学.json",
       "jar": "http://小盒.酷玩.fun:78/禁止贩卖"
     },
@@ -502,9 +502,9 @@
       "name": "📽️网红┃直播",
       "type": 3,
       "api": "csp_Yj1211",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "Aid",
@@ -566,7 +566,7 @@
       "type": 1,
       "api": "https://mv.wogg.link/mv/vod",
       "style": { "type": "oval"},
-      "searchable": 1,
+      "searchable": ,
       "quickSearch": 0,
       "changeable": 0
     },
@@ -618,8 +618,8 @@
       "name": "🛫唐人街┃飞",
       "type": 3,
       "api": "csp_Tangrenjie",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable":0 ,
+      "quickSearch":0 ,
       "changeable": 1
     },
     {
@@ -649,9 +649,9 @@
       "name": "📚百科┃全书",
       "type": 3,
       "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
       "ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/百科.json",
       "jar": "http://小盒.酷玩.fun:78/禁止贩卖"
     },
@@ -660,9 +660,9 @@
       "name": "🌍全球┃地理",
       "type": 3,
       "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
       "ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/地理.json",
       "jar": "http://小盒.酷玩.fun:78/禁止贩卖"
     },
@@ -671,9 +671,9 @@
       "name": "🧭科学┃发明",
       "type": 3,
       "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
       "ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/科学.json",
       "jar": "http://小盒.酷玩.fun:78/禁止贩卖"
     },
@@ -692,9 +692,9 @@
       "name": "👳外语┃教学",
       "type": 3,
       "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
       "ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/外语.json",
       "jar": "http://小盒.酷玩.fun:78/禁止贩卖"
     },
@@ -703,9 +703,9 @@
       "name": "👲幼儿┃教育",
       "type": 3,
       "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
       "ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/幼儿.json",
       "jar": "http://小盒.酷玩.fun:78/禁止贩卖"
     },
