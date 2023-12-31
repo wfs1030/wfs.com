@@ -29,7 +29,7 @@
       "jar":"./jra/feimao.jar
     },
     {
-      "key": "横版影院",//肥猫
+      "key": "横版影院",
       "name": "😋┃短剧┃视频",
       "type": 1,
       "api": "https://cj.lzcaiji.com/api.php/provide/vod/from/liangzi/?ac=list",
