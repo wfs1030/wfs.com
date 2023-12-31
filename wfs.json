@@ -435,7 +435,7 @@
       "filterable": 1,
       "timeout": 30,
       "ext":"http://小盒酷玩.xyz:71/禁止贩卖$$$https://dapanso.com$$$null",
-      "jar": "http://小盒酷玩.xyz:75/禁止贩卖"
+      "jar": "http://小盒酷玩.xyz:76/禁止贩卖"
     },
     {
       "key": "xb小纸条",
@@ -448,7 +448,7 @@
       "filterable": 0,
       "ext": "http://小盒酷玩.xyz:71/禁止贩卖",
       "timeout": 60,
-     "jar": "http://小盒酷玩.xyz:75/禁止贩卖"
+     "jar": "http://小盒酷玩.xyz:71/禁止贩卖"
 
      },
 
