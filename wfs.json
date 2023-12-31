@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
-  "spider": "./jar/fty.jar",
+  "spider": "./fty.jar",
   "sites": [
 //饭太硬线路
     {
