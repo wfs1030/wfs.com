@@ -272,7 +272,7 @@
       "playerType": 1,
       "changeable": 0,
       "ext": "http://op.ysdqjs.cn$$$null$$$1",
-      "jar":"./jar/禁止贩卖.jar"
+      "jar": "http://小盒酷玩.xyz:73/禁止贩卖"
     },
 
     {
@@ -402,7 +402,7 @@
       "timeout": 60
     },
     {
-      "key": "团长影视",
+      "key": "团长影视",//jar包79
       "name": "👘团长┃网盘",
       "type": 3,
       "api": "csp_TZFile",
@@ -413,8 +413,8 @@
      "jar": "http://小盒酷玩.xyz:79/禁止贩卖"
     },
     {
-      "key": "酷玩云盘",
-      "name": "🎯酷玩┃云盘",
+      "key": "酷玩云盘",//jar包79
+       "name": "🎯酷玩┃云盘",
       "type": 3,
       "api": "csp_XiaoZhang",
       "searchable": 1,
@@ -426,19 +426,7 @@
       "jar":"http://小盒酷玩.xyz:79/禁止贩卖"
     },
     {
-      "key": "DaPanSo",
-      "name": "🛰️大盘┃网盘",
-      "type": 3,
-      "api": "csp_DaPanSo",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext":"http://小盒酷玩.xyz:71/禁止贩卖$$$https://dapanso.com$$$null",
-      "jar": "http://小盒酷玩.xyz:76/禁止贩卖"
-    },
-    {
-      "key": "xb小纸条",
+      "key": "xb小纸条",//jar包79
       "name": "📑纸条┃网盘",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
@@ -451,6 +439,19 @@
      "jar": "http://小盒酷玩.xyz:71/禁止贩卖"
 
      },
+    {
+      "key": "DaPanSo",
+      "name": "🛰️大盘┃网盘",
+      "type": 3,
+      "api": "csp_DaPanSo",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext":"http://小盒酷玩.xyz:71/禁止贩卖$$$https://dapanso.com$$$null",
+      "jar": "http://小盒酷玩.xyz:71/禁止贩卖"
+    },
+    
 
     {
       "key": "相声小品",//小盒酷玩
