@@ -412,7 +412,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext":"jar":"./jar/小盒酷玩.jar",
+      "ext":"",
       "timeout": 60
     },
     {
@@ -420,10 +420,11 @@
       "name": "👘团长┃网盘",
       "type": 3,
       "api": "csp_TZFile",
-      "ext": "./jar/小盒酷玩.jar",
+      "ext": "http://小盒酷玩.xyz:71/禁止贩卖$$$null$$$1",
       "quickSearch": 1,
       "changeable": 0,
-      "timeout": 60
+      "timeout": 60,
+      "jar":"./jar/小盒酷玩.jar"
     },
     {
       "key": "酷玩云盘",
@@ -434,8 +435,9 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "./jar/小盒酷玩.jar",
-      "timeout": 60
+      "ext":"http://小盒酷玩.xyz:71/禁止贩卖$$$null$$$1",
+      "timeout": 60,
+      "jar":"./jar/小盒酷玩.jar"
     },
     {
       "key": "DaPanSo",
@@ -446,7 +448,8 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "http://小盒酷玩.xyz:71/禁止贩卖$$$https://dapanso.com$$$null"
+      "ext":"http://小盒酷玩.xyz:71/禁止贩卖$$$https://dapanso.com$$$null",
+      "jar":"./jar/小盒酷玩.jar"
     },
     {
       "key": "相声小品",//小盒酷玩
