@@ -31,7 +31,7 @@
         "type": "rect",
         "ratio": 1},
         "ext": "http://小盒酷玩.xyz:71/禁止贩卖",
-      "jar":"http://小盒酷玩.xyz:79/禁止贩卖",
+      "jar":"http://小盒酷玩.xyz:79/禁止贩卖"
     },
     {
       "key": "短剧one",  //肥猫线路
@@ -277,6 +277,17 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./json/七新.json"
+    },
+    {
+      "key": "天天",
+      "name": "💟天天┃影视",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 1,
+      "changeable": 0,
+      "ext": "http://op.ysdqjs.cn$$$null$$$1",
+      "jar":"http://小盒酷玩.xyz:79/禁止贩卖"
+
     },
     {
       "key": "小胡",
