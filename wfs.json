@@ -21,6 +21,19 @@
       "changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
     {
+      "key": "Token配置",
+      "name": "📂Token┃配置",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "ext": "http://小盒酷玩.xyz:71/禁止贩卖"
+    },
+    {
       "key": "短剧one",  //肥猫线路
       "name": "🥰┃短剧┃视频",
       "type": 3,
@@ -265,17 +278,6 @@
       "ext": "./json/七新.json"
     },
     {
-      "key": "天天",
-      "name": "💟天天┃影视",
-      "type": 3,
-      "api": "csp_TTian",
-      "playerType": 1,
-      "changeable": 0,
-      "ext": "http://op.ysdqjs.cn$$$null$$$1",
-      "jar": "http://小盒酷玩.xyz:70/禁止贩卖"
-    },
-
-    {
       "key": "小胡",
       "name": "🙆小胡┃影视",
       "type": 1,
@@ -439,21 +441,7 @@
      "jar": "http://小盒酷玩.xyz:73/禁止贩卖"
 
      },
-    {
-      "key": "DaPanSo",
-      "name": "🛰️大盘┃网盘",
-      "type": 3,
-      "api": "csp_DaPanSo",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext":"http://小盒酷玩.xyz:71/禁止贩卖$$$https://dapanso.com$$$null",
-      "jar": "http://小盒酷玩.xyz:79/禁止贩卖"
-    },
-    
-
-    {
+     {
       "key": "相声小品",//小盒酷玩
       "name": "👺相声┃小品",
       "type": 3,
