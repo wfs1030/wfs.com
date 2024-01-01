@@ -553,7 +553,7 @@
       "type": 1,
       "api": "https://mv.wogg.link/mv/vod",
       "style": { "type": "oval"},
-      "searchable": ,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
     },
