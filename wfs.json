@@ -606,6 +606,18 @@
 			"jar": "http://小盒酷玩.xyz:73/禁止贩卖"
 		},
 		{
+			"key": "玩偶表哥",
+			"name": "🐷表哥┃网盘",
+			"type": 3,
+			"api": "csp_Wobg",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 2,
+			"ext": "./json/PG推送.json",
+			"timeout": 60,
+			"jar": "./jar/小白.jar"
+		},
+		{
 			"key": "相声小品",
 			"name": "👺小品相声┃小盒",
 			"type": 3,
@@ -1291,7 +1303,7 @@
 		{
 			"name": "sao0",
 			"type": 0,
-			"url": "https://ghproxy.net/https://usercontent.githubfast.com/raw/wfs1030/wfs.com/main/live.txt",
+			"url": "https://ghproxy.net/https://raw.githubusercontent.com/wfs1030/wfs.com/main/live.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
