@@ -455,12 +455,14 @@
 			}
 		},
 		{
+				{
 			"key": "奇艺",
 			"name": "🦁奇艺┃小白",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/apiv483drpy2.min.js",
-			"ext": "./js/奇珍异兽.js"
+			"ext": "./js/奇珍异兽.js",
+			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "酷酷",
@@ -468,7 +470,8 @@
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/apiv483drpy2.min.js",
-			"ext": "./js/优酷.js"
+			"ext": "./js/优酷.js",
+			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "腾腾",
@@ -476,7 +479,8 @@
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/apiv483drpy2.min.js",
-			"ext": "./js/腾云驾雾.js"
+			"ext": "./js/腾云驾雾.js",
+			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "芒芒",
@@ -484,7 +488,8 @@
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/apiv483drpy2.min.js",
-			"ext": "./js/百忙无果.js"
+			"ext": "./js/百忙无果.js",
+			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "狗狗",
@@ -492,7 +497,8 @@
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/apiv483drpy2.min.js",
-			"ext": ".//菜狗.js"
+			"ext": ".//菜狗.js",
+			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "贱贱",
@@ -1465,7 +1471,7 @@
 		{
 			"name": "sao0",
 			"type": 0,
-			"url": "https://ghproxy.net/https://raw.githubusercontent.com/wfs1030/wfs.com/main/live.txt",
+			"url": "https://ghproxy.net/https://usercontent.githubfast.com/raw/wfs1030/wfs.com/main/live.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
