@@ -4,7 +4,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "👽柱子哥专属┃🐧912297028┃",
+			"name": "👽柱子哥专属┃👊卡顿播放失败请换源┃",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -36,10 +36,12 @@
 			"jar": "./jar/小白.jar"
 		},
 		{
-			"key": "种子短剧",
-			"name": "💮┃短剧┃肥猫",
-			"type": 1,
-			"api": "http://zzdj.cc/api.php/provide/vod"
+			"key": "短剧one",
+			"name": "🥰┃短剧┃肥猫",
+			"type": 3,
+			"api": "csp_Panda",
+			"ext": "./json/短剧.json",
+			"jar": "./jar/feimao.jar"
 		},
 		{
 			"key": "js短剧",
@@ -189,8 +191,59 @@
 			"ext": "https://haozhansou.com/"
 		},
 		{
+			"key": "奇艺",
+			"name": "🍑爱奇艺┃小白",
+			"type": 3,
+			"changeable": 2,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/奇珍异兽.js",
+			"jar": "./jar/小白.jar"
+		},
+		{
+			"key": "酷酷",
+			"name": "🎞优酷┃小白",
+			"type": 3,
+			"changeable": 2,
+			"api": "./js/drpy2.min.js",
+			"ext": "https://raw.fgit.cf/hjdhnx/dr_py/main/js/%E4%BC%98%E9%85%B7.js"
+		},
+		{
+			"key": "腾腾",
+			"name": "🐧腾讯┃小白",
+			"type": 3,
+			"changeable": 2,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/腾云驾雾.js",
+			"jar": "./jar/小白.jar"
+		},
+		{
+			"key": "芒芒",
+			"name": "🥭芒果┃小白",
+			"type": 3,
+			"changeable": 2,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/百忙无果.js",
+			"jar": "./jar/小白.jar"
+		},
+		{
+			"key": "狗狗",
+			"name": "🐶搜狗┃小白",
+			"type": 3,
+			"changeable": 2,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/菜狗.js",
+			"jar": "./jar/小白.jar"
+		},
+		{
+			"key": "drpy_js_360影视",
+			"name": "🍓︎360┃肥猫",
+			"type": 3,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/360.js"
+		},
+		{
 			"key": "csp_SP33",
-			"name": "📺三三┃解析",
+			"name": "🍎三三┃解析",
 			"type": 3,
 			"api": "csp_SP33",
 			"searchable": 1,
@@ -229,13 +282,6 @@
 			"playerType": "2",
 			"api": "./js/drpy2.min.js",
 			"ext": "./js/奇优.js"
-		},
-		{
-			"key": "drpy_js_360影视",
-			"name": "📺︎360┃肥猫",
-			"type": 3,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/360.js"
 		},
 		{
 			"key": "js_v2-jrly",
@@ -282,6 +328,94 @@
 			"type": 1,
 			"playerType": 1,
 			"api": "http://c.小胡.icu/api.php/provide/vod/"
+		},
+		{
+			"key": "csp_好戏",
+			"name": "👍好戏影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/好戏影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_圣城",
+			"name": "🤠圣城影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/圣城影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_七月",
+			"name": "🌙七月影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/七月影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_xBPQ_玖八",
+			"name": "🍺98影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/98影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_万达",
+			"name": "🥣万达影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/万达影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_疯狗",
+			"name": "🐶疯狗影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/疯狗影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_爱看",
+			"name": "👉爱看影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/爱看影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_不卡",
+			"name": "👀不卡影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/真不卡影视.json",
+			"jar": "./jar/荷城茶秀.jar"
 		},
 		{
 			"key": "熊掌",
@@ -445,50 +579,6 @@
 				"分类url": "https://rebozj.pro/show/{cateId}--{area}------{catePg}---{year}.html;;a",
 				"跳转播放链接": "urlDecode(vod_class*url\":\"&&\")"
 			}
-		},
-                {
-			"key": "奇艺",
-			"name": "🦁奇艺┃小白",
-			"type": 3,
-			"changeable": 2,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/奇珍异兽.js",
-			"jar": "./jar/小白.jar"
-		},
-		{
-			"key": "酷酷",
-			"name": "🦝酷酷┃官源",
-			"type": 3,
-			"changeable": 2,
-			"api": "./js/drpy2.min.js",
-			"ext": "https://raw.fgit.cf/hjdhnx/dr_py/main/js/%E4%BC%98%E9%85%B7.js"
-		},
-		{
-			"key": "腾腾",
-			"name": "🐏腾腾┃小白",
-			"type": 3,
-			"changeable": 2,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/腾云驾雾.js",
-			"jar": "./jar/小白.jar"
-		},
-		{
-			"key": "芒芒",
-			"name": "🦄芒芒┃小白",
-			"type": 3,
-			"changeable": 2,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/百忙无果.js",
-			"jar": "./jar/小白.jar"
-		},
-		{
-			"key": "狗狗",
-			"name": "🐕狗狗┃小白",
-			"type": 3,
-			"changeable": 2,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/菜狗.js",
-			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "贱贱",
@@ -687,7 +777,7 @@
 			"key": "爱盘搜",
 			"name": "🛴爱盘┃网盘",
 			"type": 3,
-			"api": "./js/apiv483drpy2.min.js",
+			"api": "./js/drpy2.min.js",
 			"ext": "./js/aipanso.js",
 			"quickSearch": 1,
 			"changeable": 2,
@@ -703,6 +793,17 @@
 			"quickSearch": 0,
 			"changeable": 2,
 			"ext": "./json/PG推送.json",
+			"timeout": 60,
+			"jar": "./jar/小白.jar"
+		},
+		{
+			"key": "趣盘搜",
+			"name": "🏍趣盘┃网盘",
+			"type": 3,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/funletu.js",
+			"quickSearch": 1,
+			"changeable": 2,
 			"timeout": 60,
 			"jar": "./jar/小白.jar"
 		},
@@ -1459,19 +1560,9 @@
 	],
 	"lives": [
 		{
-			"name": "sao0",
+			"name": "live",
 			"type": 0,
-			"url": "https://ghproxy.net/https://usercontent.githubfast.com/raw/wfs1030/wfs.com/main/live.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "ipv6",
-			"type": 0,
-			"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-			"playerType": 1,
+			"url": "./live.txt",
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
