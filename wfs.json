@@ -22,8 +22,8 @@
 			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
 		},
 		{
-			"key": "Token配置",
-			"name": "📂Token┃配置",
+			"key": "配置中心",
+			"name": "🏬阿里配置┃小白",
 			"type": 3,
 			"api": "csp_Config",
 			"searchable": 0,
@@ -32,16 +32,8 @@
 				"type": "rect",
 				"ratio": 1
 			},
-			"ext": "http://小盒酷玩.xyz:71/禁止贩卖",
-			"jar": "http://小盒酷玩.xyz:79/禁止贩卖"
-		},
-		{
-			"key": "短剧one",
-			"name": "🥰┃短剧┃肥猫",
-			"type": 3,
-			"api": "csp_Panda",
-			"ext": "./json/短剧.json",
-			"jar": "./jar/feimao.jar"
+			"ext": "./js/PG推送.json",
+			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "种子短剧",
@@ -454,30 +446,29 @@
 				"跳转播放链接": "urlDecode(vod_class*url\":\"&&\")"
 			}
 		},
-		{
+                {
 			"key": "奇艺",
 			"name": "🦁奇艺┃小白",
 			"type": 3,
 			"changeable": 2,
-			"api": "./js/apiv483drpy2.min.js",
+			"api": "./js/drpy2.min.js",
 			"ext": "./js/奇珍异兽.js",
 			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "酷酷",
-			"name": "🦝酷酷┃小白",
+			"name": "🦝酷酷┃官源",
 			"type": 3,
 			"changeable": 2,
-			"api": "./js/apiv483drpy2.min.js",
-			"ext": "./js/优酷.js",
-			"jar": "./jar/小白.jar"
+			"api": "./js/drpy2.min.js",
+			"ext": "https://raw.fgit.cf/hjdhnx/dr_py/main/js/%E4%BC%98%E9%85%B7.js"
 		},
 		{
 			"key": "腾腾",
 			"name": "🐏腾腾┃小白",
 			"type": 3,
 			"changeable": 2,
-			"api": "./js/apiv483drpy2.min.js",
+			"api": "./js/drpy2.min.js",
 			"ext": "./js/腾云驾雾.js",
 			"jar": "./jar/小白.jar"
 		},
@@ -486,7 +477,7 @@
 			"name": "🦄芒芒┃小白",
 			"type": 3,
 			"changeable": 2,
-			"api": "./js/apiv483drpy2.min.js",
+			"api": "./js/drpy2.min.js",
 			"ext": "./js/百忙无果.js",
 			"jar": "./jar/小白.jar"
 		},
@@ -495,8 +486,8 @@
 			"name": "🐕狗狗┃小白",
 			"type": 3,
 			"changeable": 2,
-			"api": "./js/apiv483drpy2.min.js",
-			"ext": ".//菜狗.js",
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/菜狗.js",
 			"jar": "./jar/小白.jar"
 		},
 		{
