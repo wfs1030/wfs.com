@@ -60,10 +60,7 @@
             "name":"🤠小胡线路🤠",//接口来源日后多仓，QQ群多仓魔改，微信公众号日后魔改
             "url":"http://xiaohu.xzam.cn/xiaohu"
         },
-        {
-            "name":"👽恒星资料网👽",//接口来源微信公众号恒星资料网
-            "url":"https://codeberg.org/hengxing/hx/raw/branch/main/1031hxzx.txt"
-        },
+        
         {
             "name":"🦭圆周率🦭",//接口来源蚂蚁窝仓库
             "url":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/tv.txt?ref_type=heads"
