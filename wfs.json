@@ -37,7 +37,7 @@
 		},
 		{
 			"key": "短剧one",
-			"name": "🐼┃短剧┃肥猫",
+			"name": "🐼┃榜一短剧┃肥猫",
 			"type": 3,
 			"api": "csp_Panda",
 			"ext": "./json/短剧.json",
@@ -45,20 +45,20 @@
 		},
 		{
 			"key": "种子短剧",
-			"name": "👑种子短剧👑",
+			"name": "🌱种子短剧┃夜猫子",
 			"type": 1,
 			"api": "http://zzdj.cc/api.php/provide/vod"
 		},
 		{
 			"key": "js短剧",
-			"name": "😋短剧┃月光",
+			"name": "🌙短剧┃月光",
 			"type": 3,
 			"api": "./js/drpy2.min.js",
 			"ext": "./js/短剧网.js"
 		},
 		{
 			"key": "奇艺",
-			"name": "👑艺艺┃小白",
+			"name": "爱奇艺┃小白",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/drpy2.min.js",
@@ -144,230 +144,6 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
-		},
-		{
-			"key": "csp_96",
-			"name": "👑玖六┃夜猫子",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/96影视.json",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "橘子",
-			"name": "👑橘子影视┃夜猫子",
-			"type": 3,
-			"api": "csp_Appto1",
-			"playerType": 2,
-			"ext": "./json/橘子.txt",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "蓝光",
-			"name": "👑君离影视┃夜猫子",
-			"type": 3,
-			"api": "csp_Appto1",
-			"playerType": 2,
-			"ext": "./json/蓝光.txt",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "csp_slgq",
-			"name": "👑石榴蓝光┃夜猫子",
-			"type": 3,
-			"playerType": 2,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/石榴高清.json",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "良人",
-			"name": "👑良人┃夜猫子",
-			"type": 3,
-			"api": "csp_Appto1",
-			"playerType": 2,
-			"ext": "./json/良人.txt",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "zhuiyi",
-			"name": "👑追忆┃夜猫子",
-			"type": 3,
-			"api": "csp_App",
-			"searchable": 1,
-			"filterable": 1,
-			"changeable": 1,
-			"jar": "./jar/夜猫子.jar",
-			"ext": "ZhuiYi#tvbox.aleoe.cc#3.0.231015"
-		},
-		{
-			"key": "心心",
-			"name": "👑蜂鸟影视┃夜猫子",
-			"type": 3,
-			"api": "csp_Appto1",
-			"playerType": 2,
-			"ext": "./json/蜂鸟.txt",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "影院",
-			"name": "👑夜猫蓝光┃夜猫子",
-			"type": 3,
-			"playerType": 2,
-			"api": "csp_AppYsV2",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "csp_秋霞电影",
-			"name": "👑秋霞电影┃夜猫子",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/秋霞电影.json",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "繁星",
-			"name": "💥星奇┃App",
-			"type": 3,
-			"api": "csp_AppMao",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"
-		},
-		{
-			"key": "Czsapp",
-			"name": "📔厂长┃直连",
-			"type": 3,
-			"api": "csp_Czsapp",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "https://www.czzy33.com/"
-		},
-		{
-			"key": "js_v2-jrly",
-			"name": "📯嘉靓┃小盒",
-			"type": 3,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/嘉靓.js"
-		},
-		{
-			"key": "csp_墨鸦",
-			"name": "🦆墨鸦┃小盒",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "http://小盒酷玩.xyz:74/禁止贩卖",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/墨鸦.json"
-		},
-		{
-			"key": "csp_xBPQ_qixing",
-			"name": "🍃七新┃小盒",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "http://小盒酷玩.xyz:74/禁止贩卖",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"ext": "./json/七新.json"
-		},
-		{
-			"key": "天天",
-			"name": "💟天天┃小盒",
-			"type": 3,
-			"api": "csp_TTian",
-			"playerType": 1,
-			"changeable": 0,
-			"ext": "http://op.ysdqjs.cn$$$null$$$1",
-			"jar": "http://小盒酷玩.xyz:79/禁止贩卖"
-		},
-		{
-			"key": "小胡",
-			"name": "🙆小胡┃小盒",
-			"type": 1,
-			"playerType": 1,
-			"api": "http://c.小胡.icu/api.php/provide/vod/"
-		},
-		{
-			"key": "csp_Free",
-			"name": "🌹Free影视|荷城",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/Free影视.json",
-			"jar": "./jar/荷城茶秀.jar"
-		},
-		{
-			"key": "哔嘀",
-			"name": "💘哔嘀┃摸鱼",
-			"type": 3,
-			"api": "csp_Bdys",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"jar": "./jar/myog.jar"
-		},
-		{
-			"key": "云播",
-			"name": "1💘落花┃摸鱼",
-			"type": 3,
-			"api": "csp_Skapp",
-			"playerType": 2,
-			"ext": "./json/yunbo.json",
-			"jar": "./jar/myog.jar"
-		},
-		{
-			"key": "csp_圣城",
-			"name": "🤠圣城影视|荷城",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/圣城影视.json",
-			"jar": "./jar/荷城茶秀.jar"
-		},
-		{
-			"key": "csp_好戏",
-			"name": "👍好戏影视|荷城",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/好戏影视.json",
-			"jar": "./jar/荷城茶秀.jar"
-		},
-		{
-			"key": "csp_七月",
-			"name": "🌙七月影视|荷城",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/七月影视.json",
-			"jar": "./jar/荷城茶秀.jar"
 		},
 		{
 			"key": "zxzj",
@@ -459,6 +235,200 @@
 			"ext": "https://haozhansou.com/"
 		},
 		{
+			"key": "csp_96",
+			"name": "👑玖六┃夜猫子",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/96影视.json",
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "橘子",
+			"name": "👑橘子影视┃夜猫子",
+			"type": 3,
+			"api": "csp_Appto1",
+			"playerType": 2,
+			"ext": "./json/橘子.txt",
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "蓝光",
+			"name": "👑君离影视┃夜猫子",
+			"type": 3,
+			"api": "csp_Appto1",
+			"playerType": 2,
+			"ext": "./json/蓝光.txt",
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "csp_slgq",
+			"name": "👑石榴蓝光┃夜猫子",
+			"type": 3,
+			"playerType": 2,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/石榴高清.json",
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "良人",
+			"name": "👑良人┃夜猫子",
+			"type": 3,
+			"api": "csp_Appto1",
+			"playerType": 2,
+			"ext": "./json/良人.txt",
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "心心",
+			"name": "👑蜂鸟影视┃夜猫子",
+			"type": 3,
+			"api": "csp_Appto1",
+			"playerType": 2,
+			"ext": "./json/蜂鸟.txt",
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "影院",
+			"name": "👑夜猫蓝光┃夜猫子",
+			"type": 3,
+			"playerType": 2,
+			"api": "csp_AppYsV2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "https://www.gsjtlxy.top/xgapp.php/v3/",
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "csp_秋霞电影",
+			"name": "👑秋霞电影┃夜猫子",
+			"type": 3,
+			"api": "csp_XYQHiker",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "https://jihulab.com/ymz1231/json/-/raw/main/%E7%A7%8B%E9%9C%9E%E7%94%B5%E5%BD%B1.json"
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "繁星",
+			"name": "💥星奇┃App",
+			"type": 3,
+			"api": "csp_AppMao",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"
+		},
+		{
+			"key": "Czsapp",
+			"name": "📔厂长┃直连",
+			"type": 3,
+			"api": "csp_Czsapp",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "https://www.czzy33.com/"
+		},
+		{
+			"key": "js_v2-jrly",
+			"name": "📯嘉靓┃小盒",
+			"type": 3,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/嘉靓.js"
+		},
+		{
+			"key": "csp_墨鸦",
+			"name": "🦆墨鸦┃小盒",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "http://小盒酷玩.xyz:74/禁止贩卖",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/墨鸦.json"
+		},
+		{
+			"key": "csp_xBPQ_qixing",
+			"name": "🍃七新┃小盒",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "http://小盒酷玩.xyz:74/禁止贩卖",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"ext": "./json/七新.json"
+		},
+		{
+			"key": "天天",
+			"name": "💟天天┃小盒",
+			"type": 3,
+			"api": "csp_TTian",
+			"playerType": 1,
+			"changeable": 0,
+			"ext": "http://op.ysdqjs.cn$$$null$$$1",
+			"jar": "http://小盒酷玩.xyz:79/禁止贩卖"
+		},
+		{
+			"key": "小胡",
+			"name": "🙆小胡┃小盒",
+			"type": 1,
+			"playerType": 1,
+			"api": "http://c.小胡.icu/api.php/provide/vod/"
+		},
+		{
+			"key": "csp_Free",
+			"name": "🌹Free影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/Free影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_圣城",
+			"name": "🤠圣城影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/圣城影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_好戏",
+			"name": "👍好戏影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/好戏影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
+			"key": "csp_七月",
+			"name": "🌙七月影视|荷城",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./json/七月影视.json",
+			"jar": "./jar/荷城茶秀.jar"
+		},
+		{
 			"key": "saohuo",
 			"name": "🔥火苗┃肥猫",
 			"type": 3,
@@ -516,17 +486,6 @@
 			"jar": "./jar/荷城茶秀.jar"
 		},
 		{
-			"key": "csp_爱看",
-			"name": "👉爱看影视|荷城",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./json/爱看影视.json",
-			"jar": "./jar/荷城茶秀.jar"
-		},
-		{
 			"key": "csp_不卡",
 			"name": "👀不卡影视|荷城",
 			"type": 3,
@@ -578,6 +537,25 @@
 				"奇幻片",
 				"纪录片"
 			]
+		},
+		{
+			"key": "哔嘀",
+			"name": "💘哔嘀┃摸鱼",
+			"type": 3,
+			"api": "csp_Bdys",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./jar/myog.jar"
+		},
+		{
+			"key": "云播",
+			"name": "1💘落花┃摸鱼",
+			"type": 3,
+			"api": "csp_Skapp",
+			"playerType": 2,
+			"ext": "./json/yunbo.json",
+			"jar": "./jar/myog.jar"
 		},
 		{
 			"key": "03影院",
