@@ -546,6 +546,16 @@
 			"ext": "./js/奇优.js"
 		},
 		{
+			"key": "csp_AppMr",
+			"name": "👻┃明明┃吾爱",
+			"type": 3,
+			"api": "csp_AppMr",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./jar/吾爱.jar"
+		},
+		{
 			"key": "熊掌",
 			"name": "🐾熊掌┃天天",
 			"type": 1,
@@ -739,6 +749,36 @@
 				"分类url": "https://rebozj.pro/show/{cateId}--{area}------{catePg}---{year}.html;;a",
 				"跳转播放链接": "urlDecode(vod_class*url\":\"&&\")"
 			}
+		},
+		{
+			"key": "暴风采集",
+			"name": "🚄BF影音",
+			"type": 1,
+			"api": "https://app.bfzyapi.com/api.php/provide/vod/",
+			"playUrl": "",
+			"categories": [
+				"国产剧",
+				"国产动漫",
+				"动作片",
+				"科幻片",
+				"剧情片",
+				"喜剧片",
+				"爱情片",
+				"恐怖片",
+				"战争片",
+				"香港剧",
+				"台湾剧",
+				"日本剧",
+				"欧美剧",
+				"泰国剧",
+				"日本动漫",
+				"综艺频道",
+				"大陆综艺",
+				"港台综艺",
+				"日本综艺",
+				"新马泰综艺",
+				"纪录片"
+			]
 		},
 		{
 			"key": "荐片磁力",
@@ -2791,38 +2831,6 @@
 			}
 		},
 		{
-			"name": "飞云🌾",
-			"type": 1,
-			"url": "http://122.228.84.103:7777/api/?key=XX84Rm4utDcfLT21tT&url=",
-			"ext": {
-				"flag": [
-					"FYNB",
-					"mgtv",
-					"qiyi",
-					"imgo",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"腾讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"bilibili",
-					"哔哩哔哩",
-					"哔哩",
-					"mgtv",
-					"芒果"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.1.0"
-				}
-			}
-		},
-		{
 			"name": "亮亮🌾",
 			"type": 1,
 			"url": "https://m.jialiangos.com/jx/?url=",
@@ -3071,6 +3079,46 @@
 			"type": 0,
 			"url": "https://www.ecmys.com/player/art.php?url="
 		}
+	],
+	"flags": [
+		"youku",
+		"优酷",
+		"优 酷",
+		"优酷视频",
+		"qq",
+		"腾讯",
+		"腾 讯",
+		"腾讯视频",
+		"iqiyi",
+		"qiyi",
+		"奇艺",
+		"爱奇艺",
+		"爱 奇 艺",
+		"m1905",
+		"xigua",
+		"letv",
+		"leshi",
+		"乐视",
+		"乐 视",
+		"sohu",
+		"搜狐",
+		"搜 狐",
+		"搜狐视频",
+		"tudou",
+		"pptv",
+		"mgtv",
+		"芒果",
+		"imgo",
+		"芒果TV",
+		"芒 果 T V",
+		"bilibili",
+		"哔 哩",
+		"哔 哩 哔 哩",
+		"FY",
+		"fy",
+		"FeiYun",
+		"feiyun",
+		"飞云"
 	],
 	"doh": [
 		{
@@ -3404,6 +3452,127 @@
 			],
 			"regex": [
 				"is_play_url="
+			]
+		},
+		{
+			"name": "量子廣告",
+			"hosts": [
+				"vip.lz",
+				"hd.lz"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "非凡廣告",
+			"hosts": [
+				"vip.ffzy",
+				"hd.ffzy"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			]
+		},
+		{
+			"name": "吾爱电视",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url="
+		},
+		{
+			"name": "火山嗅探",
+			"hosts": [
+				"huoshan.com"
+			],
+			"regex": [
+				"item_id="
+			]
+		},
+		{
+			"name": "抖音嗅探",
+			"hosts": [
+				"douyin.com"
+			],
+			"regex": [
+				"is_play_url="
+			]
+		},
+		{
+			"host": "www.djuu.com",
+			"rule": [
+				"mp4.djuu.com",
+				"m4a"
+			]
+		},
+		{
+			"host": "www.sharenice.net",
+			"rule": [
+				"huoshan.com",
+				"/item/video/"
+			],
+			"filter": []
+		},
+		{
+			"host": "www.sharenice.net",
+			"rule": [
+				"sovv.qianpailive.com",
+				"vid="
+			],
+			"filter": []
+		},
+		{
+			"host": "www.sharenice.net",
+			"rule": [
+				"douyin.com",
+				"/play/"
+			]
+		},
+		{
+			"host": "m.ysxs8.vip",
+			"rule": [
+				"ysting.ysxs8.vip:81",
+				"xmcdn.com"
+			],
+			"filter": []
+		},
+		{
+			"host": "hdmoli.com",
+			"rule": [
+				".m3u8"
+			]
+		},
+		{
+			"host": "https://api.live.bilibili.com",
+			"rule": [
+				"bilivideo.com",
+				"/index.m3u8"
+			],
+			"filter": [
+				"data.bilibili.com/log/web",
+				"i0.hdslb.com/bfs/live/"
+			]
+		},
+		{
+			"host": "www.agemys.cc",
+			"rule": [
+				"cdn-tos",
+				"obj/tos-cn"
+			]
+		},
+		{
+			"host": "www.fun4k.com",
+			"rule": [
+				"https://hd.ijycnd.com/play",
+				"index.m3u8"
+			]
+		},
+		{
+			"host": "zjmiao.com",
+			"rule": [
+				"play.videomiao.vip/API.php",
+				"time=",
+				"key=",
+				"path="
 			]
 		}
 	],
