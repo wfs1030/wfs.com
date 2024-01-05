@@ -1,10 +1,10 @@
 {
-	"spider": "./jar/fty.jar",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+	"spider": "./jar/fty.jar",
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "👉柱子哥专属👈┃👉师徒三人行👈┃",
+			"name": "🐦‍🔥师徒三人行┃",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -23,7 +23,7 @@
 		},
 		{
 			"key": "配置中心",
-			"name": "🦊阿里配置┃小白",
+			"name": "👽阿里配置┃小白",
 			"type": 3,
 			"api": "csp_Config",
 			"searchable": 0,
@@ -37,7 +37,7 @@
 		},
 		{
 			"key": "短剧one",
-			"name": "🐼┃榜一短剧┃肥猫",
+			"name": "🔥短剧┃肥猫",
 			"type": 3,
 			"api": "csp_Panda",
 			"ext": "./json/短剧.json",
@@ -45,20 +45,20 @@
 		},
 		{
 			"key": "种子短剧",
-			"name": "🌱种子短剧┃夜猫子",
+			"name": "🔥种子短剧┃夜猫子",
 			"type": 1,
 			"api": "http://zzdj.cc/api.php/provide/vod"
 		},
 		{
 			"key": "js短剧",
-			"name": "🌙短剧┃月光",
+			"name": "🔥短剧┃月光",
 			"type": 3,
 			"api": "./js/drpy2.min.js",
 			"ext": "./js/短剧网.js"
 		},
 		{
 			"key": "奇艺",
-			"name": "爱奇艺┃小白",
+			"name": "💡爱奇艺┃小白",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/drpy2.min.js",
@@ -67,7 +67,7 @@
 		},
 		{
 			"key": "酷酷",
-			"name": "👑优优┃小白",
+			"name": "💡优酷┃小白",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/drpy2.min.js",
@@ -75,7 +75,7 @@
 		},
 		{
 			"key": "腾腾",
-			"name": "👑腾腾┃小白",
+			"name": "💡腾讯┃小白",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/drpy2.min.js",
@@ -84,7 +84,7 @@
 		},
 		{
 			"key": "芒芒",
-			"name": "👑芒芒┃小白",
+			"name": "💡芒果┃小白",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/drpy2.min.js",
@@ -92,8 +92,15 @@
 			"jar": "./jar/小白.jar"
 		},
 		{
+			"key": "drpy_js_360影视",
+			"name": "💡360┃肥猫",
+			"type": 3,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/360.js"
+		},
+		{
 			"key": "狗狗",
-			"name": "👑狗狗┃小白",
+			"name": "💡搜狗┃小白",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/drpy2.min.js",
@@ -101,15 +108,8 @@
 			"jar": "./jar/小白.jar"
 		},
 		{
-			"key": "drpy_js_360影视",
-			"name": "👑360👑┃肥猫",
-			"type": 3,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/360.js"
-		},
-		{
 			"key": "sohu",
-			"name": "👑搜狐┃夜猫子",
+			"name": "💡搜狐┃夜猫子",
 			"type": 1,
 			"api": "http://tvbox-1-g5221611.deta.app/vod/sohu",
 			"searchable": 1,
@@ -1505,9 +1505,24 @@
 			"url": "Demo"
 		},
 		{
+			"name": "聚合1",
+			"type": 3,
+			"url": "Demo"
+		},
+		{
+			"name": "聚合0",
+			"type": 3,
+			"url": "Web"
+		},
+		{
 			"name": "超解析",
 			"type": 3,
 			"url": "Demo"
+		},
+		{
+			"name": "超嗅探",
+			"type": 3,
+			"url": "Web"
 		},
 		{
 			"name": "超嗅探",
@@ -1523,6 +1538,16 @@
 			"name": "🐉并发2",
 			"type": 2,
 			"url": "Parallel"
+		},
+		{
+			"name": "🐉聚合1",
+			"type": 3,
+			"url": "Demo"
+		},
+		{
+			"name": "JSON",
+			"type": 3,
+			"url": "Demo"
 		},
 		{
 			"name": "神秘的哥哥们",
@@ -2962,21 +2987,6 @@
 			}
 		},
 		{
-			"name": "🐉聚合1",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
-			"name": "聚合1",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
-			"name": "聚合0",
-			"type": 3,
-			"url": "Web"
-		},
-		{
 			"name": "稻香🌾",
 			"type": 0,
 			"url": "https://jx.xmflv.com/?url=",
@@ -3138,16 +3148,6 @@
 					"User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36"
 				}
 			}
-		},
-		{
-			"name": "JSON",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
-			"name": "超嗅探",
-			"type": 3,
-			"url": "Web"
 		},
 		{
 			"name": "解析1",
@@ -3508,18 +3508,18 @@
 				"更多",
 				"社 區",
 				"x u u",
-				"最 新",
-				"更 新",
-				"社 区",
+				"最新",
+				"更新",
+				"社区",
 				"有趣",
-				"有 趣",
-				"英皇体育",
-				"全中文AV在线",
-				"澳门皇冠赌场",
-				"哥哥快来",
-				"美女荷官",
-				"裸聊",
-				"新片首发",
+				"有趣",
+				"体育",
+				"在线",
+				"皇冠",
+				"快来",
+				"荷官",
+				"聊天",
+				"首发",
 				"UUE29"
 			]
 		},
@@ -3637,9 +3637,9 @@
 	],
 	"lives": [
 		{
-			"name": "",
+			"name": "live",
 			"type": 0,
-			"url": "",
+			"url": "./live.txt",
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
