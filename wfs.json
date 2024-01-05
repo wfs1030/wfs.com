@@ -741,13 +741,17 @@
 			}
 		},
 		{
-			"key": "荐片",
-			"name": "🧲┃荐片┃影视",
-			"api": "csp_Jianpian",
+			"key": "荐片磁力",
+			"name": "🍈荐片┃磁力",
 			"type": 3,
-			"playerType": "2",
-			"ext": "http://apicv.kcxgtzg.cn",
-			"jar": "./jar/肥猫.jar"
+			"api": "csp_Jianpian",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 2,
+			"ext": "./json/jianpian.json$$$1",
+			"timeout": 60,
+			"jar": "./jar/小白.jar"
 		},
 		{
 			"key": "csp_Mp4Mov",
