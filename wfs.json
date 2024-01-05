@@ -4,7 +4,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🐦‍🔥师徒三人行┃",
+			"name": "♏柱子哥专属┃师徒三人行！",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -23,7 +23,7 @@
 		},
 		{
 			"key": "配置中心",
-			"name": "👽阿里配置┃小白",
+			"name": "🦊阿里配置┃小白",
 			"type": 3,
 			"api": "csp_Config",
 			"searchable": 0,
@@ -93,7 +93,7 @@
 		},
 		{
 			"key": "drpy_js_360影视",
-			"name": "💡360┃肥猫",
+			"name": "💡360影视┃肥猫",
 			"type": 3,
 			"api": "./js/drpy2.min.js",
 			"ext": "./js/360.js"
@@ -169,7 +169,7 @@
 		},
 		{
 			"key": "小胡",
-			"name": "🔥自营┃小胡线路",
+			"name": "🔥小胡自营┃小胡",
 			"type": 1,
 			"playerType": 1,
 			"api": "http://c.xn--yetu07f.icu/api.php/provide/vod/"
@@ -364,7 +364,7 @@
 		},
 		{
 			"key": "drpy_js_子子影视",
-			"name": "子子影视┃高天",
+			"name": "🌈子子影视┃高天",
 			"type": 3,
 			"api": "./js/drpy2.min.js",
 			"ext": "./js/子子影视.js",
@@ -372,7 +372,7 @@
 		},
 		{
 			"key": "drpy_js_网飞",
-			"name": "影视 | 网飞┃高天",
+			"name": "🌈网飞影视┃高天",
 			"type": 3,
 			"api": "./js/drpy2.min.js",
 			"ext": "./js/网飞.js",
@@ -380,7 +380,7 @@
 		},
 		{
 			"key": "drpy_js_大师兄影视",
-			"name": "大师兄影视┃高天",
+			"name": "🌈大师兄影视┃高天",
 			"type": 3,
 			"api": "./js/drpy2.min.js",
 			"ext": "./js/大师兄影视.js",
@@ -392,14 +392,6 @@
 			"type": 3,
 			"api": "./js/drpy2.min.js",
 			"ext": "./js/Auete.js",
-			"jar": "./jar/高天.jar"
-		},
-		{
-			"key": "drpy_js_星辰影院",
-			"name": "星辰影院┃高天",
-			"type": 3,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/星辰.js",
 			"jar": "./jar/高天.jar"
 		},
 		{
@@ -465,7 +457,7 @@
 		},
 		{
 			"key": "csp_好戏",
-			"name": "👍好戏影视|荷城",
+			"name": "💡好戏影视|荷城",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
@@ -616,7 +608,7 @@
 		},
 		{
 			"key": "圆周率",
-			"name": "率率｜圆周率",
+			"name": "⭕️率率｜圆周率",
 			"api": "csp_AppYsV2",
 			"type": 3,
 			"searchable": 1,
@@ -627,7 +619,7 @@
 		},
 		{
 			"key": "晴天",
-			"name": "晴天影视｜圆周率",
+			"name": "⭕️晴天影视｜圆周率",
 			"type": 3,
 			"api": "csp_AppYsV2",
 			"searchable": 1,
@@ -638,7 +630,7 @@
 		},
 		{
 			"key": "348",
-			"name": "三司影视｜圆周率",
+			"name": "⭕️三司影视｜圆周率",
 			"api": "csp_XBPQ",
 			"type": 3,
 			"filterable": 1,
@@ -749,15 +741,13 @@
 			}
 		},
 		{
-			"key": "贱贱",
-			"name": "🧲荐片┃p2p",
+			"key": "荐片",
+			"name": "🧲┃荐片┃影视",
+			"api": "csp_Jianpian",
 			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"playerType": "1",
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/jp.js"
+			"playerType": "2",
+			"ext": "http://apicv.kcxgtzg.cn",
+			"jar": "./jar/肥猫.jar"
 		},
 		{
 			"key": "csp_Mp4Mov",
@@ -1047,7 +1037,7 @@
 		},
 		{
 			"key": "相声小品",
-			"name": "👺相声┃小品",
+			"name": "👺相声小品┃小盒",
 			"type": 3,
 			"api": "csp_Bili",
 			"searchable": 1,
@@ -1058,7 +1048,7 @@
 		},
 		{
 			"key": "戏 曲",
-			"name": "👹戏曲┃大全",
+			"name": "👹戏曲大全┃小盒",
 			"type": 3,
 			"api": "csp_Bili",
 			"searchable": 1,
@@ -1066,20 +1056,6 @@
 			"filterable": 1,
 			"ext": "./json/戏曲.json",
 			"jar": "http://小盒酷玩.xyz:78/禁止贩卖"
-		},
-		{
-			"key": "有声小说js",
-			"name": "🎧有声┃小说",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/有声小说吧.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
 		},
 		{
 			"key": "相声",
@@ -1152,26 +1128,6 @@
 			}
 		},
 		{
-			"key": "国学",
-			"name": "📓国学┃小盒",
-			"type": 3,
-			"api": "csp_Bili",
-			"searchable": 0,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/国学.json",
-			"jar": "http://小盒.酷玩.fun:78/禁止贩卖"
-		},
-		{
-			"key": "csp_Yj1211",
-			"name": "📽️网红┃直播",
-			"type": 3,
-			"api": "csp_Yj1211",
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
 			"key": "Aid",
 			"name": "🚑急救┃教学",
 			"type": 3,
@@ -1185,290 +1141,111 @@
 			}
 		},
 		{
-			"key": "88js",
-			"name": "⚽ 88┃看球",
+			"key": "csp_Yj1211",
+			"name": "📽️竞技┃直播",
 			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/88看球.js",
-			"style": {
-				"type": "list"
-			},
+			"api": "csp_Yj1211",
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0
 		},
 		{
-			"key": "csp_qiumi",
-			"name": "⚽ Jrs┃球迷",
+			"key": "看球",
+			"name": "⚾┃看球┃直播",
 			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/jrk.js",
-			"style": {
-				"type": "list"
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
-			"key": "csp_310直播",
-			"name": "⚽310┃看球",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/310直播.js",
-			"style": {
-				"type": "list"
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
-			"key": "csp_XPath_企鹅体育",
-			"name": "🐧企鹅┃体育",
-			"type": 3,
-			"api": "csp_XPath",
-			"style": {
-				"type": "list"
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0,
-			"ext": "https://fanty.run.goorm.site/ext/企鹅直播.json"
-		},
-		{
-			"key": "MV_vod",
-			"name": "🎶明星┃MV",
-			"type": 1,
-			"api": "https://mv.wogg.link/mv/vod",
-			"style": {
-				"type": "oval"
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
-			"key": "酷奇js",
-			"name": "🎤酷奇┃MV",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/酷奇MV.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.597
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
-			"key": "虎牙直播js",
-			"name": "🐯虎牙┃直播",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/虎牙直播.js",
-			"style": {
-				"type": "list"
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
-			"key": "csp_XYQBiu_斗鱼",
-			"name": "🐟斗鱼┃直播",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/斗鱼直播.js",
-			"style": {
-				"type": "list"
-			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
-			"key": "csp_聚短视频",
-			"name": "📽️聚短┃视频",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/短视频.js",
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
-		},
-		{
-			"key": "csp_trj",
-			"name": "🛫唐人街┃飞",
-			"type": 3,
-			"api": "csp_Tangrenjie",
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 1
-		},
-		{
-			"key": "Bili",
-			"name": "🅱哔哔┃合集",
-			"type": 3,
-			"api": "csp_Bili",
-			"style": {
-				"type": "rect",
-				"ratio": 1.597
-			},
-			"searchable": 1,
-			"quickSearch": 0,
-			"changeable": 0,
-			"ext": "https://fanty.run.goorm.site/ext/bilibili.json"
-		},
-		{
-			"key": "Biliych",
-			"name": "🅱哔哔┃歌曲",
-			"type": 3,
-			"api": "csp_Bili",
-			"style": {
-				"type": "rect",
-				"ratio": 1.597
-			},
-			"searchable": 1,
-			"quickSearch": 0,
-			"changeable": 0,
-			"ext": "https://fanty.run.goorm.site/ext/biliych.json"
-		},
-		{
-			"key": "百科",
-			"name": "📚百科全书┃小盒",
-			"type": 3,
-			"api": "csp_Bili",
-			"searchable": 0,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/百科.json",
-			"jar": "http://小盒.酷玩.fun:78/禁止贩卖"
-		},
-		{
-			"key": "地理",
-			"name": "🌍全球地理┃小盒",
-			"type": 3,
-			"api": "csp_Bili",
-			"searchable": 0,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/地理.json",
-			"jar": "http://小盒.酷玩.fun:78/禁止贩卖"
-		},
-		{
-			"key": "科学",
-			"name": "🧭科学发明┃小盒",
-			"type": 3,
-			"api": "csp_Bili",
-			"searchable": 0,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/科学.json",
-			"jar": "http://小盒.酷玩.fun:78/禁止贩卖"
-		},
-		{
-			"key": "兔小贝",
-			"name": "🐇兔小贝┃儿童",
-			"type": 3,
-			"api": "http://xn--yet226clhctt4b.fun:66/lib/drpy2.js",
+			"api": "csp_Kanqiu",
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "http://xn--yet226clhctt4b.fun:66/js/兔小贝.js"
-		},
-		{
-			"key": "外语",
-			"name": "👳外语数学┃小盒",
-			"type": 3,
-			"api": "csp_Bili",
-			"searchable": 0,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/外语.json",
-			"jar": "http://小盒.酷玩.fun:78/禁止贩卖"
-		},
-		{
-			"key": "幼儿",
-			"name": "👲幼儿教育┃小盒",
-			"type": 3,
-			"api": "csp_Bili",
-			"searchable": 0,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "http://xn--yet226clhctt4b.fun:66/jiaoyu/幼儿.json",
-			"jar": "http://小盒.酷玩.fun:78/禁止贩卖"
-		},
-		{
-			"key": "dr_兔小贝",
-			"name": "📚儿童┃启蒙",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://fanty.run.goorm.site/ext/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+			"changeable": 0,
+			"gridview": 3,
 			"style": {
-				"type": "rect",
-				"ratio": 1.597
+				"type": "list"
 			},
-			"searchable": 0,
-			"quickSearch": 0,
-			"changeable": 0
+			"jar": "./jar/肥猫.jar"
 		},
 		{
-			"key": "少儿教育",
-			"name": "📚少儿┃教育",
+			"key": "drpy_哔哩",
+			"name": "🅱┃哔哩┃合集",
 			"type": 3,
-			"api": "csp_Bili",
-			"style": {
-				"type": "rect",
-				"ratio": 1.597
-			},
+			"api": "./js/drpy2.min.js",
+			"playerType": 1,
+			"ext": "./js/B站.js",
+			"jar": "./jar/feimao.jar"
+		},
+		{
+			"key": "儿童",
+			"name": "📚┃儿童┃启蒙",
+			"type": 3,
+			"api": "./js/drpy2.min.js",
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
-			"ext": "https://fanty.run.goorm.site/ext/少儿教育.json"
-		},
-		{
-			"key": "小学课堂",
-			"name": "📚小学┃课堂",
-			"type": 3,
-			"api": "csp_Bili",
 			"style": {
 				"type": "rect",
 				"ratio": 1.597
 			},
+			"ext": "./js/兔小贝.js",
+			"jar": "./jar/feimao.jar"
+		},
+		{
+			"key": "少儿",
+			"name": "📚┃少儿┃教育",
+			"type": 3,
+			"api": "csp_Bili",
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
-			"ext": "https://fanty.run.goorm.site/ext/小学课堂.json"
-		},
-		{
-			"key": "初中课堂",
-			"name": "📚初中┃课堂",
-			"type": 3,
-			"api": "csp_Bili",
 			"style": {
 				"type": "rect",
 				"ratio": 1.597
 			},
+			"ext": "./json/少儿教育.json",
+			"jar": "./jar/feimao.jar"
+		},
+		{
+			"key": "小学",
+			"name": "📚┃小学┃课堂",
+			"type": 3,
+			"api": "csp_Bili",
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
-			"ext": "https://fanty.run.goorm.site/ext/初中课堂.json"
-		},
-		{
-			"key": "高中教育",
-			"name": "📚高中┃课堂",
-			"type": 3,
-			"api": "csp_Bili",
 			"style": {
 				"type": "rect",
 				"ratio": 1.597
 			},
+			"ext": "./json/小学课堂.json",
+			"jar": "./jar/feimao.jar"
+		},
+		{
+			"key": "初中",
+			"name": "📚┃初中┃课堂",
+			"type": 3,
+			"api": "csp_Bili",
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
-			"ext": "https://fanty.run.goorm.site/ext/高中课堂.json"
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"ext": "./json/初中课堂.json",
+			"jar": "./jar/feimao.jar"
+		},
+		{
+			"key": "高中",
+			"name": "📚┃高中┃课堂",
+			"type": 3,
+			"api": "csp_Bili",
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"ext": "./json/高中课堂.json",
+			"jar": "./jar/feimao.jar"
 		},
 		{
 			"key": "csp_Dm84",
@@ -1484,15 +1261,6 @@
 			"name": "💮樱花┃动漫",
 			"type": 3,
 			"api": "csp_Ying",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "csp_Ysj",
-			"name": "🎀异界┃动漫",
-			"type": 3,
-			"api": "csp_Ysj",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
