@@ -136,6 +136,15 @@
 			"changeable": 1
 		},
 		{
+			"key": "厂长",
+			"name": "🏭┃厂长┃影视",
+			"type": 3,
+			"playerType": "2",
+			"api": "./js/js/drpy2.min.js",
+			"ext": "./js/厂长.js",
+			"jar": "./jar/feimao.jar"
+		},
+		{
 			"key": "繁星",
 			"name": "💥星奇┃App",
 			"type": 3,
