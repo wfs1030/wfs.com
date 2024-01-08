@@ -3597,7 +3597,7 @@
 	],
 	"lives": [
 		{
-			"name": "柱子哥专属",
+			"name": "PRO",
 			"boot": "boot",
 			"url": "./live.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
