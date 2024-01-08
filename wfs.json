@@ -117,6 +117,16 @@
 			"playUrl": "json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
 		},
 		{
+			"key": "csp_SP33",
+			"name": "📺三三┃解析",
+			"type": 3,
+			"api": "csp_SP33",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 0
+		},
+		{
 			"key": "南瓜",
 			"name": "🎃南瓜┃App",
 			"type": 3,
