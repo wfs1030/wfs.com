@@ -4,7 +4,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "♏柱子哥专属┃师徒三人行！",
+			"name": "🕺傻柱子专属┃师徒三人行🕺",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -42,19 +42,6 @@
 			"api": "csp_Panda",
 			"ext": "./json/短剧.json",
 			"jar": "./jar/feimao.jar"
-		},
-		{
-			"key": "种子短剧",
-			"name": "🔥种子短剧┃夜猫子",
-			"type": 1,
-			"api": "http://zzdj.cc/api.php/provide/vod"
-		},
-		{
-			"key": "js短剧",
-			"name": "🔥短剧┃月光",
-			"type": 3,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/短剧网.js"
 		},
 		{
 			"key": "奇艺",
@@ -3597,9 +3584,18 @@
 	],
 	"lives": [
 		{
-			"name": "PRO",
-			"boot": "false",
+			"name": "live",
+			"boot": "boot",
 			"url": "./live.txt",
+			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png",
+			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+			"referer": "https://githubfast.com/"
+		},
+		{
+			"name": "ipv6",
+			"boot": "boot",
+			"url": "https://ghproxy.net/https://raw.githubusercontent.com/wfs1030/wfs.com/main/live.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png",
 			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
