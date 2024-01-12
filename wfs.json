@@ -4,7 +4,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🕺傻柱子专属┃师徒三人行🕺",
+			"name": "🤠师徒三人行必有我师┃2024心想事成万事如意",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -1318,32 +1318,7 @@
 	],
 	"parses": [
 		{
-			"name": "聚合",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
-			"name": "聚合1",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
 			"name": "聚合0",
-			"type": 3,
-			"url": "Web"
-		},
-		{
-			"name": "超解析",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
-			"name": "超嗅探",
-			"type": 3,
-			"url": "Web"
-		},
-		{
-			"name": "超嗅探",
 			"type": 3,
 			"url": "Web"
 		},
@@ -1353,19 +1328,50 @@
 			"url": "Web"
 		},
 		{
-			"name": "🐉并发2",
-			"type": 2,
-			"url": "Parallel"
-		},
-		{
-			"name": "🐉聚合1",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
-			"name": "JSON",
-			"type": 3,
-			"url": "Demo"
+			"name": "高清嗅探",
+			"type": 0,
+			"url": "https://jx.777jiexi.com/player/?next=https://www.woaimoon.com/vod/98780-9-3.html&url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"企鹅",
+					"IQiYi",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"YouKu",
+					"优酷",
+					"sohu",
+					"SoHu",
+					"搜狐",
+					"letv",
+					"LeShi",
+					"乐视",
+					"imgo",
+					"mgtv",
+					"MangGuo",
+					"芒果",
+					"SLYS4k",
+					"BYGA",
+					"luanzi",
+					"AliS",
+					"dxzy",
+					"bilibili",
+					"QEYSS",
+					"xigua",
+					"西瓜视频",
+					"腾讯视频",
+					"奇艺视频",
+					"优酷视频",
+					"芒果视频",
+					"乐视视频"
+				],
+				"header": {
+					"User-Agent": "Dart/3.0(dart:io)"
+				}
+			}
 		},
 		{
 			"name": "神秘的哥哥们",
@@ -1567,65 +1573,6 @@
 				],
 				"header": {
 					"User-Agent": "Dart/2.18 (dart:io)"
-				}
-			}
-		},
-		{
-			"name": "仓蓝全能嗅探",
-			"type": 0,
-			"url": "https://www.youleshi.cn/player/?url=",
-			"ext": {
-				"flag": [
-					"canglan"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.1.0"
-				}
-			}
-		},
-		{
-			"name": "高清嗅探",
-			"type": 0,
-			"url": "https://jx.777jiexi.com/player/?next=https://www.woaimoon.com/vod/98780-9-3.html&url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SLYS4k",
-					"BYGA",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
-				"header": {
-					"User-Agent": "Dart/3.0(dart:io)"
 				}
 			}
 		},
@@ -2617,194 +2564,6 @@
 			}
 		},
 		{
-			"name": "🐉聚合1",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
-			"name": "🐉欧歌0",
-			"type": 0,
-			"url": "http://v.nxog.top/nxog.html?ou=公众号欧歌app&url="
-		},
-		{
-			"name": "🐉欧歌vip",
-			"type": 1,
-			"url": "http://b.nxog.top:81/jx/?ou=公众号欧歌app&url="
-		},
-		{
-			"name": "🐉欧歌1",
-			"type": 0,
-			"url": "https://jx.xyflv.cc/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
-					"referer": "https://www.xyflv.cc/"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌2",
-			"type": 0,
-			"url": "https://jx.xmflv.com/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌3",
-			"type": 0,
-			"url": "https://jx.zhanlangbu.com/?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"mgtv",
-					"芒果",
-					"letv",
-					"乐视",
-					"pptv",
-					"PPTV",
-					"sohu",
-					"bilibili",
-					"哔哩哔哩",
-					"哔哩"
-				],
-				"ext": {
-					"header": {
-						"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-					}
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌4",
-			"type": 0,
-			"url": "https://jx.yparse.com/index.php?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌5",
-			"type": 0,
-			"url": "https://jx.jsonplayer.com/player/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌6",
-			"type": 0,
-			"url": "https://jx.quankan.app/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌7",
-			"type": 0,
-			"url": "https://jx.aidouer.net/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
-					"referer": "https://jiejie.uk/"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌8",
-			"type": 0,
-			"url": "https://yparse.ik9.cc/index.php?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌9",
-			"type": 0,
-			"url": "https://www.ckplayer.vip/jiexi/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌10",
-			"type": 0,
-			"url": "https://jx.m3u8.tv/jiexi/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌11",
-			"type": 0,
-			"url": "https://www.playm3u8.cn/jiexi.php?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌12",
-			"type": 0,
-			"url": "https://bd.jx.cn/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌13",
-			"type": 0,
-			"url": "https://www.8090g.cn/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌14",
-			"type": 0,
-			"url": "https://vip.lianfaka.com/vip/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "🐉欧歌15",
-			"type": 0,
-			"url": "https://vip.lianfaka.com/vip/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
 			"name": "稻香🌾",
 			"type": 0,
 			"url": "https://jx.xmflv.com/?url=",
@@ -3595,7 +3354,7 @@
 		{
 			"name": "ipv6",
 			"boot": "boot",
-			"url": "https://ghproxy.net/https://usercontent.githubfast.com/raw/wfs1030/wfs.com/main/live.txt",
+			"url": "https://ghproxy.net/https://raw.githubusercontent.com/wfs1030/wfs.com/main/live.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png",
 			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
