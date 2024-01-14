@@ -4,7 +4,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🤠师徒三人行必有我师┃2024心想事成万事如意",
+			"name": "🤠师徒三人行┃2024心想事成万事如意",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -3354,7 +3354,7 @@
 		{
 			"name": "ipv6",
 			"boot": "boot",
-			"url": "https://ghproxy.net/https://raw.githubusercontent.com/wfs1030/wfs.com/main/live.txt",
+			"url": "https://ghproxy.net/https://usercontent.githubfast.com/raw/wfs1030/wfs.com/main/live.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png",
 			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
