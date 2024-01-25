@@ -39,7 +39,7 @@
 		},
 		{
 			"key": "酷酷",
-			"name": "🍏",
+			"name": "🍏优酷",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/drpy2.min.js",
@@ -47,7 +47,7 @@
 		},
 		{
 			"key": "腾腾",
-			"name": "腾讯",
+			"name": "🍏腾讯",
 			"type": 3,
 			"changeable": 2,
 			"api": "./js/drpy2.min.js",
