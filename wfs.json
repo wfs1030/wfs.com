@@ -23,7 +23,7 @@
 		},
 		{
 			"key": "短剧肥猫线路",
-			"name": "短|剧",
+			"name": "短剧",
 			"type": 3,
 			"api": "csp_Panda",
 			"ext": "./json/短剧.json",
