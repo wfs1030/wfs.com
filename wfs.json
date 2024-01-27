@@ -171,7 +171,7 @@
 			"changeable": 1,
 			"playerType": "1",
 			"api": "./drpy2.min.js",
-			"ext": "./jp.js"
+			"ext": "./js/jp.js"
 		},
 		{
 			"key": "csp_Czzy",
