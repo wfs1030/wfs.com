@@ -4,7 +4,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🕵|豆瓣推荐|白嫖一天是一天🤪请勿相信视频中任何广告!",
+			"name": "🕵|豆瓣推荐|白嫖一天是一天🐸请勿相信视频中任何广告!",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -96,18 +96,15 @@
 			"jar": "./jar/厂长.jar"
 		},
 		{
-			"key": "小胡小胡线路",
-			"name": "小胡4K",
-			"type": 1,
-			"playerType": 1,
-			"api": "http://c.xn--yetu07f.icu/api.php/provide/vod/"
-		},
-		{
-			"key": "drpy_jsyt",
-			"name": "影探4K",
+			"key": "贱贱",
+			"name": "荐片",
 			"type": 3,
-			"api": "./js/drpy.min.js",
-			"ext": "./js/yt.js"
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"playerType": "1",
+			"api": "./drpy2.min.js",
+			"ext": "./js/jp.js"
 		},
 		{
 			"key": "aikun肥猫群白佬线路",
@@ -121,14 +118,46 @@
 			"jar": "./jar/白佬.jar"
 		},
 		{
-			"key": "嘿嘿",
-			"name": "嘿嘿",
+			"key": "蓝光夜猫子线路",
+			"name": "君离",
 			"type": 3,
-			"api": "csp_AppMao",
+			"api": "csp_Appto1",
+			"playerType": 2,
+			"ext": "./json/蓝光.txt",
+			"jar": "./jar/夜猫子.jar"
+		},
+		{
+			"key": "zhuiyi夜猫子线路",
+			"name": "追忆",
+			"type": 3,
+			"api": "csp_App",
 			"searchable": 1,
-			"quickSearch": 1,
+			"filterable": 1,
 			"changeable": 1,
-			"ext": "FbjDcUxPqpfNr0QF4QvE6sExbcBEGIRZVnQTs7Kyyk1SScOZ8j/C1ATO/eqjASKwdHWA2zQtjGMwVDA+Ttluew9LCZzZnFyFNWEAlX0KjLdiSaX+NDNVdVG1JjEvnt3n7STfbcZ8C5QA+hYk60bwQH58e7eO7msRAJ0ZbmFDDly40NBDxuYsAq8lZuJzVkw0ZkMhqBM9YRPP8mMU/CJYsuBptunppHVQfFQjk8wxXjVRsNe75CuoY+zt9w+Smcm9PL37bGJHS6+1cFg1xMgqVxqvyPfuq5Dvyo1q66Q1NXwhDe4x21KVg4iRMET6Z3Jna25wcmku6xbznbFxlZqH3DqtpBKXLcNrx6n6vgn+/lHRmp5g13bG1xc/jwO78tZL0Pei6A=="
+			"jar": "./jar/ZY.jar",
+			"ext": "ZhuiYi#tvbox.aleoe.cc#3.0.231015"
+		},
+		{
+			"key": "耐看夜猫子线路",
+			"name": "耐看",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./jar/夜猫子.jar",
+			"ext": {
+				"分类数组": "swiper-wrapper\"*&&</ul>",
+				"线路数组": "data-dropdown-value=&&</div>",
+				"线路标题": "<span>&&</small>[替换:新自建.5>>耐看Ⓐ#新自建>>耐看Ⓑ#自建一>>耐看①#自建二>>耐看②#自建三>>耐看③#自建四>>耐看④#自建五>>耐看⑤#自建三.5>>耐看⓺#腾讯视频>>腾讯#优酷视频>>优酷#奇艺视频>>奇艺#芒果视频>>芒果#暴风资源>>暴风#快看资源>>快看#量子资源>>量子#非凡资源>>非凡#</span><small>>>共]+集",
+				"分类url": "https://www.nkvod.com/show/{cateId}--------{catePg}---{year}.html"
+			}
+		},
+		{
+			"key": "巧技三",
+			"name": "侠客",
+			"type": 3,
+			"api": "csp_qiao2",
+			"playerType": 2,
+			"ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3",
+			"jar": "./jar/fix24117.jar"
 		},
 		{
 			"key": "星奇",
@@ -152,24 +181,6 @@
 			"ext": "https://www.libvio.pro/"
 		},
 		{
-			"key": "良人夜猫子线路",
-			"name": "良人",
-			"type": 3,
-			"api": "csp_Appto1",
-			"playerType": 2,
-			"ext": "./json/良人.txt",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
-			"key": "蓝光夜猫子线路",
-			"name": "君离",
-			"type": 3,
-			"api": "csp_Appto1",
-			"playerType": 2,
-			"ext": "./json/蓝光.txt",
-			"jar": "./jar/夜猫子.jar"
-		},
-		{
 			"key": "TVB云播",
 			"name": "云播",
 			"type": 3,
@@ -177,16 +188,6 @@
 			"searchable": 1,
 			"changeable": 1,
 			"ext": "./js/TVB云播.js"
-		},
-		{
-			"key": "贱贱",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"playerType": "1",
-			"api": "./drpy2.min.js",
-			"ext": "./js/jp.js"
 		},
 		{
 			"key": "天天欧歌线路",
@@ -1101,9 +1102,9 @@
 			"referer": "https://githubfast.com/"
 		},
 		{
-			"name": "ipv6",
+			"name": "直播备用",
 			"boot": "boot",
-			"url": ".ipv6.txt",
+			"url": "https://d.kstore.space/download/6595/live.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
 			"logo": "https://epg.112114.xyz/logo/{name}.png",
 			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
