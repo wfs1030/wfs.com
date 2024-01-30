@@ -1124,7 +1124,7 @@
 	],
 	"lives": [
 		{
-			"name": "IPTV1",
+			"name": "live",
 			"boot": "boot",
 			"url": "./live.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
@@ -1133,7 +1133,7 @@
 			"referer": "https://githubfast.com/"
 		},
 		{
-			"name": "IPTV2",
+			"name": "live2",
 			"boot": "boot",
 			"url": "https://d.kstore.space/download/6595/live.txt",
 			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
