@@ -45,7 +45,7 @@
 			"name": "小胡",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/肥猫.jar",
+			"jar": "./jar/夜猫子.jar",
 			"ext": {
 				"分类url": "http://xh.小胡.icu/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateid}/lang/{lang}/letter/{letter}/year/{year}/page/{catepg}.html",
 				"分类": "电影$1#国产剧$2#美剧$3#韩剧$4#台剧$5#"
