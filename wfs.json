@@ -1,6 +1,6 @@
 {
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
-	"spider": "./jar/fty.txt",
+	"spider": "./jar/fan.txt",
 	"sites": [
 		{
 			"key": "豆豆",
