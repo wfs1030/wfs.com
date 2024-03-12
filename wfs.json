@@ -22,8 +22,8 @@
 			"key": "优酷",
 			"name": "优酷视频",
 			"type": 3,
-			"api": "./drpy2.min.js",
-			"ext": "./js./优酷.js"
+			"api": "https://ghproxy.net/https://raw.githubusercontent.com/wfs1030/wfs.com/main/js/drpy2.min.js",
+			"ext": "./js/优酷.js"
 		},
 		{
 			"key": "腾讯",
