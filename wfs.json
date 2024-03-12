@@ -15,7 +15,7 @@
 			"key": "爱奇异",
 			"name": "爱奇艺",
 			"type": 3,
-			"api": "https://raw.gitcode.com/wfs1030/js/raw/main/drpy2.min.js",
+			"api": "https://raw.gitcode.com/wfs1030/js/raw/master/drpy2.min.js",
 			"ext": "https://raw.gitcode.com/wfs1030/js/raw/main/爱奇艺.js"
 		},
 		{
