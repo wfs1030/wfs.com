@@ -1,68 +1,16 @@
 {
 	"urls": [
 		{
-			"name": "自建接口",
+			"name": "傻柱子专属接口",
 			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json"
 		},
 		{
-			"name": "自建备用",
-			"url": "https://ghproxy.net/https://raw.githubusercontent.com/wfs1030/wfs.com/main/wfs.json"
-		},
-		{
-			"name": "饭太硬",
+			"name": "饭太硬备用",
 			"url": "http://饭太硬.top/tv"
 		},
 		{
-			"name": "肥猫宝贝",
+			"name": "肥猫宝贝备用",
 			"url": "http://肥猫.live"
-		},
-		{
-			"name": "肥猫白佬",
-			"url": "http://bp.tvbox.cam"
-		},
-		{
-			"name": "小米线路",
-			"url": "http://xhww.fun/小米/DEMO.json"
-		},
-		{
-			"name": "荷城茶秀",
-			"url": "http://rihou.vip:88/荷城茶秀"
-		},
-		{
-			"name": "巧计线路",
-			"url": "http://cdn.qiaoji8.com/tvbox.json"
-		},
-		{
-			"name": "天天开心",
-			"url": "http://rihou.vip:55/天天开心"
-		},
-		{
-			"name": "春盈线路",
-			"url": "https://wds.ecsxs.com/230989.json"
-		},
-		{
-			"name": "小胡线路",
-			"url": "http://xiaohu.xzam.cn/xiaohu"
-		},
-		{
-			"name": "月光宝盒VIP线路",
-			"url": "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json"
-		},
-		{
-			"name": "高天流云",
-			"url": "https://ghproxy.net/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
-		},
-		{
-			"name": "夜猫子线路",
-			"url": "https://raw.gitcode.com/Xymz/ymz/blobs/52d3bc418e8211ff094ec57bd2e79356ab975deb/ymz"
-		},
-		{
-			"name": "OK大佬",
-			"url": "https://jihulab.com/okcaptain/kko/-/raw/main/ok.txt"
-		},
-		{
-			"name": "PG线路",
-			"url": "http://127.0.0.1:9978/file/tvboxqy/PG/PG.json"
 		}
 	]
 }
