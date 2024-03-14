@@ -654,12 +654,12 @@
 		},
 		{
 			"name": "M1907👌",
-			"type": 0,
+			"type": 1,
 			"url": "https://im1907.top/?jx="
 		},
 		{
 			"name": "BL智能解析👌",
-			"type": 0,
+			"type": 1,
 			"url": "https://svip.bljiex.cc/?v="
 		},
 		{
@@ -699,7 +699,7 @@
 		},
 		{
 			"name": "西瓜嗅探1",
-			"type": 0,
+			"type": 1,
 			"url": "https://t1.qlplayer.cyou/player/analysis.php?v=",
 			"ext": {
 				"flag": [
@@ -745,7 +745,7 @@
 		},
 		{
 			"name": "西瓜嗅探2",
-			"type": 0,
+			"type": 1,
 			"url": "https://t1.qlplayer.cyou/player/?url=",
 			"ext": {
 				"flag": [
@@ -791,7 +791,7 @@
 		},
 		{
 			"name": "高清嗅探",
-			"type": 0,
+			"type": 1,
 			"url": "https://jx.xmflv.com?url=",
 			"ext": {
 				"flag": [
