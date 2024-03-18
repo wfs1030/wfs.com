@@ -122,14 +122,12 @@
 			"changeable": 1
 		},
 		{
-			"key": "苹果",
+			"key": "csp_LiteApple",
 			"name": "小苹果",
 			"type": 3,
+			"playerType": "2",
 			"api": "csp_LiteApple",
-			"playerType": 1,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
+			"jar": "./lib/PandaQ240318.jar"
 		},
 		{
 			"key": "耐看",
@@ -218,14 +216,6 @@
 			"jar": "./lib/夜猫子.jar"
 		},
 		{
-			"key": "咕噜",
-			"name": "咕噜影视",
-			"type": 3,
-			"api": "csp_Movie2",
-			"ext": "./lib/Movie5.json",
-			"jar": "http://www.wya6.cn/tz/wyog.php"
-		},
-		{
 			"key": "圣城影视",
 			"name": "圣城影视",
 			"type": 3,
@@ -286,15 +276,13 @@
 			"jar": "./lib/xb.jar"
 		},
 		{
-			"key": "动漫巴士",
+			"key": "csp_Dm84",
 			"name": "动漫巴士",
 			"type": 3,
 			"api": "csp_Dm84",
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 1,
-			"timeout": 10,
-			"jar": "./lib/okjpg.txt"
+			"changeable": 1
 		},
 		{
 			"key": "6V",
