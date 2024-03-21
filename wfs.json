@@ -265,6 +265,16 @@
 			"jar": "./lib/nm.jar"
 		},
 		{
+			"key": "DiDuan",
+			"name": "低端外剧",
+			"type": 3,
+			"api": "csp_Ddrk",
+			"playerType": "2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"key": "yqkan",
 			"name": "一起看",
 			"type": 3,
