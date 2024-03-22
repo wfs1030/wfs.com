@@ -58,6 +58,16 @@
 			"jar": "./lib/ttkx.jar"
 		},
 		{
+			"key": "sp2345",
+			"name": "2345影视",
+			"type": 3,
+			"api": "csp_SP2345",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./lib/Xymz.jar"
+		},
+		{
 			"key": "玩偶4K",
 			"name": "玩偶4K",
 			"type": 3,
@@ -286,6 +296,17 @@
 			"jar": "./lib/xb.jar"
 		},
 		{
+			"key": "️爱看Bot",
+			"name": "爱看机器",
+			"type": 3,
+			"api": "csp_Ikanbot",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "./lib/okjpg.txt"
+		},
+		{
 			"key": "csp_Dm84",
 			"name": "动漫巴士",
 			"type": 3,
@@ -332,6 +353,44 @@
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+		},
+		{
+			"key": "bili",
+			"name": "哔哩合集",
+			"type": 3,
+			"api": "csp_Bili",
+			"jar": "./lib/okjpg.txt",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.433
+			},
+			"ext": {
+				"cookie": "file://TV/bili_cookie.txt",
+				"json": "https://jihulab.com/okcaptain/kko/-/raw/main/bili.json"
+			},
+			"timeout": 20
+		},
+		{
+			"key": "biliych",
+			"name": "哔哩歌曲",
+			"type": 3,
+			"api": "csp_Bili",
+			"jar": "./lib/okjpg.txt",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.433
+			},
+			"ext": {
+				"cookie": "file://TV/bili_cookie.txt",
+				"json": "https://jihulab.com/okcaptain/kko/-/raw/main/biliych.json"
+			},
+			"timeout": 20
 		},
 		{
 			"key": "Aid",
