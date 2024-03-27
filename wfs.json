@@ -112,15 +112,15 @@
 			"jar": "./lib/夜猫子.jar"
 		},
 		{
-			"key": "白嫖",
-			"name": "白嫖无广",
+			"key": "csp_xBPQ_白嫖",
+			"name": "白嫖影视",
 			"type": 3,
-			"api": "csp_BaiPiao",
-			"playerType": 2,
+			"api": "csp_XBPQ",
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "https://www.baipiaoys.com/"
+			"filterable": 1,
+			"ext": "./lib/白嫖影视.json",
+			"jar": "./lib/白嫖.jar"
 		},
 		{
 			"key": "酷看",
