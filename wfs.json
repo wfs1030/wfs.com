@@ -68,14 +68,14 @@
 			"jar": "./lib/Xymz.jar"
 		},
 		{
-			"key": "玩偶4K",
+			"key": "玩偶",
 			"name": "玩偶4K",
 			"type": 3,
 			"api": "csp_WoGG",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
-			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
 		},
 		{
 			"key": "贱贱",
@@ -112,15 +112,24 @@
 			"jar": "./lib/夜猫子.jar"
 		},
 		{
-			"key": "csp_xBPQ_白嫖",
-			"name": "白嫖影视",
+			"key": "苹果",
+			"name": "苹果无广",
 			"type": 3,
-			"api": "csp_XBPQ",
+			"api": "csp_LiteApple",
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./lib/白嫖影视.json",
-			"jar": "./lib/白嫖.jar"
+			"changeable": 1
+		},
+		{
+			"key": "白嫖",
+			"name": "白飘无广",
+			"type": 3,
+			"api": "csp_BaiPiao",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "https://www.baipiaoys.com:9092/"
 		},
 		{
 			"key": "酷看",
@@ -131,14 +140,6 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
-		},
-		{
-			"key": "csp_LiteApple",
-			"name": "小苹果",
-			"type": 3,
-			"playerType": "2",
-			"api": "csp_LiteApple",
-			"jar": "./lib/PandaQ240318.jar"
 		},
 		{
 			"key": "F4kvm",
