@@ -164,8 +164,11 @@
 			"name": "橙汁影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"ext": "./lib/橙汁影视.json",
-			"jar": "./lib/jar.php"
+			"jar": "./lib/jar.php",
+			"ext": {
+				"分类": "短剧$42#电视剧$2#动漫$4#电影$1#综艺$3#纪录片$5",
+				"分类url": "https://ork.ink/show/{cateId}--------{catePg}---{year}.html"
+			}
 		},
 		{
 			"key": "F4kvm",
