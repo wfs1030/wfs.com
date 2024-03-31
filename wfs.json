@@ -89,6 +89,36 @@
 			"ext": "./lib/jp.js"
 		},
 		{
+			"key": "csp_Xunlei8",
+			"name": "迅雷磁力",
+			"type": 3,
+			"api": "csp_Xunlei8",
+			"playerType": 1,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./lib/Xymz.jar"
+		},
+		{
+			"key": "6V",
+			"name": "6V磁力",
+			"type": 3,
+			"api": "csp_XYQHiker",
+			"playerType": 2,
+			"ext": "./lib/6V电影.json",
+			"jar": "./lib/夜猫子.jar"
+		},
+		{
+			"key": "不太灵",
+			"name": "太灵磁力",
+			"type": 3,
+			"api": "csp_Bt0",
+			"searchable": 1,
+			"changeable": 0,
+			"timeout": 20,
+			"jar": "./lib/OK.txt"
+		},
+		{
 			"key": "南瓜",
 			"name": "南瓜影视",
 			"type": 3,
@@ -98,18 +128,6 @@
 			"filterable": 1,
 			"timeout": 10,
 			"jar": "./lib/okjpg.txt"
-		},
-		{
-			"key": "地瓜",
-			"name": "地瓜影视",
-			"type": 3,
-			"api": "csp_AppYsV2",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"changeable": 0,
-			"ext": "https://www.qiqiguai.cn/api.php/app/",
-			"jar": "./lib/夜猫子.jar"
 		},
 		{
 			"key": "苹果",
@@ -140,6 +158,14 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
+		},
+		{
+			"key": "橙汁",
+			"name": "橙汁影视",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"ext": "./lib/橙汁影视.json",
+			"jar": "./lib/欧歌.php"
 		},
 		{
 			"key": "F4kvm",
@@ -334,15 +360,6 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
-		},
-		{
-			"key": "6V",
-			"name": "6V磁力",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"playerType": 2,
-			"ext": "./lib/6V电影.json",
-			"jar": "./lib/夜猫子.jar"
 		},
 		{
 			"key": "PanSou",
