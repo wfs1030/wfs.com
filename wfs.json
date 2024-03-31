@@ -4,7 +4,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "小柱子个人专属|03/14日|更新|请勿相信视频中广告",
+			"name": "小柱子个人专属|更新于|04/01日|请勿相信视频中广告。",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -160,15 +160,13 @@
 			"changeable": 1
 		},
 		{
-			"key": "橙汁",
-			"name": "橙汁影视",
+			"key": "77",
+			"name": "七七影视",
 			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/夜猫子.jar",
-			"ext": {
-				"分类": "短剧$42#电视剧$2#动漫$4#电影$1#综艺$3#纪录片$5",
-				"分类url": "https://ork.ink/show/{cateId}--------{catePg}---{year}.html"
-			}
+			"api": "csp_Kunyu77",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
 		},
 		{
 			"key": "F4kvm",
@@ -197,13 +195,26 @@
 			"ext": "./lib/nk.json"
 		},
 		{
-			"key": "77",
-			"name": "七七影视",
+			"key": "橙汁",
+			"name": "橙汁影视",
 			"type": 3,
-			"api": "csp_Kunyu77",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
+			"api": "csp_XBPQ",
+			"jar": "./lib/夜猫子.jar",
+			"ext": {
+				"分类": "短剧$42#电视剧$2#动漫$4#电影$1#综艺$3#纪录片$5",
+				"分类url": "https://ork.ink/show/{cateId}--------{catePg}---{year}.html"
+			}
+		},
+		{
+			"key": "电影驿站",
+			"name": "电影驿站",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/夜猫子.jar",
+			"ext": {
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$49",
+				"分类url": "https://www.dyyz2.app/vodshow/{cateId}-----------.html"
+			}
 		},
 		{
 			"key": "厂长",
