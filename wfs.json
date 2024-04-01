@@ -206,17 +206,6 @@
 			}
 		},
 		{
-			"key": "电影驿站",
-			"name": "电影驿站",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/夜猫子.jar",
-			"ext": {
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$49",
-				"分类url": "https://www.dyyz2.app/vodshow/{cateId}-----------.html"
-			}
-		},
-		{
 			"key": "厂长",
 			"name": "厂长影视",
 			"type": 3,
@@ -778,6 +767,195 @@
 					"XALS",
 					"YuMi-vip"
 				]
+			}
+		},
+		{
+			"name": "超嗅探",
+			"type": 3,
+			"url": "Web"
+		},
+		{
+			"name": "西瓜嗅探1",
+			"type": 0,
+			"url": "https://t1.qlplayer.cyou/player/analysis.php?v=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"企鹅",
+					"IQiYi",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"YouKu",
+					"优酷",
+					"sohu",
+					"SoHu",
+					"搜狐",
+					"letv",
+					"LeShi",
+					"乐视",
+					"imgo",
+					"mgtv",
+					"MangGuo",
+					"芒果",
+					"SLYS4k",
+					"BYGA",
+					"luanzi",
+					"AliS",
+					"dxzy",
+					"bilibili",
+					"QEYSS",
+					"xigua",
+					"西瓜视频",
+					"腾讯视频",
+					"奇艺视频",
+					"优酷视频",
+					"芒果视频",
+					"乐视视频"
+				],
+				"header": {
+					"User-Agent": "Dart/3.0(dart:io)"
+				}
+			}
+		},
+		{
+			"name": "西瓜嗅探2",
+			"type": 0,
+			"url": "https://t1.qlplayer.cyou/player/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"企鹅",
+					"IQiYi",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"YouKu",
+					"优酷",
+					"sohu",
+					"SoHu",
+					"搜狐",
+					"letv",
+					"LeShi",
+					"乐视",
+					"imgo",
+					"mgtv",
+					"MangGuo",
+					"芒果",
+					"SLYS4k",
+					"BYGA",
+					"luanzi",
+					"AliS",
+					"dxzy",
+					"bilibili",
+					"QEYSS",
+					"xigua",
+					"西瓜视频",
+					"腾讯视频",
+					"奇艺视频",
+					"优酷视频",
+					"芒果视频",
+					"乐视视频"
+				],
+				"header": {
+					"User-Agent": "Dart/3.0(dart:io)"
+				}
+			}
+		},
+		{
+			"name": "高清嗅探",
+			"type": 0,
+			"url": "https://jx.xmflv.com?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"企鹅",
+					"IQiYi",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"YouKu",
+					"优酷",
+					"sohu",
+					"SoHu",
+					"搜狐",
+					"letv",
+					"LeShi",
+					"乐视",
+					"imgo",
+					"mgtv",
+					"MangGuo",
+					"芒果",
+					"SLYS4k",
+					"BYGA",
+					"luanzi",
+					"AliS",
+					"dxzy",
+					"bilibili",
+					"QEYSS",
+					"xigua",
+					"西瓜视频",
+					"腾讯视频",
+					"奇艺视频",
+					"优酷视频",
+					"芒果视频",
+					"乐视视频"
+				],
+				"header": {
+					"User-Agent": "Dart/3.0(dart:io)"
+				}
+			}
+		},
+		{
+			"name": "夜幕嗅探",
+			"type": 0,
+			"url": "https://www.yemu.xyz/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"企鹅",
+					"IQiYi",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"YouKu",
+					"优酷",
+					"sohu",
+					"SoHu",
+					"搜狐",
+					"letv",
+					"LeShi",
+					"乐视",
+					"imgo",
+					"mgtv",
+					"MangGuo",
+					"芒果",
+					"SLYS4k",
+					"BYGA",
+					"luanzi",
+					"AliS",
+					"dxzy",
+					"bilibili",
+					"QEYSS",
+					"xigua",
+					"西瓜视频",
+					"腾讯视频",
+					"奇艺视频",
+					"优酷视频",
+					"芒果视频",
+					"乐视视频"
+				],
+				"header": {
+					"User-Agent": "Dart/3.0(dart:io)"
+				}
 			}
 		}
 	],
