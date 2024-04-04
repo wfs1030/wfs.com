@@ -78,47 +78,6 @@
 			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
 		},
 		{
-			"key": "贱贱",
-			"name": "荐片磁力",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"playerType": "1",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/jp.js"
-		},
-		{
-			"key": "csp_Xunlei8",
-			"name": "迅雷磁力",
-			"type": 3,
-			"api": "csp_Xunlei8",
-			"playerType": 1,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"jar": "./lib/Xymz.jar"
-		},
-		{
-			"key": "6V",
-			"name": "6V磁力",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"playerType": 2,
-			"ext": "./lib/6V电影.json",
-			"jar": "./lib/夜猫子.jar"
-		},
-		{
-			"key": "不太灵",
-			"name": "太灵磁力",
-			"type": 3,
-			"api": "csp_Bt0",
-			"searchable": 1,
-			"changeable": 0,
-			"timeout": 20,
-			"jar": "./lib/OK.txt"
-		},
-		{
 			"key": "南瓜",
 			"name": "南瓜影视",
 			"type": 3,
@@ -160,13 +119,23 @@
 			"changeable": 1
 		},
 		{
-			"key": "77",
-			"name": "七七影视",
+			"key": "耐看",
+			"name": "耐看影院",
 			"type": 3,
-			"api": "csp_Kunyu77",
+			"api": "csp_XBPQ",
+			"jar": "./lib/xiaohu.jar",
+			"ext": "./lib/nk.json"
+		},
+		{
+			"key": "csp_秒播",
+			"name": "夜猫秒播",
+			"type": 3,
+			"api": "csp_XBPQ",
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 1
+			"filterable": 0,
+			"ext": "./lib/夜猫秒播.json",
+			"jar": "./lib/Xymz2.jar"
 		},
 		{
 			"key": "F4kvm",
@@ -187,14 +156,6 @@
 			"jar": "./lib/wex.txt"
 		},
 		{
-			"key": "耐看",
-			"name": "耐看影院",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/xiaohu.jar",
-			"ext": "./lib/nk.json"
-		},
-		{
 			"key": "橙汁",
 			"name": "橙汁影视",
 			"type": 3,
@@ -206,15 +167,12 @@
 			}
 		},
 		{
-			"key": "厂长",
-			"name": "厂长影视",
+			"key": "橘子",
+			"name": "橘子视频",
 			"type": 3,
-			"api": "csp_Czzy",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"timeout": 25,
-			"jar": "./lib/okjpg.txt"
+			"api": "csp_YeApp",
+			"ext": "./lib/juzi.txt",
+			"jar": "./lib/夜猫子.jar"
 		},
 		{
 			"key": "比特",
@@ -233,23 +191,35 @@
 			"jar": "./lib/ou.jar"
 		},
 		{
-			"key": "橘子",
-			"name": "橘子视频",
+			"key": "rebo",
+			"name": "热播影视",
 			"type": 3,
-			"api": "csp_YeApp",
-			"ext": "./lib/juzi.txt",
-			"jar": "./lib/夜猫子.jar"
-		},
-		{
-			"key": "csp_秋霞电影",
-			"name": "秋霞电影",
-			"type": 3,
-			"api": "csp_XYQHiker",
+			"api": "csp_YMZ",
+			"playerType": 2,
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "./lib/秋霞电影.json",
-			"jar": "./lib/夜猫子.jar"
+			"ext": "http://v.rbotv.cn",
+			"jar": "./lib/Xymz2.jar"
+		},
+		{
+			"key": "圣城影视",
+			"name": "圣城影视",
+			"type": 3,
+			"playerType": "2",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/SC1080.js"
+		},
+		{
+			"key": "csp_xBPQ_玖八",
+			"name": "玖八影视",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./lib/98影视.json",
+			"jar": "./lib/hccx.jar"
 		},
 		{
 			"key": "可可",
@@ -273,33 +243,6 @@
 			"api": "csp_XBPQ",
 			"ext": "./lib/黑狐.json",
 			"jar": "./lib/黑狐.jar"
-		},
-		{
-			"key": "圣城影视",
-			"name": "圣城影视",
-			"type": 3,
-			"playerType": "2",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/SC1080.js"
-		},
-		{
-			"key": "csp_xBPQ_玖八",
-			"name": "玖八影视",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./lib/98影视.json",
-			"jar": "./lib/hccx.jar"
-		},
-		{
-			"key": "子子影视",
-			"name": "子子影视",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/子子影视.js",
-			"jar": "./lib/高天.jar"
 		},
 		{
 			"key": "csp_xBPQ_奇优",
@@ -356,13 +299,50 @@
 			"jar": "./lib/okjpg.txt"
 		},
 		{
-			"key": "csp_Dm84",
-			"name": "动漫巴士",
-			"type": 3,
-			"api": "csp_Dm84",
-			"searchable": 1,
+			"name": "小雅4K",
+			"changeable": 0,
+			"playerType": 1,
+			"filterable": 1,
 			"quickSearch": 1,
-			"changeable": 1
+			"timeout": 60,
+			"ext": "eyJhcGkiOiJodHRwOi8vNDcuMTIwLjM3LjE3NTo0NTY3IiwidG9rZW4iOiIifQ==",
+			"style": {
+				"type": "rect"
+			},
+			"api": "csp_XiaoYa",
+			"type": 3,
+			"jar": "./lib/Xymz2.jar",
+			"key": "csp_XiaoYa",
+			"searchable": 1
+		},
+		{
+			"key": "AList",
+			"name": "雅雅4K",
+			"type": 3,
+			"api": "csp_AListBox",
+			"jar": "./lib/小雅.jar",
+			"searchable": 1,
+			"changeable": 0,
+			"ext": "https://d.kstore.space/download/6474/tvbox/json/p.json#公众号:影视资源站",
+			"style": {
+				"type": "list"
+			}
+		},
+		{
+			"name": "网盘4K",
+			"changeable": 0,
+			"playerType": 1,
+			"filterable": 1,
+			"quickSearch": 1,
+			"ext": "eyJhcGkiOiJodHRwOi8vNDcuMTIwLjM3LjE3NTo0NTY3IiwidG9rZW4iOiIifQ==",
+			"style": {
+				"type": "rect"
+			},
+			"api": "csp_AList",
+			"type": 3,
+			"jar": "./lib/Xymz2.jar",
+			"key": "csp_AList",
+			"searchable": 1
 		},
 		{
 			"key": "PanSou",
@@ -528,7 +508,7 @@
 	],
 	"parses": [
 		{
-			"name": "无忧解析👌",
+			"name": "无忧解析👑",
 			"type": 1,
 			"url": "http://119.91.123.253:2345/Api/yun.php?url=",
 			"ext": {
@@ -575,7 +555,7 @@
 			}
 		},
 		{
-			"name": "南瓜解析👌",
+			"name": "南瓜解析👑",
 			"type": 1,
 			"url": "https://cache.json.icu/5555.php?url=",
 			"ext": {
@@ -621,40 +601,7 @@
 			}
 		},
 		{
-			"name": "爱酷小米👌",
-			"type": 1,
-			"url": "http://42.157.129.139:7788/json/aiku.php?url=",
-			"ext": {
-				"flag": [
-					"seven",
-					"mgtv",
-					"qiyi",
-					"imgo",
-					"爱奇艺",
-					"奇艺",
-					"qq",
-					"腾讯",
-					"youku",
-					"优酷",
-					"pptv",
-					"PPTV",
-					"letv",
-					"乐视",
-					"leshi",
-					"bilibili",
-					"哔哩哔哩",
-					"哔哩",
-					"mgtv",
-					"芒果",
-					"芒果"
-				],
-				"header": {
-					"User-Agent": "Lavf/58.12.100"
-				}
-			}
-		},
-		{
-			"name": "巧技解析👌",
+			"name": "巧技解析👑",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
 			"ext": {
@@ -689,7 +636,7 @@
 			}
 		},
 		{
-			"name": "夜猫解析👌",
+			"name": "夜猫超解析👑",
 			"type": 1,
 			"url": "https://api.json.icu/api/?key=0bfb59b5928233f5665db10ebcade96f&url=",
 			"ext": {
@@ -735,6 +682,87 @@
 			}
 		},
 		{
+			"name": "夜猫超聚合👑",
+			"type": 1,
+			"url": "https://api.json.icu/api/?key=f082e735eaa8e9f3bfa58d43ebebb6cf&url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"企鹅",
+					"IQiYi",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"YouKu",
+					"优酷",
+					"sohu",
+					"SoHu",
+					"搜狐",
+					"letv",
+					"LeShi",
+					"乐视",
+					"imgo",
+					"mgtv",
+					"MangGuo",
+					"芒果",
+					"SLYS4k",
+					"BYGA",
+					"luanzi",
+					"AliS",
+					"dxzy",
+					"bilibili",
+					"QEYSS",
+					"xigua",
+					"西瓜视频",
+					"腾讯视频",
+					"奇艺视频",
+					"优酷视频",
+					"芒果视频",
+					"乐视视频"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.3"
+				}
+			}
+		},
+		{
+			"name": "夜猫聚合专线👑",
+			"type": 1,
+			"url": "http://39.104.230.177:1111/api/?key=wD2olCBAAP0ZIZXL7n&url=",
+			"ext": {
+				"flag": [
+					"canglan",
+					"SMD",
+					"NBY",
+					"Feiyun",
+					"mgtv",
+					"qiyi",
+					"imgo",
+					"爱奇艺",
+					"奇艺",
+					"qq",
+					"腾讯",
+					"youku",
+					"优酷",
+					"pptv",
+					"PPTV",
+					"letv",
+					"乐视",
+					"leshi",
+					"bilibili",
+					"哔哩哔哩",
+					"哔哩",
+					"mgtv",
+					"芒果"
+				],
+				"header": {
+					"User-Agent": "Dalvik/2.1.0 (Linux; U)"
+				}
+			}
+		},
+		{
 			"name": "肥猫解析👌",
 			"type": 1,
 			"url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
@@ -767,195 +795,6 @@
 					"XALS",
 					"YuMi-vip"
 				]
-			}
-		},
-		{
-			"name": "超嗅探",
-			"type": 3,
-			"url": "Web"
-		},
-		{
-			"name": "西瓜嗅探1",
-			"type": 0,
-			"url": "https://t1.qlplayer.cyou/player/analysis.php?v=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SLYS4k",
-					"BYGA",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
-				"header": {
-					"User-Agent": "Dart/3.0(dart:io)"
-				}
-			}
-		},
-		{
-			"name": "西瓜嗅探2",
-			"type": 0,
-			"url": "https://t1.qlplayer.cyou/player/?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SLYS4k",
-					"BYGA",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
-				"header": {
-					"User-Agent": "Dart/3.0(dart:io)"
-				}
-			}
-		},
-		{
-			"name": "高清嗅探",
-			"type": 0,
-			"url": "https://jx.xmflv.com?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SLYS4k",
-					"BYGA",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
-				"header": {
-					"User-Agent": "Dart/3.0(dart:io)"
-				}
-			}
-		},
-		{
-			"name": "夜幕嗅探",
-			"type": 0,
-			"url": "https://www.yemu.xyz/?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SLYS4k",
-					"BYGA",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
-				"header": {
-					"User-Agent": "Dart/3.0(dart:io)"
-				}
 			}
 		}
 	],
