@@ -323,6 +323,22 @@
 			"jar": "./lib/xb.jar"
 		},
 		{
+			"key": "土豆网盘",
+			"name": "土豆网盘",
+			"type": 3,
+			"api": "csp_Wobg",
+			"jar": "./lib/okjpg.txt",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"ext": {
+				"token": "file://TV/ali_token.txt",
+				"cookie": "file://TV/quark_cookie.txt",
+				"site": "https://tudou.lvdoui.top"
+			},
+			"timeout": 25
+		},
+		{
 			"key": "PanSou",
 			"name": "盘搜网盘",
 			"type": 3,
@@ -337,16 +353,6 @@
 			"name": "Up网盘",
 			"type": 3,
 			"api": "csp_UpYun",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-		},
-		{
-			"key": "PanSearch",
-			"name": "盘搜网盘",
-			"type": 3,
-			"api": "csp_PanSearch",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
