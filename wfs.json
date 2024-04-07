@@ -215,6 +215,14 @@
 			"jar": "./lib/feimao.jar"
 		},
 		{
+			"key": "蚂蚁",
+			"name": "蚂蚁资源",
+			"type": 3,
+			"api": "csp_AppYsV2",
+			"ext": "http://122.228.84.103:5822/api.php/app/",
+			"jar": "./lib/xh.jar"
+		},
+		{
 			"key": "虾米",
 			"name": "虾米影视",
 			"type": 3,
@@ -238,19 +246,6 @@
 			}
 		},
 		{
-			"key": "NBY秒播",
-			"name": "蚂蚁资源",
-			"type": 3,
-			"quickSearch": 1,
-			"api": "./lib/AppysV2.js",
-			"ext": {
-				"host": "http://122.228.84.103:5822/api.php/app/",
-				"*": [
-					"http://121.62.61.51:6888/api/?key=eIQ9JzXVIzkY3ZSoEZ&url="
-				]
-			}
-		},
-		{
 			"key": "https://4kvm.site/",
 			"name": "分享4kvm",
 			"type": 3,
@@ -260,13 +255,15 @@
 			"jar": "./lib/FxzPg.txt"
 		},
 		{
-			"key": "天天",
-			"name": "天天影视",
+			"key": "csp_秒播",
+			"name": "夜猫秒播",
 			"type": 3,
-			"api": "csp_TTian",
-			"playerType": 2,
-			"ext": "http://op.ysdqjs.cn",
-			"jar": "/lib/fix24318.jar"
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"ext": "./lib/夜猫秒播.json",
+			"jar": "./lib/Xymz2.jar"
 		},
 		{
 			"key": "rebo",
@@ -286,17 +283,6 @@
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/子子影视.js"
-		},
-		{
-			"key": "csp_秒播",
-			"name": "夜猫秒播",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"ext": "./lib/夜猫秒播.json",
-			"jar": "./lib/Xymz2.jar"
 		},
 		{
 			"key": "csp_CandyMuj_freeok",
@@ -349,6 +335,26 @@
 			"filterable": 1,
 			"ext": "./lib/98影视.json",
 			"jar": "./lib/hccx.jar"
+		},
+		{
+			"key": "天天",
+			"name": "天天直连",
+			"type": 3,
+			"api": "csp_TianTian",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "./lib/okjpg.txt"
+		},
+		{
+			"key": "追剧",
+			"name": "追剧|App",
+			"type": 3,
+			"api": "csp_TTian",
+			"playerType": 2,
+			"ext": "http://app.kzjtv.com",
+			"jar": "./lib/fix24318.jar"
 		},
 		{
 			"key": "可可",
@@ -407,26 +413,58 @@
 			"jar": "./lib/PG.txt"
 		},
 		{
-			"key": "csp_XYQHikerAL_分享影搜",
+			"key": "影搜",
 			"name": "影搜网盘",
 			"type": 3,
-			"api": "csp_XYQHiker",
-			"playerType": 1,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./lib/分享影搜.json",
-			"jar": "./lib/O.txt"
-		},
-		{
-			"key": "阿里云集合",
-			"name": "阿狸网盘",
-			"type": 3,
-			"api": "csp_阿里集合",
+			"api": "csp_Yingso",
+			"jar": "./lib/okjpg.txt",
 			"searchable": 1,
 			"filterable": 0,
-			"switchable": 0,
-			"jar": "./lib/阿里.jar"
+			"changeable": 0,
+			"ext": {
+				"token": "file://TV/ali_token.txt",
+				"cookie": "file://TV/quark_cookie.txt"
+			},
+			"timeout": 15
+		},
+		{
+			"key": "阿里合集",
+			"name": "阿里合集",
+			"type": 3,
+			"api": "csp_AliShare",
+			"jar": "./lib/okjpg.txt",
+			"searchable": 1,
+			"changeable": 0,
+			"filterable": 0,
+			"indexs": 0,
+			"ext": {
+				"token": "file://TV/ali_token.txt",
+				"share": "file://TV/阿里集合.json"
+			},
+			"style": {
+				"type": "list"
+			},
+			"timeout": 30
+		},
+		{
+			"key": "PanSou",
+			"name": "盘搜网盘",
+			"type": 3,
+			"api": "csp_PanSou",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+		},
+		{
+			"key": "UpYun",
+			"name": "Up搜网盘",
+			"type": 3,
+			"api": "csp_UpYun",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
 		},
 		{
 			"key": "土豆网盘",
@@ -443,26 +481,6 @@
 				"site": "https://tudou.lvdoui.top"
 			},
 			"timeout": 25
-		},
-		{
-			"key": "PanSou",
-			"name": "盘搜网盘",
-			"type": 3,
-			"api": "csp_PanSou",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-		},
-		{
-			"key": "UpYun",
-			"name": "Up网盘",
-			"type": 3,
-			"api": "csp_UpYun",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
 		},
 		{
 			"key": "bili",
@@ -808,22 +826,9 @@
 			}
 		},
 		{
-			"name": "蚂蚁解析👑",
+			"name": "蚂蚁资源👑",
 			"type": 0,
 			"url": "https://p.orangek.org/player/ec.php?code=qw&if=1&url=",
-			"ext": {
-				"flag": [
-					"NBY"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.1.0"
-				}
-			}
-		},
-		{
-			"name": "蚂蚁解析2👑",
-			"type": 0,
-			"url": "http://103.233.255.142:1133/?url=",
 			"ext": {
 				"flag": [
 					"NBY"
