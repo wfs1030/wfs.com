@@ -252,25 +252,16 @@
 		},
 		{
 			"key": "https://4kvm.site/",
-			"name": "4kvm",
+			"name": "分享4kvm",
 			"type": 3,
 			"api": "csp_WexF4kvm",
 			"searchable": 1,
 			"changeable": 1,
-			"jar": "./lib/Pg.txt"
-		},
-		{
-			"key": "追剧",
-			"name": "追剧影视",
-			"type": 3,
-			"api": "csp_TTian",
-			"playerType": 2,
-			"ext": "http://app.kzjtv.com",
-			"jar": "/lib/fix24318.jar"
+			"jar": "./lib/FxzPg.txt"
 		},
 		{
 			"key": "天天",
-			"name": "天天影院",
+			"name": "天天影视",
 			"type": 3,
 			"api": "csp_TTian",
 			"playerType": 2,
@@ -315,7 +306,8 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 1,
-			"jar": "/lib/Fr.jar"
+			"ext": "./lib/free.json",
+			"jar": "./lib/Fr.jar"
 		},
 		{
 			"key": "csp_xBPQ_qixing",
@@ -380,15 +372,15 @@
 			"changeable": 1
 		},
 		{
-			"key": "nm",
-			"name": "农民伯伯",
+			"key": "农民",
+			"name": "农民影视",
 			"type": 3,
-			"api": "csp_WebNM",
+			"api": "csp_Nmys",
+			"timeout": 15,
 			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "https://v.nmvod.cn",
-			"jar": "./lib/nm.jar"
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "./lib/nmys.json"
 		},
 		{
 			"key": "yqkan",
@@ -412,7 +404,7 @@
 				"type": "rect",
 				"ratio": 1
 			},
-			"jar": "./lib/云盘PG.txt"
+			"jar": "./lib/PG.txt"
 		},
 		{
 			"key": "csp_XYQHikerAL_分享影搜",
@@ -424,13 +416,13 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"ext": "./lib/分享影搜.json",
-			"jar": "O.txt"
+			"jar": "./lib/O.txt"
 		},
 		{
 			"key": "阿里云集合",
 			"name": "阿狸网盘",
 			"type": 3,
-			"api": "csp_阿里云集合",
+			"api": "csp_阿里集合",
 			"searchable": 1,
 			"filterable": 0,
 			"switchable": 0,
@@ -812,6 +804,32 @@
 				],
 				"header": {
 					"User-Agent": "Mozilla/5.0"
+				}
+			}
+		},
+		{
+			"name": "蚂蚁解析👑",
+			"type": 0,
+			"url": "https://p.orangek.org/player/ec.php?code=qw&if=1&url=",
+			"ext": {
+				"flag": [
+					"NBY"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.1.0"
+				}
+			}
+		},
+		{
+			"name": "蚂蚁解析2👑",
+			"type": 0,
+			"url": "http://103.233.255.142:1133/?url=",
+			"ext": {
+				"flag": [
+					"NBY"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.1.0"
 				}
 			}
 		},
