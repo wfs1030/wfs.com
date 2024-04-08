@@ -180,6 +180,24 @@
 			"ext": "./lib/nk.json"
 		},
 		{
+			"key": "F4kvm",
+			"name": "纯享影视",
+			"type": 3,
+			"api": "csp_WexF4kvm",
+			"searchable": 1,
+			"changeable": 1,
+			"jar": "./lib/wex.txt"
+		},
+		{
+			"key": "哔嘀影视",
+			"name": "哔嘀影视",
+			"type": 3,
+			"api": "csp_WexBDys",
+			"searchable": 1,
+			"changeable": 1,
+			"jar": "./lib/wex.txt"
+		},
+		{
 			"key": "比特",
 			"name": "比特影视",
 			"type": 3,
@@ -248,24 +266,6 @@
 			"filterable": 1,
 			"ext": "http://v.rbotv.cn",
 			"jar": "./lib/Xymz2.jar"
-		},
-		{
-			"key": "F4kvm",
-			"name": "纯享影视",
-			"type": 3,
-			"api": "csp_WexF4kvm",
-			"searchable": 1,
-			"changeable": 1,
-			"jar": "./lib/wex.txt"
-		},
-		{
-			"key": "哔嘀影视",
-			"name": "哔嘀影视",
-			"type": 3,
-			"api": "csp_WexBDys",
-			"searchable": 1,
-			"changeable": 1,
-			"jar": "./lib/wex.txt"
 		},
 		{
 			"key": "drpy_js_子子影视",
@@ -776,52 +776,6 @@
 				],
 				"header": {
 					"User-Agent": "okhttp/3.12.11"
-				}
-			}
-		},
-		{
-			"name": "七新解析👑",
-			"type": 1,
-			"url": "https://api.52wyb.com/index/?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SMD",
-					"YuMi",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
-				"header": {
-					"User-Agent": "AppleWebKit/537.36 (KHTML, like Gecko)"
 				}
 			}
 		},
