@@ -205,17 +205,6 @@
 			"jar": "./lib/feimao.jar"
 		},
 		{
-			"key": "虾米",
-			"name": "虾米秒播",
-			"type": 3,
-			"api": "csp_AppSK",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"jar": "./lib/fenxiang.txt",
-			"ext": "FbjDcUxPqpfNr0QF4QvEpcoxKcUNBoRVVzBHqOfpkA5VEYja8i7L1QiBr6ixEmPkP2aK1XQgkmQ3SSI/WJ5jbQVYRs7Cng/dOT5B0SQfmaM+Cvura286dkutfmEtkpirrn+WbYckToZ18BRL6wHzHUlfZu7qvBwBZsBVKDIVLg3t4KEb4w=="
-		},
-		{
 			"key": "蚂蚁",
 			"name": "蚂蚁资源",
 			"type": 3,
@@ -428,23 +417,20 @@
 			"timeout": 15
 		},
 		{
-			"key": "阿里合集",
-			"name": "阿里合集",
+			"key": "土豆网盘",
+			"name": "土豆网盘",
 			"type": 3,
-			"api": "csp_AliShare",
+			"api": "csp_Wobg",
 			"jar": "./lib/okjpg.txt",
-			"searchable": 1,
-			"changeable": 0,
-			"filterable": 0,
-			"indexs": 0,
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
 			"ext": {
 				"token": "file://TV/ali_token.txt",
-				"share": "file://TV/阿里集合.json"
+				"cookie": "file://TV/quark_cookie.txt",
+				"site": "https://tudou.lvdoui.top"
 			},
-			"style": {
-				"type": "list"
-			},
-			"timeout": 30
+			"timeout": 25
 		},
 		{
 			"key": "PanSou",
@@ -465,22 +451,6 @@
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-		},
-		{
-			"key": "土豆网盘",
-			"name": "土豆网盘",
-			"type": 3,
-			"api": "csp_Wobg",
-			"jar": "./lib/okjpg.txt",
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"ext": {
-				"token": "file://TV/ali_token.txt",
-				"cookie": "file://TV/quark_cookie.txt",
-				"site": "https://tudou.lvdoui.top"
-			},
-			"timeout": 25
 		},
 		{
 			"key": "bili",
