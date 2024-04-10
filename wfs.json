@@ -205,6 +205,17 @@
 			"jar": "./lib/feimao.jar"
 		},
 		{
+			"key": "虾米",
+			"name": "虾米影视",
+			"type": 3,
+			"api": "csp_AppSK",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"jar": "./lib/fan.txt",
+			"ext": "FbjDcUxPqpfNr0QF4QvEpcoxKcUNBoRVVzBHqOfpkA5VEYja8i7L1QiBr6ixEmPkP2aK1XQgkmQ3SSI/WJ5jbQVYRs7Cng/dOT5B0SQfmaM+Cvura286dkutfmEtkpirrn+WbYckToZ18BRL6wHzHUlfZu7qvBwBZsBVKDIVLg3t4KEb4w=="
+		},
+		{
 			"key": "蚂蚁",
 			"name": "蚂蚁资源",
 			"type": 3,
