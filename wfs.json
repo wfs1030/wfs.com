@@ -77,9 +77,10 @@
 		},
 		{
 			"key": "AI2",
-			"name": "sousuo1",
+			"name": "souso1",
 			"type": 3,
 			"api": "csp_AI",
+			"jar": "./lib/fix140412.jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
@@ -88,9 +89,10 @@
 		},
 		{
 			"key": "AI3",
-			"name": "sousuo2",
+			"name": "souso2",
 			"type": 3,
 			"api": "csp_AI",
+			"jar": "./lib/fix140412.jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
