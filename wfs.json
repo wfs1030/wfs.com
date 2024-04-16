@@ -77,7 +77,7 @@
 		},
 		{
 			"key": "AI2",
-			"name": "souso1",
+			"name": "巧计解析1",
 			"type": 3,
 			"api": "csp_AI",
 			"jar": "./lib/fix140412.jar",
@@ -89,7 +89,7 @@
 		},
 		{
 			"key": "AI3",
-			"name": "souso2",
+			"name": "巧计解析2",
 			"type": 3,
 			"api": "csp_AI",
 			"jar": "./lib/fix140412.jar",
