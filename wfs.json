@@ -110,6 +110,18 @@
 			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt---4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
 		},
 		{
+			"key": "Wobg",
+			"name": "玩偶表哥",
+			"type": 3,
+			"api": "csp_Wobg",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./lib/wogg.json",
+			"jar": "./lib/PG.jar"
+		},
+		{
 			"key": "贱贱",
 			"name": "荐片磁力",
 			"type": 3,
@@ -339,6 +351,14 @@
 			"jar": "./lib/fm.jar"
 		},
 		{
+			"key": "XBPQ_文才",
+			"name": "文才影视",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"ext": "./lib/文才影视.json",
+			"jar": "./lib/XBPQ.jar"
+		},
+		{
 			"key": "天天",
 			"name": "天天直连",
 			"type": 3,
@@ -425,7 +445,7 @@
 		},
 		{
 			"key": "配置中心",
-			"name": "⚙️云盘配置",
+			"name": "⚙️云盘|配置",
 			"type": 3,
 			"api": "csp_Config",
 			"searchable": 0,
@@ -438,7 +458,7 @@
 		},
 		{
 			"key": "YingSo",
-			"name": "影搜网盘",
+			"name": "影搜|网盘",
 			"type": 3,
 			"api": "csp_YingSo",
 			"timeout": 60,
@@ -447,7 +467,7 @@
 		},
 		{
 			"key": "土豆网盘",
-			"name": "土豆网盘",
+			"name": "土豆|网盘",
 			"type": 3,
 			"api": "csp_Wobg",
 			"jar": "./lib/okjpg.txt",
@@ -462,20 +482,88 @@
 			"timeout": 25
 		},
 		{
-			"key": "PanSou",
-			"name": "盘搜网盘",
+			"key": "UpYun",
+			"name": "Up云盘",
 			"type": 3,
-			"api": "csp_PanSou",
+			"api": "csp_UpYun",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
 			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
 		},
 		{
-			"key": "UpYun",
-			"name": "Up搜网盘",
+			"key": "YunPan",
+			"name": "云盘|资源",
 			"type": 3,
-			"api": "csp_UpYun",
+			"api": "csp_YunPan",
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$null$$$proxy$$$1",
+			"jar": "./lib/PG.jar"
+		},
+		{
+			"key": "秒搜",
+			"name": "秒搜|网盘",
+			"type": 3,
+			"api": "csp_MiaoSou",
+			"timeout": 60,
+			"ext": "./lib/tokenm.json",
+			"jar": "./lib/PG.jar",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+		{
+			"key": "PanSearch",
+			"name": "Pan|网盘",
+			"type": 3,
+			"api": "csp_PanSearch",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json",
+			"jar": "./lib/PG.jar"
+		},
+		{
+			"key": "88Pan",
+			"name": "88|网盘",
+			"type": 3,
+			"api": "csp_EightEight",
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://662688.xyz$$$",
+			"jar": "./lib/PG.jar",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+		{
+			"key": "DaPanSo",
+			"name": "大盘|网盘",
+			"type": 3,
+			"api": "csp_DaPanSo",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://dapanso.com$$$proxy$$$1",
+			"jar": "./lib/PG.jar"
+		},
+		{
+			"key": "盘友圈",
+			"name": "盘友|网盘",
+			"type": 3,
+			"api": "csp_Panyq",
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$site$$$proxy",
+			"jar": "./lib/PG.jar"
+		},
+		{
+			"key": "PanSou",
+			"name": "盘搜网盘",
+			"type": 3,
+			"api": "csp_PanSou",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
