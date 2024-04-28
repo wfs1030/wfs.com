@@ -68,14 +68,6 @@
 			"jar": "./lib/Xymz.jar"
 		},
 		{
-			"key": "蚂蚁",
-			"name": "蚂蚁解析",
-			"type": 3,
-			"api": "csp_AppYsV2",
-			"ext": "http://122.228.84.103:5822/api.php/app/",
-			"jar": "./lib/xh.jar"
-		},
-		{
 			"key": "AI2",
 			"name": "Ai解析1",
 			"type": 3,
@@ -136,12 +128,12 @@
 			"key": "南瓜",
 			"name": "南瓜影视",
 			"type": 3,
-			"api": "csp_Nangua",
+			"api": "csp_NanGua",
+			"timeout": 15,
+			"playerType": 2,
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 1,
-			"timeout": 10,
-			"jar": "./lib/ng.txt"
+			"changeable": 1
 		},
 		{
 			"key": "苹果",
@@ -187,7 +179,7 @@
 		},
 		{
 			"key": "酷看",
-			"name": "酷看影视",
+			"name": "酷看秒播",
 			"type": 3,
 			"api": "csp_Kkys",
 			"timeout": 15,
@@ -267,6 +259,14 @@
 			"filterable": 0,
 			"ext": "./lib/夜猫秒播.json",
 			"jar": "./lib/Xymz2.jar"
+		},
+		{
+			"key": "XBPQ_文才",
+			"name": "文才影视",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"ext": "./lib/文才影视.json",
+			"jar": "./lib/XBPQ.jar"
 		},
 		{
 			"key": "rebo",
@@ -349,14 +349,6 @@
 			"playerType": "2",
 			"api": "csp_Juqq",
 			"jar": "./lib/fm.jar"
-		},
-		{
-			"key": "XBPQ_文才",
-			"name": "文才影视",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": "./lib/文才影视.json",
-			"jar": "./lib/XBPQ.jar"
 		},
 		{
 			"key": "天天",
@@ -740,32 +732,6 @@
 			}
 		},
 		{
-			"name": "蚂蚁解析1✌",
-			"type": 0,
-			"url": "https://p.orangek.org/player/ec.php?code=qw&if=1&url=",
-			"ext": {
-				"flag": [
-					"NBY"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.1.0"
-				}
-			}
-		},
-		{
-			"name": "蚂蚁解析2✌",
-			"type": 0,
-			"url": "http://103.233.255.142:1133/?url=",
-			"ext": {
-				"flag": [
-					"NBY"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.1.0"
-				}
-			}
-		},
-		{
 			"name": "巧技解析1✌",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
@@ -792,7 +758,7 @@
 			}
 		},
 		{
-			"name": "巧技二✌",
+			"name": "巧技解析2✌",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
 			"ext": {
@@ -860,7 +826,7 @@
 					"乐视视频"
 				],
 				"header": {
-					"User-Agent": "okhttp/4.12.0"
+					"User-Agent": "Mozilla/5.0"
 				}
 			}
 		},
