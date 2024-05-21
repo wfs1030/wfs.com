@@ -1,5 +1,6 @@
 {
 	"spider": "./lib/fty.txt;md5;dd909349c70fe92e82470eba611b7094",
+	"logo": "./lib/10086.png",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"sites": [
 		{
@@ -145,6 +146,16 @@
 			"changeable": 1
 		},
 		{
+			"key": "酷看",
+			"name": "酷看秒播",
+			"type": 3,
+			"api": "csp_Kkys",
+			"timeout": 15,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"key": "南坊追剧",
 			"name": "南坊影视",
 			"type": 3,
@@ -152,7 +163,8 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 0,
-			"ext": "https://www.nfzj.fun"
+			"ext": "https://www.nfzj.fun",
+			"jar": "./lib/jar.php"
 		},
 		{
 			"key": "原创",
@@ -378,16 +390,6 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"ext": "./lib/nmys.json"
-		},
-		{
-			"key": "酷看",
-			"name": "酷看秒播",
-			"type": 3,
-			"api": "csp_Kkys",
-			"timeout": 15,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
 		},
 		{
 			"key": "小点",
