@@ -69,16 +69,40 @@
 			"jar": "./lib/Xymz.jar"
 		},
 		{
-			"key": "AI2",
-			"name": "Ai2仅搜索",
+			"key": "AI1",
+			"name": "Ai1仅搜索",
 			"type": 3,
 			"api": "csp_AI",
+			"jar": "./lib/fix240524.jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0,
 			"playerType": 2,
-			"ext": "http://124.222.116.5/mb/api.php/provide/vod/|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.33|qiaoji",
-			"jar": "./lib/fix140412.jar"
+			"ext": "http://124.222.116.5/macos/seven/api.php/provide/vod/|okhttp/4.9.1|https://jx.kuaizi.cc"
+		},
+		{
+			"key": "AI2",
+			"name": "Ai2┃仅搜索",
+			"type": 3,
+			"api": "csp_AI",
+			"jar": "./lib/fix240524.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"playerType": 2,
+			"ext": "http://124.222.116.5/mb/api.php/provide/vod/|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.33|qiaoji"
+		},
+		{
+			"key": "AI3",
+			"name": "Ai3┃仅搜索",
+			"type": 3,
+			"api": "csp_AI",
+			"jar": "./lib/fix240524.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"playerType": 2,
+			"ext": "http://124.222.30.115/mb/api.php/provide/vod/|okhttp/4.9.1|qiaoji"
 		},
 		{
 			"key": "Wobg",
