@@ -861,7 +861,7 @@
 	"parses": [
 		{
 			"name": "无忧解析👑",
-			"type": 1,
+			"type": 0,
 			"url": "http://119.91.123.253:2345/Api/yun.php?url=",
 			"ext": {
 				"flag": [
