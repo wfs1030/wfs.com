@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "小柱子专属|更新于05/20日|请勿相信视频中广告！",
+			"name": "修复失效站点|更新于6月/20日|请勿相信视频中广告！",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -59,16 +59,6 @@
 			"jar": "./lib/ttkx.jar"
 		},
 		{
-			"key": "sp2345",
-			"name": "2345影视",
-			"type": 3,
-			"api": "csp_SP2345",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"jar": "./lib/Xymz.jar"
-		},
-		{
 			"key": "AI1",
 			"name": "Ai1仅搜索",
 			"type": 3,
@@ -105,16 +95,20 @@
 			"ext": "http://124.222.30.115/mb/api.php/provide/vod/|okhttp/4.9.1|qiaoji"
 		},
 		{
-			"key": "Wobg",
-			"name": "玩偶表哥",
+			"key": "玩偶",
+			"name": "玩偶哥哥",
 			"type": 3,
-			"api": "csp_Wobg",
+			"api": "csp_WoGG",
+			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$./lib/wogg.json",
-			"jar": "./lib/PG.jar"
+			"changeable": 0,
+			"ext": {
+				"aliToken": "tvfan/token.txt",
+				"quarkCookie": "tvfan/cookie.txt",
+				"from": "4k|auto|fhd",
+				"siteUrl": "https://www.wogg.link/",
+				"danMu": "弹"
+			}
 		},
 		{
 			"key": "贱贱",
@@ -129,7 +123,7 @@
 		},
 		{
 			"key": "南瓜",
-			"name": "南瓜影视",
+			"name": "南瓜多线",
 			"type": 3,
 			"api": "csp_NanGua",
 			"timeout": 15,
@@ -148,6 +142,16 @@
 			"changeable": 1
 		},
 		{
+			"key": "文采",
+			"name": "文采秒播",
+			"type": 3,
+			"api": "csp_Jpys",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"key": "酷看",
 			"name": "酷看秒播",
 			"type": 3,
@@ -158,22 +162,76 @@
 			"changeable": 1
 		},
 		{
-			"key": "南坊追剧",
-			"name": "南坊影视",
+			"key": "比特",
+			"name": "比特秒播",
 			"type": 3,
-			"api": "csp_WebNF",
+			"api": "csp_Bttwoo",
 			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "https://www.nfzj.fun",
-			"jar": "./lib/jar.php"
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "厂长",
+			"name": "厂长不卡",
+			"type": 3,
+			"api": "csp_NewCz",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "https://czzy.top/"
+		},
+		{
+			"key": "视觉",
+			"name": "视觉多线",
+			"type": 3,
+			"api": "csp_Xinsj",
+			"timeout": 15,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "https://www.80yy3.com/"
+		},
+		{
+			"key": "可可",
+			"name": "可可多线",
+			"type": 3,
+			"api": "csp_Kekys",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "热播",
+			"name": "热播多线",
+			"type": 3,
+			"api": "csp_AppTT",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "AO7TcBkd8I/B5wQc4Qma+pU="
+		},
+		{
+			"key": "萌米",
+			"name": "萌米多线",
+			"type": 3,
+			"api": "csp_AppTT",
+			"timeout": 15,
+			"playerType": 1,
+			"ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
 		},
 		{
 			"key": "原创",
-			"name": "原创无广",
+			"name": "原创不卡",
 			"type": 3,
 			"api": "csp_YCyz",
 			"timeout": 15,
+			"playerType": 1,
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
@@ -245,26 +303,6 @@
 			"filterable": 1,
 			"ext": "./lib/free.json",
 			"jar": "./lib/Fr.jar"
-		},
-		{
-			"key": "XBPQ_文才",
-			"name": "文才影视",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": "./lib/文才影视.json",
-			"jar": "./lib/XBPQ.jar"
-		},
-		{
-			"key": "rebo",
-			"name": "热播影视",
-			"type": 3,
-			"api": "csp_YMZ",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "http://v.rbotv.cn",
-			"jar": "./lib/Xymz2.jar"
 		},
 		{
 			"key": "csp_xBPQ_qixing",
@@ -392,27 +430,6 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"ext": "./lib/nmys.json"
-		},
-		{
-			"key": "小点",
-			"name": "小点多线",
-			"type": 3,
-			"api": "csp_Xdys",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"changeable": 0
-		},
-		{
-			"key": "视觉",
-			"name": "视觉多线",
-			"type": 3,
-			"api": "csp_Xinsj",
-			"timeout": 15,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "https://www.80yy3.com/"
 		},
 		{
 			"key": "tvyb",
@@ -860,54 +877,17 @@
 	],
 	"parses": [
 		{
-			"name": "无忧解析👑",
-			"type": 1,
-			"url": "http://119.91.123.253:2345/Api/yun.php?url=",
+			"name": "虾米解析🚀",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url=",
 			"ext": {
-				"flag": [
-					"360",
-					"qq",
-					"腾讯",
-					"企鹅",
-					"IQiYi",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"YouKu",
-					"优酷",
-					"sohu",
-					"SoHu",
-					"搜狐",
-					"letv",
-					"LeShi",
-					"乐视",
-					"imgo",
-					"mgtv",
-					"MangGuo",
-					"芒果",
-					"SLYS4k",
-					"BYGA",
-					"luanzi",
-					"AliS",
-					"dxzy",
-					"bilibili",
-					"QEYSS",
-					"xigua",
-					"西瓜视频",
-					"腾讯视频",
-					"奇艺视频",
-					"优酷视频",
-					"芒果视频",
-					"乐视视频"
-				],
 				"header": {
-					"User-Agent": "Dart/2.18 (dart:io)"
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
 				}
 			}
 		},
 		{
-			"name": "巧技1✌",
+			"name": "巧技1号线🚀",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
 			"ext": {
@@ -936,7 +916,7 @@
 			}
 		},
 		{
-			"name": "巧技2✌",
+			"name": "巧技2号线🚀",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
 			"ext": {
@@ -966,39 +946,9 @@
 			}
 		},
 		{
-			"name": "肥猫宝贝✌",
-			"type": 1,
-			"url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"tucheng",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"yzm",
-					"aliyun",
-					"RJuMao",
-					"bilibili",
-					"1905",
-					"xinvip",
-					"XAL",
-					"qiqi",
-					"XALS",
-					"YuMi-vip"
-				]
-			}
+			"name": "欧歌解析🚀",
+			"type": 0,
+			"url": "https://jx.m3u8.pw/?url="
 		}
 	],
 	"doh": [
