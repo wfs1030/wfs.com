@@ -140,7 +140,7 @@
 		},
 		{
 			"key": "苹果",
-			"name": "苹果无广",
+			"name": "苹果不卡",
 			"type": 3,
 			"api": "csp_LiteApple",
 			"searchable": 1,
@@ -861,7 +861,7 @@
 	"parses": [
 		{
 			"name": "无忧解析👑",
-			"type": 0,
+			"type": 1,
 			"url": "http://119.91.123.253:2345/Api/yun.php?url=",
 			"ext": {
 				"flag": [
