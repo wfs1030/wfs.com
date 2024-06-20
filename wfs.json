@@ -669,11 +669,6 @@
 	],
 	"parses": [
 		{
-			"name": "聚合解析🚀",
-			"type": 3,
-			"url": "Demo"
-		},
-		{
 			"name": "巧技1号线🚀",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
@@ -731,11 +726,6 @@
 					"User-Agent": "okhttp/4.9.1"
 				}
 			}
-		},
-		{
-			"name": "13",
-			"type": 0,
-			"url": "https://api.52wyb.com/index/?url="
 		},
 		{
 			"name": "虾米解析🚀",
