@@ -55,7 +55,7 @@
 		},
 		{
 			"key": "夸搜",
-			"name": "夸搜网盘",
+			"name": "夸克网盘",
 			"type": 3,
 			"api": "csp_PanSearch",
 			"searchable": 1,
@@ -105,6 +105,58 @@
 			}
 		},
 		{
+			"key": "君君",
+			"name": "小米解析",
+			"playerType": 1,
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_AppYsV2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "http://122.228.85.203:1000/api.php/app/",
+			"jar": "./lib/xm.jar"
+		},
+		{
+			"key": "AI2",
+			"name": "1号解析",
+			"type": 3,
+			"api": "csp_AI",
+			"jar": "./lib/qiaoji.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"playerType": 1,
+			"ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
+		},
+		{
+			"key": "AI3",
+			"name": "2号解析",
+			"type": 3,
+			"api": "csp_AI",
+			"jar": "./lib/qiaoji.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"playerType": 1,
+			"ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
+		},
+		{
+			"key": "csp_SP360",
+			"name": "360解析",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_SP360",
+			"jar": "./lib/xm.jar"
+		},
+		{
+			"key": "搜狗",
+			"name": "搜狗解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/搜狗.js"
+		},
+		{
 			"key": "苹果",
 			"name": "🍎小苹果",
 			"type": 3,
@@ -121,8 +173,8 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"playerType": "1",
-			"api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-			"ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/jp.js"
 		},
 		{
 			"key": "厂长",
@@ -269,15 +321,6 @@
 			"jar": "./lib/jar.php"
 		},
 		{
-			"key": "明日影视",
-			"name": "明日影视",
-			"type": 3,
-			"api": "csp_WexMingriys",
-			"searchable": 1,
-			"changeable": 1,
-			"jar": "./lib/jar.php"
-		},
-		{
 			"key": "热播影视",
 			"name": "热播影视",
 			"type": 3,
@@ -321,6 +364,64 @@
 			"jar": "./lib/jar.php"
 		},
 		{
+			"key": "柠檬",
+			"name": "柠檬┃App",
+			"type": 3,
+			"api": "csp_Nmvod",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 1,
+			"ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+		},
+		{
+			"key": "小米",
+			"name": "米米1080P",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"playerType": "2",
+			"api": "csp_XBPQ",
+			"ext": "./lib/米米.json",
+			"jar": "./lib/xm.txt"
+		},
+		{
+			"key": "csp_农民",
+			"name": "汪汪1080P",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_Nongm",
+			"jar": "./lib/xm.jar"
+		},
+		{
+			"key": "QIYIU",
+			"name": "奇优1080P",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_Qiyou",
+			"playerType": "1",
+			"jar": "./lib/xm.jar"
+		},
+		{
+			"key": "csp_paopao",
+			"name": "菠菜1080P",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_Pptv",
+			"playerType": 2,
+			"filterable": 1,
+			"ext": "https://yigeg.pro",
+			"jar": "./lib/xm.jar"
+		},
+		{
+			"key": "csp_全网",
+			"name": "全网1080P",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_Quanwk",
+			"ext": "https://1.qkw1.cc/",
+			"jar": "./lib/xm.jar"
+		},
+		{
 			"key": "️爱看Bot",
 			"name": "爱看Bot",
 			"type": 3,
@@ -333,7 +434,7 @@
 		},
 		{
 			"key": "爱坤",
-			"name": "爱坤采集",
+			"name": "采集站",
 			"type": 1,
 			"api": "https://ikunzyapi.com/api.php/provide/vod?",
 			"searchable": 1,
@@ -360,95 +461,11 @@
 				"泰国剧",
 				"大陆综艺",
 				"港台综艺",
-				"综艺",
-				"欧美综艺",
 				"国产动漫",
 				"动漫1",
 				"动漫2",
 				"爽文短剧"
 			]
-		},
-		{
-			"key": "爱奇艺",
-			"name": "奇艺解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/爱奇艺.js"
-		},
-		{
-			"key": "优酷",
-			"name": "优酷解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/优酷.js"
-		},
-		{
-			"key": "腾讯",
-			"name": "腾讯解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/腾讯.js"
-		},
-		{
-			"key": "芒果",
-			"name": "芒果解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/芒果.js"
-		},
-		{
-			"key": "搜狗",
-			"name": "搜狗解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/搜狗.js"
-		},
-		{
-			"key": "360影视",
-			"name": "360解析",
-			"type": 3,
-			"api": "csp_SP360",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"changeable": 0,
-			"jar": "./lib/ttkx.jar"
-		},
-		{
-			"key": "AI2",
-			"name": "AI2解析",
-			"type": 3,
-			"api": "csp_AI",
-			"jar": "./lib/qiaoji.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"playerType": 1,
-			"ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
-		},
-		{
-			"key": "AI3",
-			"name": "AI3解析",
-			"type": 3,
-			"api": "csp_AI",
-			"jar": "./lib/qiaoji.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"playerType": 1,
-			"ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
-		},
-		{
-			"key": "AI4",
-			"name": "AI4解析",
-			"type": 3,
-			"api": "csp_AppYsV2",
-			"jar": "./lib/qiaoji.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"playerType": 1,
-			"ext": "iaHR0cDovLzM5Ljk4LjMyLjI0MTo2Njg4L2FwaS5waHAvemp2My52b2Q="
 		},
 		{
 			"key": "短剧",
@@ -602,7 +619,7 @@
 	],
 	"parses": [
 		{
-			"name": "巧技🚀",
+			"name": "巧技1号",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
 			"ext": {
@@ -631,7 +648,7 @@
 			}
 		},
 		{
-			"name": "巧技二🚀",
+			"name": "巧技2号",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
 			"ext": {
@@ -661,7 +678,65 @@
 			}
 		},
 		{
-			"name": "虾米解析🚀",
+			"name": "小米4K",
+			"type": 1,
+			"url": "http://www.mpanso.com/%E6%88%91%E7%88%B1%E4%BD%A0.php?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "小米1080",
+			"type": 1,
+			"url": "https://jf.lemiaoyun.cn/api/?key=bc1e1c72813140c311929a461d167707&url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "小虾米",
 			"type": 0,
 			"url": "https://jx.xmflv.com/?url=",
 			"ext": {
