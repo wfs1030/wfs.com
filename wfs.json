@@ -1,5 +1,5 @@
 {
-	"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1725375205132/wex.txt;md5;1844bdd8027f68cd275aeb67c36472eb",
+	"spider": "./lib/fty.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
 	"logo": "./lib/10086.png",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"sites": [
@@ -69,10 +69,9 @@
 		},
 		{
 			"key": "csp_Duopan",
-			"name": "蜡笔网盘",
+			"name": "蜡笔影视",
 			"type": 3,
 			"api": "csp_Duopan",
-			"jar": "./lib/feimao.jar",
 			"filterable": 1,
 			"ext": {
 				"site_urls": [
@@ -196,6 +195,14 @@
 			"jar": "./lib/feimao.jar"
 		},
 		{
+			"key": "csp_Ikan",
+			"name": "爱看影视",
+			"type": 3,
+			"api": "csp_Ikan",
+			"playerType": 2,
+			"jar": "./lib/feimao.jar"
+		},
+		{
 			"key": "csp_Kanke",
 			"name": " 看客影视",
 			"type": 3,
@@ -204,12 +211,34 @@
 			"jar": "./lib/feimao.jar"
 		},
 		{
-			"key": "WexTiantianys",
-			"name": "明天影视",
+			"key": "csp_Yhys",
+			"name": "宇航影视",
 			"type": 3,
-			"api": "csp_WexTiantianys",
+			"api": "csp_Yhys",
+			"playerType": 2,
+			"jar": "./lib/feimao.jar"
+		},
+		{
+			"key": "天天",
+			"name": "天天直连",
+			"type": 3,
+			"api": "csp_TianTian",
 			"searchable": 1,
-			"changeable": 1
+			"quickSearch": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "./lib/okjpg.txt"
+		},
+		{
+			"key": "️爱看Bot",
+			"name": "爱看Bot",
+			"type": 3,
+			"api": "csp_Ikanbot",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "./lib/okjpg.txt"
 		},
 		{
 			"key": "爱坤",
