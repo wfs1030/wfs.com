@@ -106,7 +106,7 @@
 		},
 		{
 			"key": "君君",
-			"name": "小米解析",
+			"name": "小米|解析",
 			"playerType": 1,
 			"type": 3,
 			"changeable": 0,
@@ -119,7 +119,7 @@
 		},
 		{
 			"key": "AI2",
-			"name": "1号解析",
+			"name": "巧计|解析",
 			"type": 3,
 			"api": "csp_AI",
 			"jar": "./lib/qiaoji.jar",
@@ -131,7 +131,7 @@
 		},
 		{
 			"key": "AI3",
-			"name": "2号解析",
+			"name": "Ai解析",
 			"type": 3,
 			"api": "csp_AI",
 			"jar": "./lib/qiaoji.jar",
@@ -148,13 +148,6 @@
 			"changeable": 0,
 			"api": "csp_SP360",
 			"jar": "./lib/xm.jar"
-		},
-		{
-			"key": "搜狗",
-			"name": "搜狗解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/搜狗.js"
 		},
 		{
 			"key": "苹果",
@@ -365,7 +358,7 @@
 		},
 		{
 			"key": "柠檬",
-			"name": "柠檬┃App",
+			"name": "🍋柠檬",
 			"type": 3,
 			"api": "csp_Nmvod",
 			"jar": "./lib/qiaoji.jar",
@@ -374,7 +367,7 @@
 		},
 		{
 			"key": "小米",
-			"name": "米米1080P",
+			"name": "🍚米米",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
@@ -382,11 +375,11 @@
 			"playerType": "2",
 			"api": "csp_XBPQ",
 			"ext": "./lib/米米.json",
-			"jar": "./lib/xm.txt"
+			"jar": "./lib/xiaomi.txt"
 		},
 		{
 			"key": "csp_农民",
-			"name": "汪汪1080P",
+			"name": "🐶汪汪",
 			"type": 3,
 			"changeable": 0,
 			"api": "csp_Nongm",
@@ -394,7 +387,7 @@
 		},
 		{
 			"key": "QIYIU",
-			"name": "奇优1080P",
+			"name": "⛳️奇优",
 			"type": 3,
 			"changeable": 0,
 			"api": "csp_Qiyou",
@@ -403,7 +396,7 @@
 		},
 		{
 			"key": "csp_paopao",
-			"name": "菠菜1080P",
+			"name": "🥬菠菜",
 			"type": 3,
 			"changeable": 0,
 			"api": "csp_Pptv",
@@ -414,7 +407,7 @@
 		},
 		{
 			"key": "csp_全网",
-			"name": "全网1080P",
+			"name": "⭕️全网影视",
 			"type": 3,
 			"changeable": 0,
 			"api": "csp_Quanwk",
@@ -423,7 +416,7 @@
 		},
 		{
 			"key": "️爱看Bot",
-			"name": "爱看Bot",
+			"name": "🤖爱看机器",
 			"type": 3,
 			"api": "csp_Ikanbot",
 			"searchable": 1,
@@ -434,7 +427,7 @@
 		},
 		{
 			"key": "爱坤",
-			"name": "采集站",
+			"name": "🔍采集站",
 			"type": 1,
 			"api": "https://ikunzyapi.com/api.php/provide/vod?",
 			"searchable": 1,
