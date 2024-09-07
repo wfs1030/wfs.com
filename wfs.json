@@ -69,9 +69,10 @@
 		},
 		{
 			"key": "csp_Duopan",
-			"name": "蜡笔影视",
+			"name": "蜡笔网盘",
 			"type": 3,
 			"api": "csp_Duopan",
+			"jar": "./lib/feimao.jar",
 			"filterable": 1,
 			"ext": {
 				"site_urls": [
@@ -168,6 +169,14 @@
 			"changeable": 1
 		},
 		{
+			"key": "追剧",
+			"name": "追剧多线",
+			"type": 3,
+			"api": "csp_AppTT",
+			"playerType": 2,
+			"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+		},
+		{
 			"key": "低端",
 			"name": "低端外剧",
 			"type": 3,
@@ -228,6 +237,88 @@
 			"filterable": 1,
 			"timeout": 10,
 			"jar": "./lib/okjpg.txt"
+		},
+		{
+			"key": "ppvod",
+			"name": "泡泡切片",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"jar": "./lib/xb.txt",
+			"api": "csp_XBPQ",
+			"ext": "./lib/ppvod.json"
+		},
+		{
+			"key": "快看影视",
+			"name": "快看影视",
+			"type": 3,
+			"api": "csp_Kuaikan",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./lib/jar.php"
+		},
+		{
+			"key": "大米星球",
+			"name": "大米影视",
+			"type": 3,
+			"api": "csp_AppDaMi",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"jar": "./lib/jar.php"
+		},
+		{
+			"key": "明日影视",
+			"name": "明日影视",
+			"type": 3,
+			"api": "csp_WexMingriys",
+			"searchable": 1,
+			"changeable": 1,
+			"jar": "./lib/jar.php"
+		},
+		{
+			"key": "热播影视",
+			"name": "热播影视",
+			"type": 3,
+			"api": "csp_AppRB",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./lib/jar.php"
+		},
+		{
+			"key": "一起看弹幕",
+			"name": "一起看",
+			"type": 3,
+			"api": "csp_Yqk",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"danmu": true
+			},
+			"jar": "https://tv.nxog.top/m/jar.php?id=dm&ou=公众号欧歌app;md5;d2741230d5013288c2e7669c53db7780"
+		},
+		{
+			"key": "骚火影视",
+			"name": "火火影视",
+			"type": 3,
+			"api": "csp_Wexsaohuo",
+			"searchable": 1,
+			"changeable": 1,
+			"jar": "./lib/jar.php"
+		},
+		{
+			"key": "视频库",
+			"name": "视频库",
+			"type": 3,
+			"api": "csp_WebVidHub",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0,
+			"ext": "https://vidhub1.cc",
+			"jar": "./lib/jar.php"
 		},
 		{
 			"key": "️爱看Bot",
