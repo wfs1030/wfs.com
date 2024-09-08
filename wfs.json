@@ -159,15 +159,15 @@
 			"changeable": 1
 		},
 		{
-			"key": "贱贱",
+			"key": "荐片",
 			"name": "荐片|磁力",
 			"type": 3,
+			"api": "csp_Jianpian",
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 1,
-			"playerType": "1",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/jp.js"
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "./lib/okjpg.txt"
 		},
 		{
 			"key": "厂长",
@@ -230,6 +230,26 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
+		},
+		{
+			"key": "摸鱼瓜子",
+			"name": "嗑嗑|瓜子",
+			"type": 3,
+			"api": "./lib/drpy.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/guazi.js"
+		},
+		{
+			"key": "小马",
+			"name": "小马|蓝光",
+			"type": 3,
+			"api": "csp_AppYsV2",
+			"ext": "https://mas.szyyds.cn/api.php/app/",
+			"jar": "./lib/moyu.php"
 		},
 		{
 			"key": "csp_Nongm",
@@ -720,6 +740,35 @@
 			}
 		},
 		{
+			"name": "小米何必",
+			"type": 1,
+			"url": "http://www.mpanso.com/小姐姐/何必呢.php?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
 			"name": "小米1080",
 			"type": 1,
 			"url": "https://jf.lemiaoyun.cn/api/?key=bc1e1c72813140c311929a461d167707&url=",
@@ -750,7 +799,7 @@
 		},
 		{
 			"name": "小虾米",
-			"type": 0,
+			"type": 1,
 			"url": "https://jx.xmflv.com/?url=",
 			"ext": {
 				"header": {
