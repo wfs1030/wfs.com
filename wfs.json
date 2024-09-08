@@ -142,6 +142,66 @@
 			"ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
 		},
 		{
+			"key": "qiyi",
+			"name": "爱爱|解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/qy.js"
+		},
+		{
+			"key": "youku",
+			"name": "优优|解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/yk.js"
+		},
+		{
+			"key": "hipy_js_腾云驾雾[官]",
+			"name": "腾腾|解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/tx.js"
+		},
+		{
+			"key": "guoguo",
+			"name": "果果|解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/guoguo.js"
+		},
+		{
+			"key": "sougou",
+			"name": "搜狗|解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/sougou.js"
+		},
+		{
 			"key": "csp_SP360",
 			"name": "360|解析",
 			"type": 3,
