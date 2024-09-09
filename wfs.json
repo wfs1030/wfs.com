@@ -29,7 +29,7 @@
 		},
 		{
 			"key": "米搜",
-			"name": "🚀小米|网盘",
+			"name": "🚀小米网盘",
 			"type": 3,
 			"api": "csp_MIPanSo",
 			"searchable": 1,
@@ -564,13 +564,6 @@
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/蜥蜴影视.js"
-		},
-		{
-			"key": "drpy_js_369影视",
-			"name": "🌙369|影视",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/369影视.js"
 		},
 		{
 			"key": "drpy_js_欧帝影院",
