@@ -552,13 +552,6 @@
 			"ext": "./lib/影视工场.js"
 		},
 		{
-			"key": "drpy_js_免费看",
-			"name": "🌙免费|追剧",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/免费看.js"
-		},
-		{
 			"key": "drpy_js_NY影院",
 			"name": "🌙NY|影院",
 			"type": 3,
@@ -605,7 +598,7 @@
 			"name": "🌙人人|影视",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/yyets.js",
+			"ext": "./lib/人人影视.js",
 			"quickSearch": 1,
 			"changeable": 1,
 			"timeout": 30
