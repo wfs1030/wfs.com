@@ -244,15 +244,14 @@
 			"ext": "https://www.czys.pro/"
 		},
 		{
-			"key": "南瓜",
-			"name": "南瓜|多线",
+			"key": "csp_NanGua",
+			"name": "南瓜|影视",
 			"type": 3,
+			"changeable": 1,
 			"api": "csp_NanGua",
-			"timeout": 15,
 			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
+			"filterable": 1,
+			"jar": "./lib/xm.jar"
 		},
 		{
 			"key": "文采",
@@ -294,16 +293,16 @@
 			"changeable": 1
 		},
 		{
-			"key": "摸鱼瓜子",
-			"name": "瓜子|影视",
+			"key": "hipy_guazi",
+			"name": "瓜子|080P",
 			"type": 3,
-			"api": "./lib/drpy.min.js",
+			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": "./lib/guazi.js"
+			"ext": "./lib/瓜子.js"
 		},
 		{
 			"key": "小马",
@@ -347,14 +346,6 @@
 			"jar": "./lib/feimao.jar"
 		},
 		{
-			"key": "csp_Yhys",
-			"name": "宇航|影视",
-			"type": 3,
-			"api": "csp_Yhys",
-			"playerType": 2,
-			"jar": "./lib/feimao.jar"
-		},
-		{
 			"key": "天天",
 			"name": "天天|直连",
 			"type": 3,
@@ -393,16 +384,6 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 0,
-			"jar": "./lib/jar.php"
-		},
-		{
-			"key": "热播影视",
-			"name": "热播|影视",
-			"type": 3,
-			"api": "csp_AppRB",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
 			"jar": "./lib/jar.php"
 		},
 		{
@@ -454,15 +435,6 @@
 			"changeable": 0,
 			"api": "csp_Qiyou",
 			"playerType": "1",
-			"jar": "./lib/xm.jar"
-		},
-		{
-			"key": "csp_全网",
-			"name": "全网|影视",
-			"type": 3,
-			"changeable": 0,
-			"api": "csp_Quanwk",
-			"ext": "https://1.qkw1.cc/",
 			"jar": "./lib/xm.jar"
 		},
 		{
@@ -557,13 +529,6 @@
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/NY影院.js"
-		},
-		{
-			"key": "drpy_js_蜥蜴影视",
-			"name": "蜥蜴|影视",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/蜥蜴影视.js"
 		},
 		{
 			"key": "drpy_js_欧帝影院",
@@ -825,6 +790,64 @@
 			"name": "小米1080P",
 			"type": 1,
 			"url": "https://jf.lemiaoyun.cn/api/?key=bc1e1c72813140c311929a461d167707&url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "南瓜",
+			"type": 1,
+			"url": "http://43.248.129.14:20240/?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/459.36 (KHTML, like Gecko) Chrome/86.0.6867.166 Safari/630.36"
+				}
+			}
+		},
+		{
+			"name": "小米反弹",
+			"type": 1,
+			"url": "http://www.mpanso.com/小姐姐/反弹.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
