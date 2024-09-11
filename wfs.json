@@ -787,9 +787,9 @@
 			}
 		},
 		{
-			"name": "小米反弹",
+			"name": "小米反弹2",
 			"type": 1,
-			"url": "http://www.mpanso.com/小姐姐/反弹.php?url=",
+			"url": "http://www.mpanso.com/小姐姐/反弹2.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
@@ -816,9 +816,9 @@
 			}
 		},
 		{
-			"name": "小米反弹2",
+			"name": "小米反弹",
 			"type": 1,
-			"url": "http://www.mpanso.com/小姐姐/反弹2.php?url=",
+			"url": "http://www.mpanso.com/小姐姐/反弹.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
