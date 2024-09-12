@@ -213,7 +213,7 @@
 		},
 		{
 			"key": "苹果",
-			"name": "苹果|1080P",
+			"name": "苹果1080P",
 			"type": 3,
 			"api": "csp_LiteApple",
 			"searchable": 1,
