@@ -186,7 +186,8 @@
 			"name": "360解析",
 			"type": 3,
 			"changeable": 0,
-			"api": "csp_SP360"
+			"api": "csp_SP360",
+			"jar": "./lib/xm.jar"
 		},
 		{
 			"key": "苹果",
@@ -231,6 +232,18 @@
 			"ext": "./lib/瓜子.js"
 		},
 		{
+			"key": "厂长",
+			"name": "厂长1080P",
+			"type": 3,
+			"api": "csp_NewCz",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "https://www.czys.pro/"
+		},
+		{
 			"key": "小米",
 			"name": "米米1080P",
 			"type": 3,
@@ -252,18 +265,6 @@
 			"filterable": 1,
 			"ext": "./lib/七新影视.json",
 			"jar": "./lib/HeChengChaXiu.jar"
-		},
-		{
-			"key": "厂长",
-			"name": "厂长1080P",
-			"type": 3,
-			"api": "csp_NewCz",
-			"timeout": 15,
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "https://www.czys.pro/"
 		},
 		{
 			"key": "骚火影视",
