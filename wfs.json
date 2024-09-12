@@ -13,6 +13,14 @@
 			"filterable": 0
 		},
 		{
+			"key": "config",
+			"name": "🐼┃配置┃中心",
+			"type": 3,
+			"api": "csp_Config",
+			"playerType": 2,
+			"jar": "./lib/feimao.jar"
+		},
+		{
 			"key": "玩偶",
 			"name": "👽玩偶4K",
 			"type": 3,
@@ -429,8 +437,21 @@
 			"ext": "./lib/素白白.js"
 		},
 		{
+			"key": "一起看弹幕",
+			"name": "一起1080P",
+			"type": 3,
+			"api": "csp_Yqk",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"danmu": true
+			},
+			"jar": "https://tv.nxog.top/m/jar.php?id=dm&ou=公众号欧歌app;md5;d2741230d5013288c2e7669c53db7780"
+		},
+		{
 			"key": "低端",
-			"name": "低端1080P",
+			"name": "低端外剧",
 			"type": 3,
 			"api": "csp_Ddrk",
 			"playerType": "2",
