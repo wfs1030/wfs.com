@@ -13,14 +13,6 @@
 			"filterable": 0
 		},
 		{
-			"key": "config",
-			"name": "🐼┃配置┃中心",
-			"type": 3,
-			"api": "csp_Config",
-			"playerType": 2,
-			"jar": "./lib/feimao.jar"
-		},
-		{
 			"key": "玩偶",
 			"name": "👽玩偶4K",
 			"type": 3,
