@@ -400,7 +400,7 @@
 		},
 		{
 			"key": "drpy_js_4k剧院",
-			"name": "剧院1080P",
+			"name": "剧圈1080P",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/4k剧院.js"
@@ -419,13 +419,7 @@
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/影视工场.js"
 		},
-		{
-			"key": "csp_SuBaiBai",
-			"name": "素白1080",
-			"type": 3,
-			"api": "csp_SuBaiBai",
-			"jar": "./lib/feimao.jar"
-		},
+
 		{
 			"key": "一起看弹幕",
 			"name": "一起1080P",
