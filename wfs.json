@@ -169,7 +169,7 @@
 		},
 		{
 			"key": "guoguo",
-			"name": "芒果果解析",
+			"name": "芒果解析",
 			"type": 3,
 			"api": "http://47.76.163.123/drpy_dzlive/drpy_libs/drpy2.min.js",
 			"searchable": 1,
