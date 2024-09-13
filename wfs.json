@@ -159,27 +159,25 @@
 			"key": "hipy_js_腾云驾雾[官]",
 			"name": "腾讯解析",
 			"type": 3,
-			"jar": "./lib/xm.jar",
-			"api": "./lib/drpy2.min.js",
+			"api": "http://47.76.163.123/drpy_dzlive/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": "./lib/tx.js"
+			"ext": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/tx.js"
 		},
 		{
 			"key": "guoguo",
-			"name": "芒果解析",
+			"name": "芒果果解析",
 			"type": 3,
-			"jar": "./lib/xm.jar",
-			"api": "./lib/drpy2.min.js",
+			"api": "http://47.76.163.123/drpy_dzlive/drpy_libs/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": "./lib/guoguo.js"
+			"ext": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/guoguo.js"
 		},
 		{
 			"key": "csp_SP360",
