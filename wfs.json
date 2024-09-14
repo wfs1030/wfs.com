@@ -169,7 +169,7 @@
 		},
 		{
 			"key": "guoguo",
-			"name": "芒果果解析",
+			"name": "芒果解析",
 			"type": 3,
 			"api": "http://47.76.163.123/drpy_dzlive/drpy_libs/drpy2.min.js",
 			"searchable": 1,
@@ -252,6 +252,33 @@
 			"playerType": "2",
 			"ext": "./lib/米米.json",
 			"jar": "./lib/xm1.txt"
+		},
+		{
+			"key": "热播",
+			"name": "热播1080P",
+			"type": 3,
+			"api": "csp_Rebot",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 1,
+			"ext": "caHR0cDovL3YucmJvdHYuY24="
+		},
+		{
+			"key": "繁荣",
+			"name": "繁荣1080P",
+			"type": 3,
+			"api": "csp_Frong",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 1,
+			"ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTJ8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MDllZTM1MTZjMWNhOGVkMQ=="
+		},
+		{
+			"key": "木叶",
+			"name": "木叶1080P",
+			"type": 3,
+			"api": "csp_Muye",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 1,
+			"ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4"
 		},
 		{
 			"key": "csp_七新",
@@ -550,58 +577,19 @@
 	],
 	"parses": [
 		{
-			"name": "虾米嗅探",
-			"type": 0,
-			"url": "https://jx.xmflv.com/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-				}
-			}
+			"name": "解析聚合",
+			"type": 3,
+			"url": "Demo"
 		},
 		{
-			"name": "云解析嗅探",
-			"type": 0,
-			"url": "https://jx.yparse.com/index.php?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
+			"name": "Json轮询",
+			"type": 2,
+			"url": "Sequence"
 		},
 		{
 			"name": "小米4K",
 			"type": 1,
 			"url": "http://1.xiaomi666.work.gd/aini10.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
-		{
-			"name": "小米反弹",
-			"type": 1,
-			"url": "http://www.mpanso.com/反弹/反弹.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
@@ -743,7 +731,28 @@
 					"User-Agent": "okhttp/4.9.1"
 				}
 			}
-		}
+		},
+		{
+			"name": "虾米嗅探",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url=",
+			"ext": {
+				"header": {
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+				}
+			}
+		},
+		{
+			"name": "云解析嗅探",
+			"type": 0,
+			"url": "https://jx.yparse.com/index.php?url=",
+			"ext": {
+				"header": {
+					"user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+				}
+			}
+		},
+		null
 	],
 	"lives": [
 		{
