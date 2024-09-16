@@ -135,7 +135,7 @@
 			"key": "焱淼影视",
 			"name": "4K解析",
 			"type": 3,
-			"api": "AppYsV2",
+			"api": "csp_AppYsV2",
 			"ext": "http://110.40.61.7:81/api.php/app/",
 			"jar": "./lib/焱淼.jar"
 		},
