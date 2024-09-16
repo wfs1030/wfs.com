@@ -132,6 +132,14 @@
 			"ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
 		},
 		{
+			"key": "焱淼影视",
+			"name": "4K解析",
+			"type": 3,
+			"api": "AppYsV2",
+			"ext": "http://110.40.61.7:81/api.php/app/",
+			"jar": "./lib/焱淼.jar"
+		},
+		{
 			"key": "qiyi",
 			"name": "奇艺解析",
 			"type": 3,
@@ -159,25 +167,25 @@
 			"key": "hipy_js_腾云驾雾[官]",
 			"name": "腾讯解析",
 			"type": 3,
-			"api": "http://47.76.163.123/drpy_dzlive/drpy_libs/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/tx.js"
+			"ext": "./lib/tx.js"
 		},
 		{
 			"key": "guoguo",
 			"name": "芒果解析",
 			"type": 3,
-			"api": "http://47.76.163.123/drpy_dzlive/drpy_libs/drpy2.min.js",
+			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": "http://www.mpanso.com/%E5%B0%8F%E7%B1%B3/guoguo.js"
+			"ext": "./lib/guoguo.js"
 		},
 		{
 			"key": "csp_SP360",
@@ -252,6 +260,15 @@
 			"playerType": "2",
 			"ext": "./lib/米米.json",
 			"jar": "./lib/xm1.txt"
+		},
+		{
+			"key": "csp_全网",
+			"name": "全网1080P",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_Quanwk",
+			"ext": "https://888.qkw2.cc/",
+			"jar": "./lib/xm.jar"
 		},
 		{
 			"key": "热播",
@@ -577,7 +594,7 @@
 	],
 	"parses": [
 		{
-			"name": "小米.解析",
+			"name": "小米.4K.解析",
 			"type": 1,
 			"url": "http://1.xiaomi666.work.gd/aini10.php?url=",
 			"ext": {
@@ -606,7 +623,7 @@
 			}
 		},
 		{
-			"name": "Ai1解析",
+			"name": "Ai1.解析",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
 			"ext": {
@@ -635,7 +652,7 @@
 			}
 		},
 		{
-			"name": "Ai2解析",
+			"name": "Ai2.解析",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
 			"ext": {
@@ -658,6 +675,65 @@
 					"bilibili",
 					"1905",
 					"NetFilx"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "焱淼.4K.解析",
+			"type": 1,
+			"url": "http://43.136.176.188:91/api/?key=9365a508f79aa1bbddb36e1e375d07ab&url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905",
+					"NetFilx"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.12.0"
+				}
+			}
+		},
+		{
+			"name": "小米.反弹.解析",
+			"type": 1,
+			"url": "",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
 				],
 				"header": {
 					"User-Agent": "okhttp/4.9.1"
