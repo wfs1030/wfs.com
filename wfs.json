@@ -735,31 +735,12 @@
 			}
 		},
 		{
-			"name": "全民.解析",
-			"type": 1,
+			"name": "全民.官解",
+			"type": 0,
 			"url": "https://z1.m1907.top/?jx=",
 			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
 				"header": {
-					"User-Agent": "Mozilla/5.0 (Linux; Android 14; V2171A Build/UP1A.231005.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 				}
 			}
 		},
