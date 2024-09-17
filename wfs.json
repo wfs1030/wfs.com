@@ -109,7 +109,7 @@
 		},
 		{
 			"key": "焱淼影视",
-			"name": "焱淼解析",
+			"name": "腾讯4K1",
 			"type": 3,
 			"api": "csp_AppYsV2",
 			"ext": "http://110.40.61.7:81/api.php/app/",
@@ -117,9 +117,10 @@
 		},
 		{
 			"key": "hipy_js_腾云驾雾[官]",
-			"name": "腾讯4k2",
+			"name": "宇宙4K",
 			"type": 3,
 			"api": "http://101.201.33.24/drpy/drpy_libs/drpy2.min.js",
+			"jar": "./lib/yuzhou.jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -636,7 +637,7 @@
 			}
 		},
 		{
-			"name": "宇宙",
+			"name": "宇宙4K.app",
 			"type": 1,
 			"url": "http://svip.yuzhoukeji.top:88/api/index?parsesId=2765371168&appid=10002&videoUrl=",
 			"ext": {
