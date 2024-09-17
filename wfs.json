@@ -14,7 +14,7 @@
 		},
 		{
 			"key": "玩偶",
-			"name": "👽玩偶哥哥",
+			"name": "👽玩偶4K",
 			"type": 3,
 			"api": "csp_WoGG",
 			"searchable": 1,
@@ -96,7 +96,7 @@
 		},
 		{
 			"key": "君君",
-			"name": "小米解析",
+			"name": "小米.解析",
 			"playerType": 1,
 			"type": 3,
 			"changeable": 0,
@@ -109,64 +109,15 @@
 		},
 		{
 			"key": "焱淼影视",
-			"name": "腾讯4K1",
+			"name": "焱淼.解析",
 			"type": 3,
 			"api": "csp_AppYsV2",
 			"ext": "http://110.40.61.7:81/api.php/app/",
 			"jar": "./lib/焱淼.jar"
 		},
 		{
-			"key": "hipy_js_腾云驾雾[官]",
-			"name": "宇宙4K",
-			"type": 3,
-			"api": "http://101.201.33.24/drpy/drpy_libs/drpy2.min.js",
-			"jar": "./lib/yuzhou.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"timeout": 15,
-			"ext": "http://101.201.33.24/drpy/drpy_jss/腾云驾雾[官].js"
-		},
-		{
-			"key": "qiyi",
-			"name": "奇艺解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/qy.js"
-		},
-		{
-			"key": "youku",
-			"name": "优酷解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/yk.js"
-		},
-		{
-			"key": "guoguo",
-			"name": "芒果解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/guoguo.js"
-		},
-		{
 			"key": "AI2",
-			"name": "Ai1解析",
+			"name": "Ai1.解析",
 			"type": 3,
 			"api": "csp_AI",
 			"jar": "./lib/qiaoji.jar",
@@ -178,7 +129,7 @@
 		},
 		{
 			"key": "AI3",
-			"name": "Ai2解析",
+			"name": "Ai2.解析",
 			"type": 3,
 			"api": "csp_AI",
 			"jar": "./lib/qiaoji.jar",
@@ -187,6 +138,62 @@
 			"filterable": 0,
 			"playerType": 1,
 			"ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
+		},
+		{
+			"key": "qiyi",
+			"name": "奇艺.解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/qy.js"
+		},
+		{
+			"key": "youku",
+			"name": "优酷.解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/yk.js"
+		},
+		{
+			"key": "hipy_js_腾云驾雾[官]",
+			"name": "腾讯.解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/tx.js"
+		},
+		{
+			"key": "guoguo",
+			"name": "芒果.解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/guoguo.js"
+		},
+		{
+			"key": "csp_SP360",
+			"name": "360.解析",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_SP360",
+			"jar": "./lib/xm.jar"
 		},
 		{
 			"key": "苹果",
@@ -578,7 +585,7 @@
 	],
 	"parses": [
 		{
-			"name": "小米4K",
+			"name": "小米.4K",
 			"type": 1,
 			"url": "http://1.xiaomi666.work.gd/aini10.php?url=",
 			"ext": {
@@ -607,7 +614,7 @@
 			}
 		},
 		{
-			"name": "腾讯4K.焱淼app",
+			"name": "焱淼.4K.App",
 			"type": 1,
 			"url": "http://43.136.176.188:91/api/?key=9365a508f79aa1bbddb36e1e375d07ab&url=",
 			"ext": {
@@ -633,75 +640,6 @@
 				],
 				"header": {
 					"User-Agent": "okhttp/4.12.0"
-				}
-			}
-		},
-		{
-			"name": "宇宙4K.app",
-			"type": 1,
-			"url": "http://svip.yuzhoukeji.top:88/api/index?parsesId=2765371168&appid=10002&videoUrl=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905",
-					"NetFilx"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.12.0"
-				}
-			}
-		},
-		{
-			"name": "小米官解1080P.2",
-			"type": 1,
-			"url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
-		{
-			"name": "虾米官解",
-			"type": 0,
-			"url": "https://jx.xmflv.com/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
 				}
 			}
 		},
@@ -761,6 +699,74 @@
 				],
 				"header": {
 					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "小米.1080P.1官解",
+			"type": 1,
+			"url": "https://jxjson.icu/neibu.php?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "小米1080P.2官解",
+			"type": 1,
+			"url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "虾米官解",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url=",
+			"ext": {
+				"header": {
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
 				}
 			}
 		}
