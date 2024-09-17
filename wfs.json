@@ -108,10 +108,13 @@
 			"jar": "./lib/xm.jar"
 		},
 		{
-			"key": "焱淼影视",
+			"key": "官方",
 			"name": "焱淼.解析",
 			"type": 3,
 			"api": "csp_AppYsV2",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
 			"ext": "http://110.40.61.7:81/api.php/app/",
 			"jar": "./lib/焱淼.jar"
 		},
