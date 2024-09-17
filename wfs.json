@@ -636,35 +636,33 @@
 			}
 		},
 		{
-			"name": "宇宙解析",
-			"url": "http://svip.yuzhoukeji.top:88/api/index?parsesId=2765371168&appid=10002&videoUrl=",
+			"name": "宇宙",
 			"type": 1,
+			"url": "http://svip.yuzhoukeji.top:88/api/index?parsesId=2765371168&appid=10002&videoUrl=",
 			"ext": {
 				"flag": [
+					"qq",
+					"腾讯",
 					"qiyi",
-					"imgo",
 					"爱奇艺",
 					"奇艺",
-					"qq",
-					"qq 预告及花絮",
-					"腾讯",
 					"youku",
 					"优酷",
-					"pptv",
-					"PPTV",
+					"sohu",
+					"搜狐",
 					"letv",
 					"乐视",
-					"leshi",
 					"mgtv",
 					"芒果",
-					"sohu",
-					"xigua",
-					"fun",
-					"风行"
-				]
-			},
-			"header": {
-				"User-Agent": "okhttp/4.12.0"
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905",
+					"NetFilx"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.12.0"
+				}
 			}
 		},
 		{
