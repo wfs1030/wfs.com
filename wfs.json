@@ -96,7 +96,7 @@
 		},
 		{
 			"key": "君君",
-			"name": "小米4K解析",
+			"name": "小米解析",
 			"playerType": 1,
 			"type": 3,
 			"changeable": 0,
@@ -109,7 +109,7 @@
 		},
 		{
 			"key": "焱淼影视",
-			"name": "腾讯4K1",
+			"name": "焱淼解析",
 			"type": 3,
 			"api": "csp_AppYsV2",
 			"ext": "http://110.40.61.7:81/api.php/app/",
@@ -117,7 +117,7 @@
 		},
 		{
 			"key": "hipy_js_腾云驾雾[官]",
-			"name": "腾讯4K2",
+			"name": "宇宙解析",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
@@ -126,6 +126,18 @@
 			"order_num": 0,
 			"changeable": 0,
 			"ext": "./lib/tx.js"
+		},
+		{
+			"key": "hipy_js_腾云驾雾[官]",
+			"name": "腾讯4k2",
+			"type": 3,
+			"api": "http://101.201.33.24/drpy/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"timeout": 15,
+			"ext": "http://101.201.33.24/drpy/drpy_jss/腾云驾雾[官].js"
 		},
 		{
 			"key": "qiyi",
@@ -162,14 +174,6 @@
 			"order_num": 0,
 			"changeable": 0,
 			"ext": "./lib/guoguo.js"
-		},
-		{
-			"key": "csp_SP360",
-			"name": "360解析",
-			"type": 3,
-			"changeable": 0,
-			"api": "csp_SP360",
-			"jar": "./lib/xm.jar"
 		},
 		{
 			"key": "AI2",
