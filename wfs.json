@@ -117,18 +117,6 @@
 		},
 		{
 			"key": "hipy_js_腾云驾雾[官]",
-			"name": "宇宙解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/tx.js"
-		},
-		{
-			"key": "hipy_js_腾云驾雾[官]",
 			"name": "腾讯4k2",
 			"type": 3,
 			"api": "http://101.201.33.24/drpy/drpy_libs/drpy2.min.js",
