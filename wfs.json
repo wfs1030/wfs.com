@@ -676,7 +676,7 @@
 				]
 			},
 			"header": {
-				"User-Agent": "Mozilla/5.0"
+				"User-Agent": "okhttp/4.12.0"
 			}
 		},
 		{
