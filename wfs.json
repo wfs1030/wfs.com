@@ -588,7 +588,7 @@
 	],
 	"parses": [
 		{
-			"name": "小米.4K",
+			"name": "小米.4K.解析",
 			"type": 1,
 			"url": "http://1.xiaomi666.work.gd/aini10.php?url=",
 			"ext": {
@@ -617,7 +617,7 @@
 			}
 		},
 		{
-			"name": "焱淼.4K.App",
+			"name": "焱淼.4K.APP",
 			"type": 1,
 			"url": "http://43.136.176.188:91/api/?key=956465ecb10277fa6a9364d6716f40c6&url=",
 			"ext": {
@@ -647,7 +647,7 @@
 			}
 		},
 		{
-			"name": "Ai1解析",
+			"name": "Ai1.解析",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
 			"ext": {
@@ -676,7 +676,7 @@
 			}
 		},
 		{
-			"name": "Ai2解析",
+			"name": "Ai2.解析",
 			"type": 1,
 			"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
 			"ext": {
@@ -706,7 +706,7 @@
 			}
 		},
 		{
-			"name": "小米.1080P.1官解",
+			"name": "小米1080P.1官解",
 			"type": 1,
 			"url": "https://jxjson.icu/neibu.php?url=",
 			"ext": {
@@ -735,9 +735,9 @@
 			}
 		},
 		{
-			"name": "小米1080P.2官解",
+			"name": "全民.解析",
 			"type": 1,
-			"url": "https://jf.lemiaoyun.cn/api/?key=86950663b3198d25885fdf61501a3366&url=",
+			"url": "https://z1.m1907.top/?jx=",
 			"ext": {
 				"flag": [
 					"qq",
@@ -759,12 +759,12 @@
 					"1905"
 				],
 				"header": {
-					"User-Agent": "okhttp/4.9.1"
+					"User-Agent": "Mozilla/5.0 (Linux; Android 14; V2171A Build/UP1A.231005.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
 				}
 			}
 		},
 		{
-			"name": "虾米官解",
+			"name": "虾米.官解",
 			"type": 0,
 			"url": "https://jx.xmflv.com/?url=",
 			"ext": {
