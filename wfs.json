@@ -613,20 +613,20 @@
 		{
 			"name": "虾米.官解1",
 			"type": 0,
-			"url": "http://43.248.129.14:20240/?url=",
+			"url": "https://jx.m3u8.tv/jx/jx.php?url=",
 			"ext": {
 				"header": {
-					"user-agent": "okhttp/4.6.0"
+					"user-agent": "Mozilla/5.0 (Linux; Android 14; V2171A Build/UP1A.231005.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
 				}
 			}
 		},
 		{
 			"name": "虾米.官解",
 			"type": 0,
-			"url": "https://jx.xmflv.com/?url=",
+			"url": "http://43.248.129.14:20240/?url=",
 			"ext": {
 				"header": {
-					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+					"user-agent": "okhttp/4.6.0"
 				}
 			}
 		}
