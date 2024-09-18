@@ -108,41 +108,6 @@
 			"jar": "./lib/xm.jar"
 		},
 		{
-			"key": "官方",
-			"name": "焱淼.解析",
-			"type": 3,
-			"api": "csp_AppYsV2",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "http://110.40.61.7:81/api.php/app/",
-			"jar": "./lib/焱淼.jar"
-		},
-		{
-			"key": "AI2",
-			"name": "Ai1.解析",
-			"type": 3,
-			"api": "csp_AI",
-			"jar": "./lib/qiaoji.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"playerType": 1,
-			"ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
-		},
-		{
-			"key": "AI3",
-			"name": "Ai2.解析",
-			"type": 3,
-			"api": "csp_AI",
-			"jar": "./lib/qiaoji.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"playerType": 1,
-			"ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
-		},
-		{
 			"key": "qiyi",
 			"name": "奇艺.解析",
 			"type": 3,
@@ -617,95 +582,6 @@
 			}
 		},
 		{
-			"name": "焱淼.4K.APP",
-			"type": 1,
-			"url": "http://43.136.176.188:91/api/?key=956465ecb10277fa6a9364d6716f40c6&url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905",
-					"NetFilx"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.12.0"
-				}
-			}
-		},
-		{
-			"name": "Ai1.解析",
-			"type": 1,
-			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
-		{
-			"name": "Ai2.解析",
-			"type": 1,
-			"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905",
-					"NetFilx"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
-		{
 			"name": "小米1080P.1官解",
 			"type": 1,
 			"url": "https://jxjson.icu/neibu.php?url=",
@@ -731,6 +607,16 @@
 				],
 				"header": {
 					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "虾米.官解1",
+			"type": 0,
+			"url": "http://43.248.129.14:20240/?url=",
+			"ext": {
+				"header": {
+					"user-agent": "okhttp/4.6.0"
 				}
 			}
 		},
