@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🍎傻柱子提示您:请勿相信视频中任何广告,接口更新于2024年09月13日",
+			"name": "🍎傻柱子提示您:请勿相信视频中任何广告,接口更新于2024年09月21日",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -28,31 +28,6 @@
 			}
 		},
 		{
-			"key": "csp_zhizhen",
-			"name": "至臻网盘",
-			"type": 3,
-			"jar": "./lib/xm.jar",
-			"api": "csp_Duopan",
-			"changeable": 0,
-			"filterable": 1,
-			"ext": {
-				"site_urls": [
-					7,
-					"http://mihdr.top",
-					"http://mpanso.com"
-				]
-			}
-		},
-		{
-			"key": "米搜",
-			"name": "米搜网盘",
-			"type": 3,
-			"api": "csp_MiSou",
-			"changeable": 0,
-			"ext": "http://127.0.0.1:9978/file/fatcat/kk.txt",
-			"jar": "./lib/xm.jar"
-		},
-		{
 			"key": "抠搜",
 			"name": "抠搜网盘",
 			"type": 3,
@@ -66,8 +41,21 @@
 			}
 		},
 		{
+			"key": "米搜",
+			"name": "米搜网盘",
+			"type": 3,
+			"api": "csp_MIPanSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
 			"key": "夸搜",
-			"name": "夸克网盘",
+			"name": "夸搜网盘",
 			"type": 3,
 			"api": "csp_PanSearch",
 			"searchable": 1,
@@ -96,8 +84,7 @@
 		},
 		{
 			"key": "君君",
-			"name": "小米.解析",
-			"playerType": 1,
+			"name": "小米解析",
 			"type": 3,
 			"changeable": 0,
 			"api": "csp_AppYsV2",
@@ -106,6 +93,30 @@
 			"filterable": 1,
 			"ext": "http://122.228.85.203:1000/api.php/app/",
 			"jar": "./lib/xm.jar"
+		},
+		{
+			"key": "AI2",
+			"name": "AI2解析",
+			"type": 3,
+			"api": "csp_AI",
+			"jar": "./lib/qiaoji.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"playerType": 1,
+			"ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
+		},
+		{
+			"key": "AI3",
+			"name": "AI3解析",
+			"type": 3,
+			"api": "csp_AI",
+			"jar": "./lib/qiaoji.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"playerType": 1,
+			"ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
 		},
 		{
 			"key": "qiyi",
@@ -218,6 +229,16 @@
 			"ext": "https://www.czys.pro/"
 		},
 		{
+			"key": "糯米",
+			"name": "糯米1080P",
+			"type": 3,
+			"api": "csp_Nmyswv",
+			"timeout": 15,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"key": "小米",
 			"name": "米米1080P",
 			"type": 3,
@@ -255,6 +276,15 @@
 			"jar": "./lib/qiaoji.jar",
 			"playerType": 1,
 			"ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4"
+		},
+		{
+			"key": "繁荣",
+			"name": "繁荣1080P",
+			"type": 3,
+			"api": "csp_Frong",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 1,
+			"ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTN8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MDllZTM1MTZjMWNhOGVkMQ=="
 		},
 		{
 			"key": "csp_七新",
@@ -555,7 +585,7 @@
 		{
 			"name": "小米.4K.解析",
 			"type": 1,
-			"url": "http://1.xiaomi666.work.gd/aini10.php?url=",
+			"url": "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
@@ -582,7 +612,66 @@
 			}
 		},
 		{
-			"name": "小米1080P.1官解",
+			"name": "AI2.解析",
+			"type": 1,
+			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "AI3.解析",
+			"type": 1,
+			"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905",
+					"NetFilx"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "小米.1080P.官解",
 			"type": 1,
 			"url": "https://jxjson.icu/neibu.php?url=",
 			"ext": {
@@ -611,22 +700,22 @@
 			}
 		},
 		{
-			"name": "虾米.官解1",
+			"name": "虾米.官解",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url=",
+			"ext": {
+				"header": {
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+				}
+			}
+		},
+		{
+			"name": "M3u8.官解",
 			"type": 0,
 			"url": "https://jx.m3u8.tv/jx/jx.php?url=",
 			"ext": {
 				"header": {
 					"user-agent": "Mozilla/5.0 (Linux; Android 14; V2171A Build/UP1A.231005.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
-		},
-		{
-			"name": "虾米.官解",
-			"type": 0,
-			"url": "http://43.248.129.14:20240/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "okhttp/4.6.0"
 				}
 			}
 		}
