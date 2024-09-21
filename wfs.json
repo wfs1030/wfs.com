@@ -229,16 +229,6 @@
 			"ext": "https://www.czys.pro/"
 		},
 		{
-			"key": "糯米",
-			"name": "糯米1080P",
-			"type": 3,
-			"api": "csp_Nmyswv",
-			"timeout": 15,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
 			"key": "可可",
 			"name": "可可1080P",
 			"type": 3,
