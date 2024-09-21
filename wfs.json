@@ -95,30 +95,6 @@
 			"jar": "./lib/xm.jar"
 		},
 		{
-			"key": "AI2",
-			"name": "AI2解析",
-			"type": 3,
-			"api": "csp_AI",
-			"jar": "./lib/qiaoji.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"playerType": 1,
-			"ext": "faHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvYXBpLnBocC9wcm92aWRlL3ZvZC98TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTBfMTVfNykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzExOS4wLjAuMCBTYWZhcmkvNTM3LjMzfHFpYW9qaQ=="
-		},
-		{
-			"key": "AI3",
-			"name": "AI3解析",
-			"type": 3,
-			"api": "csp_AI",
-			"jar": "./lib/qiaoji.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"playerType": 1,
-			"ext": "haHR0cDovLzEyNC4yMjIuMTE2LjUvbWIvc3h5cy9hcGkucGhwL3Byb3ZpZGUvdm9kL3xva2h0dHAvNC45LjF8cWlhb2pp"
-		},
-		{
 			"key": "qiyi",
 			"name": "奇艺.解析",
 			"type": 3,
@@ -240,6 +216,24 @@
 			"changeable": 1
 		},
 		{
+			"key": "热播影视",
+			"name": "热播1080P",
+			"type": 3,
+			"api": "csp_AppRB",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"jar": "./lib/ouge.php"
+		},
+		{
+			"key": "csp_yunbo",
+			"name": "️云播1080P",
+			"type": 3,
+			"api": "csp_Tvyb",
+			"playerType": 2,
+			"jar": "./lib/xm.jar"
+		},
+		{
 			"key": "小米",
 			"name": "米米1080P",
 			"type": 3,
@@ -259,33 +253,6 @@
 			"api": "csp_Quanwk",
 			"ext": "https://888.qkw2.cc/",
 			"jar": "./lib/xm.jar"
-		},
-		{
-			"key": "热播",
-			"name": "热播1080P",
-			"type": 3,
-			"api": "csp_Rebot",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 1,
-			"ext": "caHR0cDovL3YucmJvdHYuY24="
-		},
-		{
-			"key": "木叶",
-			"name": "木叶1080P",
-			"type": 3,
-			"api": "csp_Muye",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 1,
-			"ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4"
-		},
-		{
-			"key": "繁荣",
-			"name": "繁荣1080P",
-			"type": 3,
-			"api": "csp_Frong",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 1,
-			"ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTN8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MDllZTM1MTZjMWNhOGVkMQ=="
 		},
 		{
 			"key": "csp_七新",
@@ -483,15 +450,6 @@
 			"jar": "./lib/feimao.jar"
 		},
 		{
-			"key": "柠檬",
-			"name": "柠檬720P",
-			"type": 3,
-			"api": "csp_Nmvod",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 1,
-			"ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
-		},
-		{
 			"key": "️爱看Bot",
 			"name": "BOT采集",
 			"type": 3,
@@ -595,65 +553,6 @@
 					"seven",
 					"bilibili",
 					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
-		{
-			"name": "AI2.解析",
-			"type": 1,
-			"url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
-		{
-			"name": "AI3.解析",
-			"type": 1,
-			"url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905",
-					"NetFilx"
 				],
 				"header": {
 					"User-Agent": "okhttp/4.9.1"
