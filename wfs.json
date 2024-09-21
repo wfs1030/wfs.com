@@ -13,15 +13,6 @@
 			"filterable": 0
 		},
 		{
-			"key": "配置",
-			"name": "网盘配置",
-			"type": 3,
-			"changeable": 0,
-			"searchable": 0,
-			"api": "csp_Config",
-			"jar": "./lib/xm.jar"
-		},
-		{
 			"key": "玩偶",
 			"name": "👽玩偶4K",
 			"type": 3,
