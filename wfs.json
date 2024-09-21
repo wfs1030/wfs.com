@@ -1,5 +1,5 @@
 {
-	"spider": "./lib/fty.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
+	"spider": "./lib/fty.txt;md5;050512c9db356ad449af9d37dde8c5f0",
 	"logo": "./lib/10086.png",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"sites": [
@@ -239,6 +239,17 @@
 			"changeable": 1
 		},
 		{
+			"key": "可可",
+			"name": "可可1080P",
+			"type": 3,
+			"api": "csp_Kekys",
+			"timeout": 15,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"key": "小米",
 			"name": "米米1080P",
 			"type": 3,
@@ -305,17 +316,6 @@
 			"searchable": 1,
 			"changeable": 1,
 			"jar": "./lib/jar.php"
-		},
-		{
-			"key": "可可",
-			"name": "可可1080P",
-			"type": 3,
-			"api": "csp_Kekys",
-			"timeout": 15,
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
 		},
 		{
 			"key": "追剧",
