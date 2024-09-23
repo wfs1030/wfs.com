@@ -95,6 +95,18 @@
 			"jar": "./lib/xm.jar"
 		},
 		{
+			"key": "摘星",
+			"name": "摘星解析",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/摘星.js"
+		},
+		{
 			"key": "qiyi",
 			"name": "奇艺.解析",
 			"type": 3,
@@ -203,6 +215,30 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"ext": "https://www.czys.pro/"
+		},
+		{
+			"key": "csp_subaobai",
+			"name": "白白1080P",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"api": "csp_SuBaiBai",
+			"playerType": 1,
+			"filterable": 1,
+			"ext": "",
+			"jar": "./lib/xm.jar"
+		},
+		{
+			"key": "csp_JPYY",
+			"name": "金牌1080P",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"api": "csp_Jpyy",
+			"playerType": 1,
+			"filterable": 1,
+			"ext": "",
+			"jar": "./lib/xm.jar"
 		},
 		{
 			"key": "可可",
