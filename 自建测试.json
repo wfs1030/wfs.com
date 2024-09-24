@@ -20,7 +20,12 @@
 			"api": "csp_XBPQ",
 			"ext": {
 				"分类url": "http://www.bahaoys.com/frim/{cateld}-/page/{catePg}.html",
-				"搜索url": "http://www.bahaoys.com/search.php?page=&searchword={wd}&searchtype="
+				"搜索url": "http://www.bahaoys.com/search.php",
+				"数组": "class=\"stui-vodlist__box\"&&</a",
+				"图片": "data-original=\"&&\"",
+				"标题": "title=\"&&\"",
+				"链接": "href=\"&&\"",
+				"副标题": "<span class=\"pic-text text-right\">&&</span>"
 			}
 		}
 	]
