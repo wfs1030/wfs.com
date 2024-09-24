@@ -21,8 +21,10 @@
 			"ext": {
 				"分类url": "http://www.bahaoys.com/frim/{cateld}-catePg}.html",
 				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-				"数组": "class=\"stui-vodlist__box\"&&</a>"
-				
+				"数组": "class=\"stui-vodlist__box\"&&</a>",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				"链接": "href=\"＆＆\""
 			}
 		}
 	]
