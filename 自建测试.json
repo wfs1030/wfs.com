@@ -23,7 +23,6 @@
 				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
 				"数组": "class=\"stui-vodlist__box\"&&</a",
 				"标题": "title=\"&&\"",
-				"副标题": "class=\"pic-text text-right\">＆＆</span>",
 				"图片": "data-original=\"&&\"",
 				"链接": "href=\"＆＆\""
 			}
