@@ -20,7 +20,7 @@
 			"api": "csp_XBPQ",
 			"ext": {
 				"分类url": "https://www.bxiutv.com/btop/dzp/area/{area}/page/{catePg}/year/{year}.html",
-				"分类": "电影＆电视剧＆动漫＆综艺＆纪录片"
+				"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi#纪录片$jilupian"
 			}
 		}
 	]
