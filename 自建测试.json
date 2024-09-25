@@ -19,16 +19,8 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			"ext": {
-				"分类url": "http://www.bahaoys.com/frim/{cateld}-/page/{catePg}.html",
-				"搜索模式": "1",
-				"搜索url": "http://www.bahaoys.com/search.php",
-				"搜索数组": "stui-vodlist__thumb lazyload\"&&</h3>",
-				"搜索链接": "href=\"&&\"",
-				"数组": "class=\"stui-vodlist__box\"&&</a",
-				"图片": "data-original=\"&&\"",
-				"标题": "title=\"&&\"",
-				"链接": "href=\"&&\"",
-				"副标题": "<span class=\"pic-text text-right\">&&</span>"
+				"分类url": "https://www.bxiutv.com/btop/dzp/area/{area}/page/{catePg}/year/{year}.html",
+				"分类": "电影＆电视剧＆动漫＆综艺＆纪录片"
 			}
 		}
 	]
