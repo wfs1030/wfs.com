@@ -189,7 +189,7 @@
 		},
 		{
 			"key": "萌米",
-			"name": "👀萌米1080",
+			"name": "👀萌米",
 			"type": 3,
 			"api": "csp_AppTT",
 			"playerType": 2,
@@ -400,7 +400,7 @@
 		},
 		{
 			"key": "低端",
-			"name": "📡低端外剧",
+			"name": "📡低端",
 			"type": 3,
 			"api": "csp_Ddrk",
 			"playerType": "2",
@@ -507,9 +507,38 @@
 	],
 	"parses": [
 		{
-			"name": "🚀小米官解",
+			"name": "🚀小米官解1",
 			"type": 1,
-			"url": "https://jxjson.icu/neibu.php?url=",
+			"url": "https://ckflv.icu/neibu.php?url=",
+			"ext": {
+				"flag": [
+					"qq",
+					"腾讯",
+					"qiyi",
+					"爱奇艺",
+					"奇艺",
+					"youku",
+					"优酷",
+					"sohu",
+					"搜狐",
+					"letv",
+					"乐视",
+					"mgtv",
+					"芒果",
+					"tnmb",
+					"seven",
+					"bilibili",
+					"1905"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.9.1"
+				}
+			}
+		},
+		{
+			"name": "🚀小米官解2",
+			"type": 1,
+			"url": "http://193.134.211.213:1999/4k.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
