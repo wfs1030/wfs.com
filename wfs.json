@@ -83,86 +83,6 @@
 			}
 		},
 		{
-			"key": "君君",
-			"name": "小米解析",
-			"type": 3,
-			"changeable": 0,
-			"api": "csp_AppYsV2",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "http://122.228.85.203:1000/api.php/app/",
-			"jar": "./lib/xm.jar"
-		},
-		{
-			"key": "摘星",
-			"name": "摘星解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/摘星.js"
-		},
-		{
-			"key": "qiyi",
-			"name": "奇艺.解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/qy.js"
-		},
-		{
-			"key": "youku",
-			"name": "优酷.解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/yk.js"
-		},
-		{
-			"key": "hipy_js_腾云驾雾[官]",
-			"name": "腾讯.解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/tx.js"
-		},
-		{
-			"key": "guoguo",
-			"name": "芒果.解析",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/guoguo.js"
-		},
-		{
-			"key": "csp_SP360",
-			"name": "360.解析",
-			"type": 3,
-			"changeable": 0,
-			"api": "csp_SP360",
-			"jar": "./lib/xm.jar"
-		},
-		{
 			"key": "苹果",
 			"name": "🍎小苹果",
 			"type": 3,
@@ -172,15 +92,16 @@
 			"changeable": 1
 		},
 		{
-			"key": "荐片",
-			"name": "荐片1080P",
+			"key": "hipy_js_腾云驾雾[官]",
+			"name": "腾讯4K",
 			"type": 3,
-			"api": "csp_Jianpian",
+			"api": "./lib/drpy.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"timeout": 10,
-			"jar": "./lib/okjpg.txt"
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/tx2.js"
 		},
 		{
 			"key": "文采",
@@ -191,18 +112,6 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
-		},
-		{
-			"key": "hipy_guazi",
-			"name": "瓜子1080P",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/瓜子.js"
 		},
 		{
 			"key": "厂长",
@@ -217,6 +126,59 @@
 			"ext": "https://www.czys.pro/"
 		},
 		{
+			"key": "GUAZI",
+			"name": "瓜子1080P",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"api": "./lib/appys.js",
+			"ext": {
+				"host": "http://110.42.37.106:7788/api.php/app/",
+				"*": [
+					"http://122.228.85.203:7979/api/?key=7cb64e30a4ba635990e54b59adf172aa&url=",
+					""
+				]
+			}
+		},
+		{
+			"key": "junjun",
+			"name": "君君1080P",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"api": "./lib/appys.js",
+			"ext": {
+				"host": "http://122.228.85.203:1000/api.php/app/",
+				"*": [
+					"http://122.228.85.203:7979/api/?key=7cb64e30a4ba635990e54b59adf172aa&url=",
+					"https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
+				]
+			}
+		},
+		{
+			"key": "摘星",
+			"name": "摘星1080P",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/摘星.js"
+		},
+		{
+			"key": "荐片",
+			"name": "荐片1080P",
+			"type": 3,
+			"api": "csp_Jianpian",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"timeout": 10,
+			"jar": "./lib/okjpg.txt"
+		},
+		{
 			"key": "csp_subaobai",
 			"name": "白白1080P",
 			"type": 3,
@@ -229,23 +191,10 @@
 			"jar": "./lib/xm.jar"
 		},
 		{
-			"key": "csp_JPYY",
-			"name": "金牌1080P",
-			"type": 3,
-			"searchable": 1,
-			"changeable": 1,
-			"api": "csp_Jpyy",
-			"playerType": 1,
-			"filterable": 1,
-			"ext": "",
-			"jar": "./lib/xm.jar"
-		},
-		{
 			"key": "可可",
 			"name": "可可1080P",
 			"type": 3,
 			"api": "csp_Kekys",
-			"timeout": 15,
 			"playerType": 2,
 			"searchable": 1,
 			"quickSearch": 1,
@@ -311,11 +260,14 @@
 			"jar": "./lib/jar.php"
 		},
 		{
-			"key": "追剧",
+			"key": "欢视",
 			"name": "追剧1080P",
 			"type": 3,
 			"api": "csp_AppTT",
 			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
 			"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
 		},
 		{
@@ -563,38 +515,53 @@
 				"动漫2",
 				"爽文短剧"
 			]
+		},
+		{
+			"key": "qiyi",
+			"name": "爱奇艺",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/qy.js"
+		},
+		{
+			"key": "youku",
+			"name": "优酷",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/yk.js"
+		},
+		{
+			"key": "guoguo",
+			"name": "芒果",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/guoguo.js"
+		},
+		{
+			"key": "csp_SP360",
+			"name": "360聚合",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_SP360",
+			"jar": "./lib/xm.jar"
 		}
 	],
 	"parses": [
-		{
-			"name": "小米.4K.解析",
-			"type": 1,
-			"url": "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
 		{
 			"name": "小米.1080P.官解",
 			"type": 1,
