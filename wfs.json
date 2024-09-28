@@ -57,7 +57,7 @@
 			"key": "hipy_js_腾云驾雾[官]",
 			"name": "🐧腾讯4K",
 			"type": 3,
-			"api": "./lib/drpy.min.js",
+			"api": "./lib/drpy2.min.js",
 			"jar": "./lib/xm.txt",
 			"searchable": 1,
 			"quickSearch": 1,
@@ -76,12 +76,7 @@
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": {
-				"*": [
-					"https://jxjson.icu/neibu.php?url=",
-					""
-				]
-			}
+			"ext": "./lib/qy.js"
 		},
 		{
 			"key": "youku",
@@ -108,16 +103,18 @@
 			"ext": "./lib/guoguo.js"
 		},
 		{
-			"key": "csp_SP360",
-			"name": "👀360聚搜",
+			"key": "三六零弹幕",
+			"name": "🌶360聚搜",
 			"type": 3,
-			"changeable": 0,
-			"api": "csp_SP360",
-			"jar": "./lib/xm.txt"
+			"api": "csp_Sp360",
+			"jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 1
 		},
 		{
 			"key": "苹果",
-			"name": "🍎小苹果1080P",
+			"name": "🍎小苹果",
 			"type": 3,
 			"api": "csp_LiteApple",
 			"searchable": 1,
@@ -126,7 +123,7 @@
 		},
 		{
 			"key": "文采",
-			"name": "💮文采1080P",
+			"name": "💮文采",
 			"type": 3,
 			"api": "csp_Jpys",
 			"playerType": 2,
@@ -135,8 +132,8 @@
 			"changeable": 1
 		},
 		{
-			"key": "🪖厂长",
-			"name": "厂长1080P",
+			"key": "厂长",
+			"name": "🪖厂长",
 			"type": 3,
 			"api": "csp_NewCz",
 			"timeout": 15,
@@ -148,7 +145,7 @@
 		},
 		{
 			"key": "GUAZI",
-			"name": "🥁瓜子1080P",
+			"name": "🥁瓜子",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
@@ -164,7 +161,7 @@
 		},
 		{
 			"key": "junjun",
-			"name": "🚗君君1080P",
+			"name": "🚗君君",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
@@ -180,7 +177,7 @@
 		},
 		{
 			"key": "摘星",
-			"name": "✨星星1080P",
+			"name": "✨星星",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
@@ -203,7 +200,7 @@
 		},
 		{
 			"key": "荐片",
-			"name": "🐭荐片1080P",
+			"name": "🐭荐片",
 			"type": 3,
 			"api": "csp_Jianpian",
 			"searchable": 1,
@@ -214,7 +211,7 @@
 		},
 		{
 			"key": "欢视",
-			"name": "👓欢视1080P",
+			"name": "👓欢视",
 			"type": 3,
 			"api": "csp_AppTT",
 			"playerType": 2,
@@ -225,10 +222,9 @@
 		},
 		{
 			"key": "hipy_闪电",
-			"name": "⚡️闪电1080P",
+			"name": "⚡️闪电",
 			"type": 3,
-			"api": "./lib/drpy.min.js",
-			"jar": "./lib/xm.txt",
+			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -238,7 +234,7 @@
 		},
 		{
 			"key": "csp_subaobai",
-			"name": "✍️白白1080P",
+			"name": "✍️素白白",
 			"type": 3,
 			"searchable": 1,
 			"changeable": 1,
@@ -250,7 +246,7 @@
 		},
 		{
 			"key": "天天",
-			"name": "☔️天天1080P",
+			"name": "☔️天天",
 			"type": 3,
 			"api": "csp_TianTian",
 			"searchable": 1,
@@ -261,7 +257,7 @@
 		},
 		{
 			"key": "可可",
-			"name": "👻可可1080P",
+			"name": "👻可可",
 			"type": 3,
 			"api": "csp_Kekys",
 			"playerType": 2,
@@ -271,7 +267,7 @@
 		},
 		{
 			"key": "热播影视",
-			"name": "🐰热播1080P",
+			"name": "🐰热播",
 			"type": 3,
 			"api": "csp_AppRB",
 			"searchable": 1,
@@ -281,7 +277,7 @@
 		},
 		{
 			"key": "csp_yunbo",
-			"name": "️☁️云播1080P",
+			"name": "️☁️云播",
 			"type": 3,
 			"api": "csp_Tvyb",
 			"playerType": 2,
@@ -289,7 +285,7 @@
 		},
 		{
 			"key": "小米",
-			"name": "🌽米米1080P",
+			"name": "🌽米米",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
@@ -301,7 +297,7 @@
 		},
 		{
 			"key": "csp_七新",
-			"name": "🍑七新1080P",
+			"name": "🍑七新",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
@@ -312,7 +308,7 @@
 		},
 		{
 			"key": "骚火影视",
-			"name": "🔥火火1080P",
+			"name": "🔥火火",
 			"type": 3,
 			"api": "csp_Wexsaohuo",
 			"searchable": 1,
@@ -320,19 +316,8 @@
 			"jar": "./lib/jar.php"
 		},
 		{
-			"key": "欢视",
-			"name": "🍥欢视1080P",
-			"type": 3,
-			"api": "csp_AppTT",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
-		},
-		{
 			"key": "ppvod",
-			"name": "😪泡泡1080P",
+			"name": "😪泡泡",
 			"type": 3,
 			"searchable": 1,
 			"changeable": 1,
@@ -342,7 +327,7 @@
 		},
 		{
 			"key": "大米星球",
-			"name": "🌏大米1080P",
+			"name": "🌏大米",
 			"type": 3,
 			"api": "csp_AppDaMi",
 			"searchable": 1,
@@ -352,7 +337,7 @@
 		},
 		{
 			"key": "视频库",
-			"name": "🍓酷吧1080P",
+			"name": "🍓酷吧",
 			"type": 3,
 			"api": "csp_WebVidHub",
 			"searchable": 1,
@@ -363,7 +348,7 @@
 		},
 		{
 			"key": "快看影视",
-			"name": "🫣快看1080P",
+			"name": "🫣快看",
 			"type": 3,
 			"api": "csp_Kuaikan",
 			"searchable": 1,
@@ -373,7 +358,7 @@
 		},
 		{
 			"key": "sxys",
-			"name": "🤹‍♂️师兄1080P",
+			"name": "🤹‍♂️师兄",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"jar": "./lib/xm1.txt",
@@ -384,7 +369,7 @@
 		},
 		{
 			"key": "drpy_js_yyets",
-			"name": "✊人人1080P",
+			"name": "✊人人",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/人人影视.js",
@@ -393,47 +378,25 @@
 			"timeout": 30
 		},
 		{
-			"key": "QIYIU",
-			"name": "⛳️奇优1080P",
-			"type": 3,
-			"changeable": 0,
-			"api": "csp_Qiyou",
-			"playerType": "1",
-			"jar": "./lib/xm.txt"
-		},
-		{
 			"key": "drpy_js_4k剧院",
-			"name": "🎗剧院1080P",
+			"name": "🎗大剧院",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/4k剧院.js"
 		},
 		{
 			"key": "drpy_js_NY影院",
-			"name": "🍭NY1080P",
+			"name": "🍭NY",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/NY影院.js"
 		},
 		{
 			"key": "drpy_js_影视工场",
-			"name": "🥇工厂1080P",
+			"name": "🥇工厂",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"ext": "./lib/影视工场.js"
-		},
-		{
-			"key": "一起看弹幕",
-			"name": "🍰一起1080P",
-			"type": 3,
-			"api": "csp_Yqk",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": {
-				"danmu": true
-			},
-			"jar": "https://tv.nxog.top/m/jar.php?id=dm&ou=公众号欧歌app;md5;d2741230d5013288c2e7669c53db7780"
 		},
 		{
 			"key": "低端",
@@ -447,7 +410,7 @@
 		},
 		{
 			"key": "csp_NanGua",
-			"name": "🎃南瓜720P",
+			"name": "🎃南瓜",
 			"type": 3,
 			"changeable": 1,
 			"api": "csp_NanGua",
@@ -457,7 +420,7 @@
 		},
 		{
 			"key": "csp_Nongm",
-			"name": "🌾农民720P",
+			"name": "🌾农民",
 			"type": 3,
 			"api": "csp_Nongm",
 			"jar": "./lib/feimao.jar"
