@@ -1,5 +1,5 @@
 {
-	"spider": "./lib/fty.txt;md5;050512c9db356ad449af9d37dde8c5f0",
+	"spider": "./lib/fan.txt;md5;050512c9db356ad449af9d37dde8c5f0",
 	"logo": "./lib/10086.png",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"sites": [
@@ -52,6 +52,14 @@
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
 			}
+		},
+		{
+			"key": "Wexjiazitv",
+			"name": "🌺甲子┃4K🌺",
+			"type": 3,
+			"api": "csp_Wexjiazitv",
+			"searchable": 1,
+			"changeable": 1
 		},
 		{
 			"key": "hipy_js_腾云驾雾[官]",
