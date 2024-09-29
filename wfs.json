@@ -59,7 +59,8 @@
 			"type": 3,
 			"api": "csp_Wexjiazitv",
 			"searchable": 1,
-			"changeable": 1
+			"changeable": 1,
+			"jar": "./lib/wex.txt"
 		},
 		{
 			"key": "hipy_js_腾云驾雾[官]",
