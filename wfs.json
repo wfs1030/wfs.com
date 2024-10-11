@@ -1,5 +1,5 @@
 {
-	"spider": "./lib/fan.txt;md5;050512c9db356ad449af9d37dde8c5f0",
+	"spider": "./lib/fty.txt;md5;050512c9db356ad449af9d37dde8c5f0",
 	"logo": "./lib/10086.png",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"sites": [
@@ -54,20 +54,11 @@
 			}
 		},
 		{
-			"key": "Wexjiazitv",
-			"name": "🌺甲子┃4K🌺",
-			"type": 3,
-			"api": "csp_Wexjiazitv",
-			"searchable": 1,
-			"changeable": 1,
-			"jar": "./lib/wex.txt"
-		},
-		{
 			"key": "hipy_js_腾云驾雾[官]",
 			"name": "🐧腾讯4K",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
-			"jar": "./lib/xm.txt",
+			"jar": "./lib/1008.jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -159,11 +150,10 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"api": "./lib/appys.js",
-			"jar": "./lib/xm.txt",
 			"ext": {
 				"host": "http://110.42.37.106:7788/api.php/app/",
 				"*": [
-					"http://122.228.85.203:7979/api/?key=7cb64e30a4ba635990e54b59adf172aa&url=",
+					"http://122.228.85.203:7979/api/?key=29a5e65c75bf3d339dec1bf50155cf87&url=",
 					""
 				]
 			}
@@ -175,11 +165,9 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"api": "./lib/appys.js",
-			"jar": "./lib/xm.txt",
 			"ext": {
 				"host": "http://122.228.85.203:1000/api.php/app/",
 				"*": [
-					"http://122.228.85.203:7979/api/?key=7cb64e30a4ba635990e54b59adf172aa&url=",
 					"https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
 				]
 			}
@@ -230,6 +218,27 @@
 			"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
 		},
 		{
+			"key": "csp_全网",
+			"name": "🥣全网",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_Quanwk",
+			"ext": "https://888.qkw2.cc/",
+			"jar": "./lib/1008.jar"
+		},
+		{
+			"key": "FERRR",
+			"name": "👀FREE",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/FREE.js"
+		},
+		{
 			"key": "hipy_闪电",
 			"name": "⚡️闪电",
 			"type": 3,
@@ -251,7 +260,7 @@
 			"playerType": 1,
 			"filterable": 1,
 			"ext": "",
-			"jar": "./lib/xm.txt"
+			"jar": "./lib/1008.jar"
 		},
 		{
 			"key": "天天",
@@ -290,7 +299,7 @@
 			"type": 3,
 			"api": "csp_Tvyb",
 			"playerType": 2,
-			"jar": "./lib/xm.txt"
+			"jar": "./lib/1008.jar"
 		},
 		{
 			"key": "小米",
@@ -425,7 +434,7 @@
 			"api": "csp_NanGua",
 			"playerType": 2,
 			"filterable": 1,
-			"jar": "./lib/xm.txt"
+			"jar": "./lib/1008.jar"
 		},
 		{
 			"key": "csp_Nongm",
