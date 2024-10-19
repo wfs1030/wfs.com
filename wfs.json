@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "💫温馨提示:请勿相信视频中任何广告信息,接口更新于2024年09月28日",
+			"name": "💫温馨提示:请勿相信视频中任何广告信息,接口更新于2024年10月19日",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -52,18 +52,6 @@
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
 			}
-		},
-		{
-			"key": "yigeG",
-			"name": "🍵yigeG",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/yige.js"
 		},
 		{
 			"key": "hipy_js_腾云驾雾[官]",
