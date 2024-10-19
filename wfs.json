@@ -345,6 +345,14 @@
 			"jar": "./lib/HeChengChaXiu.jar"
 		},
 		{
+			"key": "huohuo",
+			"name": "💥火火",
+			"type": 3,
+			"changeable": 0,
+			"api": "csp_SaoHuo",
+			"jar": "./lib/火火.jar"
+		},
+		{
 			"key": "看客影视1",
 			"name": "🐶看客",
 			"type": 3,
