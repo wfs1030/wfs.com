@@ -1,5 +1,5 @@
 {
-	"spider": "./lib/fty.txt;md5;050512c9db356ad449af9d37dde8c5f0",
+	"spider": "./lib/fan.txt",
 	"logo": "./lib/10086.png",
 	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"sites": [
@@ -116,7 +116,7 @@
 		},
 		{
 			"key": "三六零弹幕",
-			"name": "🌶360聚搜",
+			"name": "🌶360",
 			"type": 3,
 			"api": "csp_Sp360",
 			"jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
@@ -145,7 +145,7 @@
 		},
 		{
 			"key": "厂长",
-			"name": "📔厂长不卡",
+			"name": "📔厂长",
 			"type": 3,
 			"api": "csp_NewCz",
 			"timeout": 15,
@@ -202,15 +202,15 @@
 			"ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
 		},
 		{
-			"key": "荐片",
+			"key": "贱贱",
 			"name": "🐭荐片",
 			"type": 3,
-			"api": "csp_Jianpian",
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 1,
-			"timeout": 10,
-			"jar": "./lib/okjpg.txt"
+			"changeable": 1,
+			"playerType": "1",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/jp.js"
 		},
 		{
 			"key": "欢视",
@@ -222,6 +222,24 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+		},
+		{
+			"key": "糯米",
+			"name": "🍓糯米",
+			"type": 3,
+			"api": "csp_Nmyswv",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "比特",
+			"name": "🍄比特",
+			"type": 3,
+			"api": "csp_Bttwoo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
 		},
 		{
 			"key": "csp_全网",
@@ -276,7 +294,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "./lib/jar.php"
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
 		},
 		{
 			"key": "可可",
@@ -330,13 +348,15 @@
 			"jar": "./lib/HeChengChaXiu.jar"
 		},
 		{
-			"key": "骚火影视",
-			"name": "🔥火火",
+			"key": "看客影视1",
+			"name": "🐶看客",
 			"type": 3,
-			"api": "csp_Wexsaohuo",
+			"api": "csp_Kanke",
 			"searchable": 1,
-			"changeable": 1,
-			"jar": "./lib/xm1.txt"
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "https://www.kmeiju.com",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
 		},
 		{
 			"key": "ppvod",
@@ -356,14 +376,14 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"filterable": 0,
-			"jar": "./lib/jar.php"
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
 		},
 		{
 			"key": "兄弟",
 			"name": "👬兄弟",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/jar.php",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -380,32 +400,11 @@
 			}
 		},
 		{
-			"key": "85K",
-			"name": "🦆巴乌",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/jar.php",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": {
-				"影片年代": "<divclass=\"module-info-tag\">&&</div>",
-				"影片状态": "备注：&&</div>",
-				"影片类型": "module-info-tag\">&&立即播放",
-				"线路数组": "data-dropdown-value=&&</div>",
-				"线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
-				"嗅探词": ".m3u8?#c1.rrcdnbf3.com#.m3u8#.mp4",
-				"跳转解析": "默认$https://cdn.zyc888.top/?url=",
-				"分类url": "https://85k.icu/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-				"分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$47#纪录片$29"
-			}
-		},
-		{
 			"key": "嫖嫖嫖",
 			"name": "🌨飘雪",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/jar.php",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
 			"ext": {
 				"主页url": "https://www.gs4x7nq4.com/",
 				"播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36",
@@ -436,7 +435,7 @@
 			"name": "💥白嫖",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/jar.php",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
 			"ext": {
 				"分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 				"分类": "电影$1#电视剧$2#动漫$4#综艺$3",
@@ -449,7 +448,7 @@
 			"name": "😪梦想",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/jar.php",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -490,7 +489,7 @@
 			"name": "🐮柯觅",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/jar.php",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -512,7 +511,7 @@
 			"name": "🌈影影",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./lib/jar.php",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
 			"ext": {
 				"请求头": "User-Agent$MOBILE_UA",
 				"编码": "UTF-8",
@@ -542,7 +541,7 @@
 			"quickSearch": 0,
 			"filterable": 0,
 			"ext": "https://vidhub1.cc",
-			"jar": "./lib/jar.php"
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
 		},
 		{
 			"key": "快看影视",
@@ -552,7 +551,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "./lib/jar.php"
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
 		},
 		{
 			"key": "sxys",
@@ -628,7 +627,7 @@
 			"name": "🤖机器",
 			"type": 3,
 			"api": "csp_Ikanbot",
-			"jar": "./lib/jar.php",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
