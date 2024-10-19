@@ -270,14 +270,13 @@
 		},
 		{
 			"key": "天天",
-			"name": "☔️天天",
+			"name": "💡天天",
 			"type": 3,
-			"api": "csp_TianTian",
+			"api": "csp_AppTT",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"timeout": 10,
-			"jar": "./lib/okjpg.txt"
+			"jar": "./lib/jar.php"
 		},
 		{
 			"key": "可可",
@@ -337,7 +336,7 @@
 			"api": "csp_Wexsaohuo",
 			"searchable": 1,
 			"changeable": 1,
-			"jar": "./lib/jar.php"
+			"jar": "./lib/xm1.txt"
 		},
 		{
 			"key": "ppvod",
@@ -358,6 +357,181 @@
 			"quickSearch": 0,
 			"filterable": 0,
 			"jar": "./lib/jar.php"
+		},
+		{
+			"key": "兄弟",
+			"name": "👬兄弟",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/jar.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"嗅探词": ".m3u8?#sns-creator-preview.xhscdn.com#.m3u8#47.96.255.149#v3-cold-src.toutiaovod.com#38.61.5.6:11301#tvcms.aikanhd.vip#.mp4",
+				"过滤词": "/dmku.brovod.top/#xdad.m3u8",
+				"影片年代": "<divclass=\"module-info-tag\">&&</div>",
+				"影片状态": "备注：&&</div>",
+				"影片类型": "module-info-tag\">&&立即播放",
+				"线路数组": "data-dropdown-value=&&</div>",
+				"线路标题": "<span>&&</span>",
+				"分类url": "https://www.brovod.com/show/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
+				"分类": "电影$1#剧集$2#动漫$4#综艺$3#纪录片$5#短剧$6"
+			}
+		},
+		{
+			"key": "85K",
+			"name": "🦆巴乌",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/jar.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"影片年代": "<divclass=\"module-info-tag\">&&</div>",
+				"影片状态": "备注：&&</div>",
+				"影片类型": "module-info-tag\">&&立即播放",
+				"线路数组": "data-dropdown-value=&&</div>",
+				"线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+				"嗅探词": ".m3u8?#c1.rrcdnbf3.com#.m3u8#.mp4",
+				"跳转解析": "默认$https://cdn.zyc888.top/?url=",
+				"分类url": "https://85k.icu/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+				"分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$47#纪录片$29"
+			}
+		},
+		{
+			"key": "嫖嫖嫖",
+			"name": "🌨飘雪",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/jar.php",
+			"ext": {
+				"主页url": "https://www.gs4x7nq4.com/",
+				"播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36",
+				"简介": "⚠️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>",
+				"嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
+				"影片类型": "tags\">&&director\">",
+				"影片状态": "bottom\">&&</div>",
+				"二次截取": "videoList\":\\[&&\\]",
+				"数组": "{&&}[不包含:伦理剧]",
+				"图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+				"标题": "vodName\":\"&&\"",
+				"副标题": "vodRemarks\":\"&&\"",
+				"链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
+				"导演": "导演:</div>&&主演",
+				"主演": "主演:</div>&&别名",
+				"线路标题": "xxx",
+				"播放数组": "listitem\">&&info\">",
+				"播放列表": "<a&&</a>",
+				"倒序": "否",
+				"搜索url": "https://www.gs4x7nq4.com/vod/search/{wd}",
+				"搜索副标题": "class=\"boottom\"*<div>&&</div",
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+				"分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
+			}
+		},
+		{
+			"key": "白嫖者",
+			"name": "💥白嫖",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/jar.php",
+			"ext": {
+				"分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+				"分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+				"副标题": "class=\"pic-texttext-right\"&&</span>",
+				"简介": "️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗+剧情介绍：&&</p>"
+			}
+		},
+		{
+			"key": "656",
+			"name": "😪梦想",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/jar.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"主页url": "https://www.kkys02.com/",
+				"分类url": "https://www.kkys02.com/{cateId}-{catePg}.html[https://www.kkys02.com/{cateId}-.html];;ak",
+				"分类": "豆瓣TOP250&2023最佳影片&毒舌电影&热映电影&热播剧集&热门综艺&Netflix电影&Netflix剧集&经典美剧&海外短画&爱情治愈&漫威宇宙&星爷系列&迪士尼&国产剧&台湾剧&韩国剧&欧美剧&香港剧&泰国剧&日本剧&动作片&喜剧片&科幻片&恐怖片&爱情片&剧情片&战争片&传记片&动画片&国产动漫&日本动漫&韩国动漫&欧美动漫&大陆综艺&香港综艺&台湾综艺&日本综艺&韩国综艺&欧美综艺&短剧",
+				"分类值": "topic/detail/1&topic/detail/460&topic/detail/3&topic/detail/12&topic/detail/15&topic/detail/456&show/1-NETFLIX----3&show/2-NETFLIX----3&topic/detail/399&topic/detail/384&topic/detail/383&topic/detail/33&topic/detail/26&topic/detail/34&show/2--%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86---3&show/2--%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE---3&show/2--%E9%9F%A9%E5%9B%BD---3&show/2--%E7%BE%8E%E5%9B%BD---3&show/2--%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF---3&show/2--%E6%B3%B0%E5%9B%BD---3&show/2--%E6%97%A5%E6%9C%AC---3&show/1-%E5%8A%A8%E4%BD%9C----3&show/1-%E5%96%9C%E5%89%A7----3&show/1-%E7%A7%91%E5%B9%BB----3&show/1-%E6%81%90%E6%80%96----3&show/1-%E7%88%B1%E6%83%85----3&show/1-%E5%89%A7%E6%83%85----3&show/1-%E6%88%98%E4%BA%89----3&show/1-%E4%BC%A0%E8%AE%B0----3&show/1-%E5%8A%A8%E7%94%BB----3&show/3--%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86---1&show/3--%E6%97%A5%E6%9C%AC---1&show/3--%E9%9F%A9%E5%9B%BD---1&show/3--%E7%BE%8E%E5%9B%BD---1&show/4--%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86---3&show/4--%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF---3&show/4--%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE---3&show/4--%E6%97%A5%E6%9C%AC---3&show/4--%E9%9F%A9%E5%9B%BD---3&show/4--%E7%BE%8E%E5%9B%BD---3&show/6-----1",
+				"数组": "module-item\">&&\"v-item-footer\">",
+				"图片": "https://61.147.93.252:15002+data-original=\"&&\"",
+				"标题": "title=\"&&\"",
+				"副标题": "影视</span&&</div>",
+				"链接": "href=\"&&\"",
+				"搜索二次截取": "id=\"units_top\"&&id=\"units_footer\"",
+				"搜索url": "https://www.kkys02.com/search?os=pc&k={wd}",
+				"搜索数组": "<a&&class=\"tags\"",
+				"搜索图片": "data-original=\"&&\"[替换:/vod1/>>https://61.147.93.252:15002/vod1/][不包含:https://61.147.93.155:15001/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=240905]",
+				"搜索标题": "title=\"&&\"",
+				"搜索副标题": "v-item-bottom\">&&</div>",
+				"搜索链接": "href=\"&&\"",
+				"线路数组": "可可影视提供&&<i[不包含:4K(高峰不卡)]",
+				"线路标题": ">&&</span",
+				"播放数组": "episode-list\"&&</div",
+				"播放列表": "<a&&/a",
+				"播放标题": ">&&<",
+				"播放链接": "href=\"&&\"",
+				"嗅探词": ".m3u8#video_mp4#tos-#.mp4#cdn.123pan.cn#huoshanvod.com",
+				"影片年代": "class=\"detail-tags-item\">&&</a>",
+				"影片类型": "<divclass=\"detail-tagsfs-margin-topfs-margin-bottom\">&&立即播放",
+				"影片状态": "备注:&&</div>",
+				"导演": "导演:</div>&&</div>",
+				"主演": "演员:</div>&&</div>",
+				"简介": "detail-desc\">&&</p>"
+			}
+		},
+		{
+			"key": "kimivod",
+			"name": "🐮柯觅",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/jar.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"图片": "data-src=\"&&\"",
+				"副标题": "<divclass=\"absoluterightbottomsmall-marginsmall-roundblackwhite-textsmall-text\">&nbsp;&&&nbsp;",
+				"影片类型": "<navclass=\"scrollno-margin\"&&</nav>",
+				"导演": "導演:&&</a>",
+				"主演": "主演:&&</p>",
+				"简介": "请勿相信影片中的广告，以免上当受骗。+<pstyle=\"position:relative;display:inline-block;\"&&</div>",
+				"线路数组": "<adata-ui=\"&&</div>",
+				"线路标题": ">&&</span>",
+				"分类url": "https://kimivod.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+				"分类": "电影$2#电视剧$1#动漫$3#综艺$4#短剧$39"
+			}
+		},
+		{
+			"key": "YY影视",
+			"name": "🌈影影",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/jar.php",
+			"ext": {
+				"请求头": "User-Agent$MOBILE_UA",
+				"编码": "UTF-8",
+				"主页url": "https://uuys.cc",
+				"二次截取": "module-page&&<divid=\"page\">",
+				"数组": "<a&&</div></div>",
+				"图片": "data-original=\"&&\"",
+				"标题": "title=\"&&\"",
+				"链接": "href=\"&&\"",
+				"副标题": "✨欧歌专享✨+module-item-note&&</div>",
+				"线路数组": "itemtab-item&&</div>[排序:海湾资源>非凡播放>无尽资源]",
+				"线路标题": "欧歌专享✨+<span>&&</span>+【共+<small>&&</small>+集】",
+				"播放数组": "module-play-list\"&&</div>",
+				"播放标题": "欧歌专享✨+>&&</",
+				"简介": "️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+<p>&&</p>",
+				"搜索url": "https://uuys.cc/vodsearch/{wd}----------{pg}---.html",
+				"分类url": "https://uuys.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+				"分类": "电影$2#电视剧$1#综艺$4#动漫$3"
+			}
 		},
 		{
 			"key": "视频库",
@@ -450,15 +624,14 @@
 			"jar": "./lib/feimao.jar"
 		},
 		{
-			"key": "️爱看Bot",
-			"name": "🤖BOT采集",
+			"key": "机器人",
+			"name": "🤖机器",
 			"type": 3,
 			"api": "csp_Ikanbot",
+			"jar": "./lib/jar.php",
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 1,
-			"timeout": 10,
-			"jar": "./lib/okjpg.txt"
+			"filterable": 1
 		},
 		{
 			"key": "蚂蚁",
