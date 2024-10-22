@@ -54,6 +54,34 @@
 			}
 		},
 		{
+			"key": "PanSearch",
+			"name": "🙀阿狸4K",
+			"type": 3,
+			"api": "csp_PanSearch",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "csp_zhizhen",
+			"name": "🌹至臻4K",
+			"type": 3,
+			"api": "csp_Duopan",
+			"jar": "./lib/xmp.jar",
+			"changeable": 0,
+			"filterable": 1,
+			"ext": {
+				"site_urls": [
+					"http://mpanso.com",
+					"http://mihdr.top"
+				]
+			}
+		},
+		{
 			"key": "hipy_js_腾云驾雾[官]",
 			"name": "🐧腾讯4K",
 			"type": 3,
