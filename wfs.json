@@ -237,6 +237,44 @@
 			"ext": "./lib/jp.js"
 		},
 		{
+			"key": "新6V",
+			"name": "🧲新6V",
+			"type": 3,
+			"api": "csp_SixV",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": "https://www.xb6v.com/"
+		},
+		{
+			"key": "强大",
+			"name": "💦大海",
+			"type": 3,
+			"api": "csp_Frong",
+			"jar": "./lib/laohu.jar",
+			"playerType": 2,
+			"ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4"
+		},
+		{
+			"key": "雷电",
+			"name": "⚡️雷电",
+			"type": 3,
+			"api": "csp_Slys",
+			"jar": "./lib/laohu.jar",
+			"playerType": 1,
+			"ext": "caHR0cDovLzEyMC4yMjQuNy45MDo4MDg="
+		},
+		{
+			"key": "zzys",
+			"name": "🦜子子",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "http://www.meowtv.cn/js/meow.php?file=zzys"
+		},
+		{
 			"key": "天天",
 			"name": "💡天天",
 			"type": 3,
