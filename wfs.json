@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "💫温馨提示:请勿相信视频中任何广告信息,接口更新于2024年10月19日",
+			"name": "💫温馨提示:请勿相信视频中任何广告信息,接口更新于2024年10月2[9日",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -82,17 +82,30 @@
 			}
 		},
 		{
+			"key": "纸条",
+			"name": "🗞纸条4K",
+			"type": 3,
+			"api": "csp_XiaoZhiTiao",
+			"jar": "./lib/ok1.txt",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 0,
+			"ext": {
+				"token": "file://TV/ali_token.txt"
+			},
+			"timeout": 15
+		},
+		{
 			"key": "hipy_js_腾云驾雾[官]",
 			"name": "🐧腾讯4K",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
-			"jar": "./lib/1008.jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": "./lib/txx.js"
+			"ext": "./lib/tx1.js"
 		},
 		{
 			"key": "qiyi",
@@ -128,7 +141,7 @@
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": "./lib/guoguo.js"
+			"ext": "./lib/guoguo1.js"
 		},
 		{
 			"key": "csp_SP360",
@@ -169,39 +182,26 @@
 			"ext": "https://www.czzy77.com/"
 		},
 		{
-			"key": "GUAZI",
-			"name": "🥁瓜子",
+			"key": "csp_Nkdy",
+			"name": "🏔️耐看",
 			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"api": "csp_Gz360",
-			"jar": "./lib/1008.jar"
+			"api": "csp_Nkdy",
+			"jar": "./lib/fm.txt"
 		},
 		{
-			"key": "junjun",
-			"name": "🚗君君",
+			"key": "csp_Qiyou",
+			"name": "🥝奇优",
 			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"api": "./lib/appys.js",
-			"ext": {
-				"host": "http://122.228.85.203:1000/api.php/app/",
-				"*": [
-					"https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
-				]
-			}
+			"api": "csp_Qiyou",
+			"jar": "./lib/fm.txt"
 		},
 		{
-			"key": "摘星",
-			"name": "✨星星",
+			"key": "csp_Tvyb",
+			"name": "☁︎云播",
 			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/摘星.js"
+			"api": "csp_Tvyb",
+			"playerType": 2,
+			"jar": "./lib/fm.txt"
 		},
 		{
 			"key": "萌米",
@@ -215,17 +215,6 @@
 			"ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
 		},
 		{
-			"key": "贱贱",
-			"name": "🐭荐片",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"playerType": "1",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/jp.js"
-		},
-		{
 			"key": "欢视",
 			"name": "👓欢视",
 			"type": 3,
@@ -237,67 +226,15 @@
 			"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
 		},
 		{
-			"key": "糯米",
-			"name": "🍓糯米",
+			"key": "贱贱",
+			"name": "🐭荐片",
 			"type": 3,
-			"api": "csp_Nmyswv",
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "比特",
-			"name": "🍄比特",
-			"type": 3,
-			"api": "csp_Bttwoo",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "csp_全网",
-			"name": "🥣全网",
-			"type": 3,
-			"changeable": 0,
-			"api": "csp_Quanwk",
-			"ext": "https://888.qkw2.cc/",
-			"jar": "./lib/1008.jar"
-		},
-		{
-			"key": "FERRR",
-			"name": "👀FREE",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/FREE.js"
-		},
-		{
-			"key": "hipy_闪电",
-			"name": "⚡️闪电",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/闪电.js"
-		},
-		{
-			"key": "csp_subaobai",
-			"name": "✍️素白白",
-			"type": 3,
-			"searchable": 1,
 			"changeable": 1,
-			"api": "csp_SuBaiBai",
-			"playerType": 1,
-			"filterable": 1,
-			"ext": "",
-			"jar": "./lib/1008.jar"
+			"playerType": "1",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/jp.js"
 		},
 		{
 			"key": "天天",
@@ -330,12 +267,37 @@
 			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;ba2be4662147a4ab7ec2292cc516fb32"
 		},
 		{
-			"key": "csp_yunbo",
-			"name": "️☁️云播",
+			"key": "比特",
+			"name": "🍄比特",
 			"type": 3,
-			"api": "csp_Tvyb",
-			"playerType": 2,
-			"jar": "./lib/1008.jar"
+			"api": "csp_Bttwoo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "FERRR",
+			"name": "👀FREE",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/FREE.js"
+		},
+		{
+			"key": "hipy_闪电",
+			"name": "⚡️闪电",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/闪电.js"
 		},
 		{
 			"key": "小米",
@@ -369,17 +331,6 @@
 			"jar": "./lib/火火.jar"
 		},
 		{
-			"key": "看客影视1",
-			"name": "🐶看客",
-			"type": 3,
-			"api": "csp_Kanke",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "https://www.kmeiju.com",
-			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
-		},
-		{
 			"key": "ppvod",
 			"name": "😪泡泡",
 			"type": 3,
@@ -398,27 +349,6 @@
 			"quickSearch": 0,
 			"filterable": 0,
 			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
-		},
-		{
-			"key": "兄弟",
-			"name": "👬兄弟",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": {
-				"嗅探词": ".m3u8?#sns-creator-preview.xhscdn.com#.m3u8#47.96.255.149#v3-cold-src.toutiaovod.com#38.61.5.6:11301#tvcms.aikanhd.vip#.mp4",
-				"过滤词": "/dmku.brovod.top/#xdad.m3u8",
-				"影片年代": "<divclass=\"module-info-tag\">&&</div>",
-				"影片状态": "备注：&&</div>",
-				"影片类型": "module-info-tag\">&&立即播放",
-				"线路数组": "data-dropdown-value=&&</div>",
-				"线路标题": "<span>&&</span>",
-				"分类url": "https://www.brovod.com/show/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
-				"分类": "电影$1#剧集$2#动漫$4#综艺$3#纪录片$5#短剧$6"
-			}
 		},
 		{
 			"key": "嫖嫖嫖",
@@ -450,78 +380,6 @@
 				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
 				"分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
 			}
-		},
-		{
-			"key": "白嫖者",
-			"name": "💥白嫖",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
-			"ext": {
-				"分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-				"分类": "电影$1#电视剧$2#动漫$4#综艺$3",
-				"副标题": "class=\"pic-texttext-right\"&&</span>",
-				"简介": "️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗+剧情介绍：&&</p>"
-			}
-		},
-		{
-			"key": "kimivod",
-			"name": "🐮柯觅",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": {
-				"图片": "data-src=\"&&\"",
-				"副标题": "<divclass=\"absoluterightbottomsmall-marginsmall-roundblackwhite-textsmall-text\">&nbsp;&&&nbsp;",
-				"影片类型": "<navclass=\"scrollno-margin\"&&</nav>",
-				"导演": "導演:&&</a>",
-				"主演": "主演:&&</p>",
-				"简介": "请勿相信影片中的广告，以免上当受骗。+<pstyle=\"position:relative;display:inline-block;\"&&</div>",
-				"线路数组": "<adata-ui=\"&&</div>",
-				"线路标题": ">&&</span>",
-				"分类url": "https://kimivod.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-				"分类": "电影$2#电视剧$1#动漫$3#综艺$4#短剧$39"
-			}
-		},
-		{
-			"key": "YY影视",
-			"name": "🌈影影",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
-			"ext": {
-				"请求头": "User-Agent$MOBILE_UA",
-				"编码": "UTF-8",
-				"主页url": "https://uuys.cc",
-				"二次截取": "module-page&&<divid=\"page\">",
-				"数组": "<a&&</div></div>",
-				"图片": "data-original=\"&&\"",
-				"标题": "title=\"&&\"",
-				"链接": "href=\"&&\"",
-				"副标题": "✨欧歌专享✨+module-item-note&&</div>",
-				"线路数组": "itemtab-item&&</div>[排序:海湾资源>非凡播放>无尽资源]",
-				"线路标题": "欧歌专享✨+<span>&&</span>+【共+<small>&&</small>+集】",
-				"播放数组": "module-play-list\"&&</div>",
-				"播放标题": "欧歌专享✨+>&&</",
-				"简介": "️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+<p>&&</p>",
-				"搜索url": "https://uuys.cc/vodsearch/{wd}----------{pg}---.html",
-				"分类url": "https://uuys.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-				"分类": "电影$2#电视剧$1#综艺$4#动漫$3"
-			}
-		},
-		{
-			"key": "视频库",
-			"name": "🍓酷吧",
-			"type": 3,
-			"api": "csp_WebVidHub",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"ext": "https://vidhub1.cc",
-			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
 		},
 		{
 			"key": "快看影视",
@@ -613,41 +471,71 @@
 			"filterable": 1
 		},
 		{
-			"key": "蚂蚁",
-			"name": "👁360采集",
+			"key": "木耳",
+			"name": "🪴木耳",
 			"type": 1,
-			"changeable": 0,
-			"api": "https://360zy.com/api.php/provide/vod",
-			"playUrl": "json:http://110.42.3.99:880/rmm.php/?url=",
+			"api": "https://json02.heimuer.xyz/api.php/provide/vod",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"timeout": 20,
 			"categories": [
-				"爽文短剧",
-				"国产剧",
-				"国产动漫",
-				"动画电影",
-				"网络电影",
+				"剧情片",
 				"动作片",
+				"冒险片",
 				"喜剧片",
+				"奇幻片",
+				"恐怖片",
+				"悬疑片",
+				"惊悚片",
 				"灾难片",
 				"爱情片",
-				"科幻片",
-				"恐怖片",
-				"剧情片",
-				"战争片",
-				"港台剧",
-				"日韩剧",
-				"欧美剧",
-				"惊悚片",
 				"犯罪片",
-				"冒险片",
-				"悬疑片",
-				"武侠片",
-				"奇幻片",
-				"国产综艺"
-			]
+				"科幻片",
+				"歌舞片",
+				"战争片",
+				"经典片",
+				"动画电影",
+				"网络电影",
+				"其他片",
+				"国产剧",
+				"港剧",
+				"韩剧",
+				"日剧",
+				"泰剧",
+				"台剧",
+				"美剧",
+				"新马剧",
+				"其他剧",
+				"综艺2",
+				"港台综艺",
+				"韩国综艺",
+				"日本综艺",
+				"综艺世界",
+				"新马泰综艺",
+				"其他综艺",
+				"古装短剧",
+				"虐恋短剧",
+				"逆袭短剧",
+				"神豪短剧",
+				"重生短剧",
+				"复仇短剧",
+				"穿越短剧",
+				"甜宠短剧",
+				"强者短剧",
+				"动漫世界",
+				"日本动漫",
+				"韩国动漫",
+				"国产动漫",
+				"港台动漫"
+			],
+			"header": {
+				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+			}
 		},
 		{
 			"key": "爱坤",
-			"name": "🍉爱坤采集",
+			"name": "🍉爱坤",
 			"type": 1,
 			"api": "https://ikunzyapi.com/api.php/provide/vod?",
 			"searchable": 1,
@@ -683,9 +571,14 @@
 	],
 	"parses": [
 		{
-			"name": "🚀小米官解1",
+			"name": "🚀欧歌解析",
 			"type": 1,
-			"url": "https://ckflv.icu/neibu.php?url=",
+			"url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌app&mz=4&url="
+		},
+		{
+			"name": "🚀欧歌APP",
+			"type": 1,
+			"url": "https://jxjson.icu/neibu.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
@@ -712,9 +605,9 @@
 			}
 		},
 		{
-			"name": "🚀小米官解2",
+			"name": "🚀小米官解1",
 			"type": 1,
-			"url": "http://193.134.211.213:1999/4k.php?url=",
+			"url": "https://ckflv.icu/neibu.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
