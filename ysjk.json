@@ -17,40 +17,28 @@
 			"url": "http://肥猫.com"
 		},
 		{
-			"name": "OK线路",
-			"url": "http://ok321.top/ok"
-		},
-		{
 			"name": "小米线路解析",
 			"url": "http://www.mpanso.com/小米/DEMO.json"
 		},
 		{
-			"name": "巧计线路解析",
-			"url": "http://cdn.qiaoji8.com/tvbox.json"
+			"name": "OK线路",
+			"url": "http://ok321.top/ok"
 		},
 		{
-			"name": "我不是摸鱼儿",
-			"url": "http://我不是.摸鱼儿.top"
+			"name": "老虎线路",
+			"url": "http://tv.laohu.cool/tvbox.json"
+		},
+		{
+			"name": "喵影视TV",
+			"url": "http://meowtv.top/tv"
 		},
 		{
 			"name": "欧歌线路",
 			"url": "http://tv.nxog.top/m/"
 		},
 		{
-			"name": "高天流云解析",
-			"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
-		},
-		{
-			"name": "喵影视解析",
-			"url": "http://meowtv.cn/tv"
-		},
-		{
-			"name": "荷城茶秀",
-			"url": "http://rihou.cc:88/荷城茶秀"
-		},
-		{
-			"name": "小胡线路",
-			"url": "https://huhuys.top/xiaohu"
+			"name": "我不是摸鱼儿",
+			"url": "http://我不是.摸鱼儿.com"
 		}
 	]
 }
