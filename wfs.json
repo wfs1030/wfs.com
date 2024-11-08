@@ -28,6 +28,23 @@
 			}
 		},
 		{
+			"key": "木偶弹幕",
+			"name": "🪵木偶4K",
+			"type": 3,
+			"api": "csp_Wobg",
+			"jar": "./lib/ok.txt",
+			"quickSearch": 1,
+			"changeable": 1,
+			"filterable": 1,
+			"ext": {
+				"token": "file://TV/ali_token.txt",
+				"cookie": "file://TV/quark_cookie.txt",
+				"uc_cookie": "file://TV/uc_cookie.txt",
+				"site": "http://mogg.小胡.top"
+			},
+			"timeout": 25
+		},
+		{
 			"key": "米搜",
 			"name": "🍚米盘4K",
 			"type": 3,
@@ -86,7 +103,7 @@
 			"name": "🗞纸条4K",
 			"type": 3,
 			"api": "csp_XiaoZhiTiao",
-			"jar": "./lib/ok1.txt",
+			"jar": "./lib/ok.txt",
 			"searchable": 1,
 			"filterable": 1,
 			"changeable": 0,
