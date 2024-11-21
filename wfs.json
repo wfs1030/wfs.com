@@ -114,7 +114,20 @@
 		},
 		{
 			"key": "hipy_js_腾云驾雾[官]",
-			"name": "🐧腾讯4K",
+			"name": "🌞腾讯",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"playerType": 2,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/tm.js"
+		},
+		{
+			"key": "guoguo",
+			"name": "🥭芒果",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
@@ -122,7 +135,7 @@
 			"filterable": 1,
 			"order_num": 0,
 			"changeable": 0,
-			"ext": "./lib/tx1.js"
+			"ext": "./lib/guoguo1.js"
 		},
 		{
 			"key": "qiyi",
@@ -149,18 +162,6 @@
 			"ext": "./lib/yk.js"
 		},
 		{
-			"key": "guoguo",
-			"name": "🥭芒果",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/guoguo1.js"
-		},
-		{
 			"key": "csp_SP360",
 			"name": "🌶360",
 			"type": 3,
@@ -172,6 +173,16 @@
 			"name": "🍎小苹果",
 			"type": 3,
 			"api": "csp_LiteApple",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "可可",
+			"name": "🥛可可",
+			"type": 3,
+			"api": "./py/可可.py",
+			"playerType": 2,
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
@@ -272,6 +283,20 @@
 			"ext": "cMS4wLjl8aHR0cDovLzExMy40NS4xMzUuMTAwOjYxMTB8NWNlOGJmYTB8MTAwOXw1Njg2ODU0MzRGRUM3QzhDMjkwQUU0RkIzMjVGRjEzMHxzaGlqaWVtYW90dnw3NjU0ODdmNmIzODY2ODI4"
 		},
 		{
+			"key": "电影驿站",
+			"name": "🐎驿站",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"jar": "./lib/xm1.txt",
+			"ext": {
+				"分类url": "https://www.dyyz1.app/vodshow/id{cateld}-year/{year}--class/{class}-lang/{lang}-letter/{letter}------year/{year}.html",
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#动画片$31#电影解说$32#B站$41#短剧$49"
+			}
+		},
+		{
 			"key": "雷电",
 			"name": "⚡️雷电",
 			"type": 3,
@@ -342,16 +367,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
-		},
-		{
-			"key": "可可",
-			"name": "👻可可",
-			"type": 3,
-			"api": "csp_Kekys",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
 		},
 		{
 			"key": "热播影视",
@@ -566,6 +581,15 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1
+		},
+		{
+			"key": "华为资源",
+			"name": "📢华为采",
+			"type": 1,
+			"api": "https://cjhwba.com/api.php/provide/vod/",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
 		},
 		{
 			"key": "木耳",

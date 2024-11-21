@@ -10,14 +10,18 @@
 		},
 		{
 			"name": "饭太硬",
-			"url": "http://饭太硬.com/tv"
+			"url": "http://www.饭太硬.com/tv"
 		},
 		{
 			"name": "肥猫宝贝",
 			"url": "http://肥猫.com"
 		},
 		{
-			"name": "小米线路解析",
+			"name": "小米线路主接口",
+			"url": "https://mpanso.me/DEMO.json"
+		},
+		{
+			"name": "小米线路备用接口",
 			"url": "http://www.mpanso.com/小米/DEMO.json"
 		},
 		{
