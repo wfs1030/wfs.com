@@ -29,7 +29,7 @@
 		},
 		{
 			"key": "csp_UC",
-			"name": "🌹UC4K",
+			"name": "🌹UC网盘",
 			"type": 3,
 			"api": "csp_MiUc",
 			"jar": "./lib/1127xm.jar",
@@ -79,9 +79,61 @@
 		},
 		{
 			"key": "抠搜",
-			"name": "🌾抠盘4K",
+			"name": "🌾抠搜4K",
 			"type": 3,
 			"api": "csp_KkSs",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "PanSso",
+			"name": "🐌混合4K1",
+			"type": 3,
+			"api": "csp_PanSso",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "YpanSo",
+			"name": "🐟混合4K2",
+			"type": 3,
+			"api": "csp_YpanSo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "Aliso",
+			"name": "🙀ALi4K1",
+			"type": 3,
+			"api": "csp_Aliso",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt",
+				"from": "4k|auto"
+			}
+		},
+		{
+			"key": "YiSo",
+			"name": "😹易搜4K",
+			"type": 3,
+			"api": "csp_YiSo",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
@@ -728,47 +780,107 @@
 				"分类url": "https://www.dyyz1.app/vodshow/id{cateld}-year/{year}--class/{class}-lang/{lang}-letter/{letter}------year/{year}.html",
 				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#动画片$31#电影解说$32#B站$41#短剧$49"
 			}
+		},
+		{
+			"key": "Bili",
+			"name": "🅱站合集",
+			"type": 3,
+			"api": "csp_Bili",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
+			}
+		},
+		{
+			"key": "dr_兔小贝",
+			"name": "📚儿童",
+			"type": 3,
+			"api": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+			"ext": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0
+		},
+		{
+			"key": "少儿教育",
+			"name": "📚少儿",
+			"type": 3,
+			"api": "csp_Bili",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/少儿教育.json"
+			}
+		},
+		{
+			"key": "小学课堂",
+			"name": "📚小学",
+			"type": 3,
+			"api": "csp_Bili",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/小学课堂.json"
+			}
+		},
+		{
+			"key": "初中课堂",
+			"name": "📚初中",
+			"type": 3,
+			"api": "csp_Bili",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/初中课堂.json"
+			}
+		},
+		{
+			"key": "高中教育",
+			"name": "📚高中",
+			"type": 3,
+			"api": "csp_Bili",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/高中课堂.json"
+			}
 		}
 	],
 	"parses": [
 		{
-			"name": "🚀欧歌解析",
+			"name": "小米4K解析",
 			"type": 1,
-			"url": "https://欧歌解析.v.nxog.top/m/jx.php?ou=公众号欧歌app&mz=4&url="
-		},
-		{
-			"name": "🚀欧歌APP",
-			"type": 1,
-			"url": "https://jxjson.icu/neibu.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
-		{
-			"name": "🚀小米官解1",
-			"type": 1,
-			"url": "https://ckflv.icu/neibu.php?url=",
+			"url": "https://jx.xiaofengtv.com/jx.php?url=",
 			"ext": {
 				"flag": [
 					"qq",
