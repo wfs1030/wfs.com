@@ -17,11 +17,11 @@
 			"url": "http://肥猫.com"
 		},
 		{
-			"name": "小米线路主接口",
+			"name": "小米线路主",
 			"url": "https://mpanso.me/DEMO.json"
 		},
 		{
-			"name": "小米线路备用接口",
+			"name": "小米线路备",
 			"url": "http://www.mpanso.com/小米/DEMO.json"
 		},
 		{
@@ -33,8 +33,8 @@
 			"url": "http://tv.laohu.cool/tvbox.json"
 		},
 		{
-			"name": "喵影视TV",
-			"url": "http://meowtv.top/tv"
+			"name": "巧计线路",
+			"url": "http://cdn.qiaoji8.com/tvbox.json"
 		},
 		{
 			"name": "欧歌线路",

@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "📢公告:请勿相信视频中广告!📢更新:2024年-11月-21日📢祝您观影愉快🥳",
+			"name": "📢公告:请勿相信视频中广告!📢更新:2024年-11月-26日📢祝您观影愉快🥳",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -28,6 +28,26 @@
 			}
 		},
 		{
+			"key": "csp_UC",
+			"name": "🌹UC4K",
+			"type": 3,
+			"api": "csp_MiUc",
+			"jar": "./lib/1127xm.jar",
+			"filterable": 1,
+			"ext": {
+				"site_urls": [
+					"http://www.mucpan.cc",
+					"http://ucmi.fun",
+					"http://www.ucmi.fun"
+				],
+				"url_key": "MiUc",
+				"threadinfo": {
+					"chunksize": 450,
+					"threads": 10
+				}
+			}
+		},
+		{
 			"key": "UC",
 			"name": "🌈优汐4K",
 			"type": 3,
@@ -39,15 +59,6 @@
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
 			}
-		},
-		{
-			"key": "csp_xiaomi",
-			"name": "🌹UC4K",
-			"type": 3,
-			"api": "csp_Duopan",
-			"jar": "./lib/11211.jar",
-			"changeable": 0,
-			"ext": "http://www.mucpan.cc"
 		},
 		{
 			"key": "木偶弹幕",
@@ -67,19 +78,6 @@
 			"timeout": 25
 		},
 		{
-			"key": "米搜",
-			"name": "🍚米盘4K",
-			"type": 3,
-			"api": "csp_MIPanSo",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "tvfan/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
 			"key": "抠搜",
 			"name": "🌾抠盘4K",
 			"type": 3,
@@ -90,34 +88,6 @@
 			"ext": {
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "PanSearch",
-			"name": "🙀阿狸4K",
-			"type": 3,
-			"api": "csp_PanSearch",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"ext": {
-				"Cloud-drive": "tvfan/Cloud-drive.txt",
-				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "csp_zhizhen",
-			"name": "🌹至臻4K",
-			"type": 3,
-			"api": "csp_Duopan",
-			"jar": "./lib/xmp.jar",
-			"changeable": 0,
-			"filterable": 1,
-			"ext": {
-				"site_urls": [
-					"http://mpanso.com",
-					"http://mihdr.top"
-				]
 			}
 		},
 		{
@@ -200,92 +170,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "影探",
-			"name": "🦁影探4K",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"playerType": "1",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/影探.js"
-		},
-		{
-			"key": "可可",
-			"name": "🥛可可",
-			"type": 3,
-			"api": "./lib/可可.py",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "文采",
-			"name": "💮文采",
-			"type": 3,
-			"api": "csp_Jpys",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "厂长",
-			"name": "📔厂长",
-			"type": 3,
-			"api": "csp_NewCz",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "https://www.czzy77.com/"
-		},
-		{
-			"key": "csp_Nkdy",
-			"name": "🏔️耐看",
-			"type": 3,
-			"api": "csp_Nkdy",
-			"jar": "./lib/fm.txt"
-		},
-		{
-			"key": "csp_Qiyou",
-			"name": "🥝奇优",
-			"type": 3,
-			"api": "csp_Qiyou",
-			"jar": "./lib/fm.txt"
-		},
-		{
-			"key": "csp_Tvyb",
-			"name": "☁︎云播",
-			"type": 3,
-			"api": "csp_Tvyb",
-			"playerType": 2,
-			"jar": "./lib/fm.txt"
-		},
-		{
-			"key": "萌米",
-			"name": "👀萌米",
-			"type": 3,
-			"api": "csp_AppTT",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-		},
-		{
-			"key": "欢视",
-			"name": "👓欢视",
-			"type": 3,
-			"api": "csp_AppTT",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
-		},
-		{
 			"key": "贱贱",
 			"name": "🐭荐片",
 			"type": 3,
@@ -302,6 +186,16 @@
 			"type": 3,
 			"api": "csp_Dygang",
 			"jar": "./lib/laohu.jar"
+		},
+		{
+			"key": "文采",
+			"name": "💮文采",
+			"type": 3,
+			"api": "csp_Jpys",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
 		},
 		{
 			"key": "强大",
@@ -393,13 +287,21 @@
 			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;62f18005177794427b32473e25413428"
 		},
 		{
+			"key": "zhaixing",
+			"name": "✨摘星",
+			"type": 3,
+			"api": "csp_AppZX",
+			"jar": "./lib/1127xm.jar",
+			"playerType": 2
+		},
+		{
 			"key": "🌟客星",
 			"name": "🌟客星",
 			"type": 3,
 			"api": "csp_Xdai",
 			"playerType": 2,
-			"ext": "caHR0cDovLzE1NC4zNy4yMjAuMTc6NjYyMnw1ODliMTkwNmI5NWY3MTljfDU4OWIxOTA2Yjk1ZjcxOWM=",
-			"jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729754716332/qj.jar;md5;1c2663a32f99e9e488cb4777ba1ea73f"
+			"ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==",
+			"jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732107398295/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"
 		},
 		{
 			"key": "木星",
@@ -412,38 +314,26 @@
 			"ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
 		},
 		{
+			"key": "csp_XSX",
+			"name": "👀视讯",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"quickSearch": 1,
+			"api": "csp_Xsx",
+			"jar": "./lib/1127xm.jar",
+			"playerType": 2,
+			"filterable": 1,
+			"ext": ""
+		},
+		{
 			"key": "繁荣",
 			"name": "🥝凡人",
 			"type": 3,
 			"api": "csp_Frong",
 			"playerType": 2,
-			"ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjMzMTd8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
-			"jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729754716332/qj.jar;md5;1c2663a32f99e9e488cb4777ba1ea73f"
-		},
-		{
-			"key": "csp_饭团",
-			"name": "🍙饭团",
-			"type": 3,
-			"searchable": 1,
-			"changeable": 1,
-			"api": "csp_FanTuan",
-			"jar": "./lib/1106.jar",
-			"playerType": 2,
-			"filterable": 1,
-			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-			"ext": "https://fantuan.vip/"
-		},
-		{
-			"key": "xiongmao2",
-			"name": "🐼猫咪",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/xiongmao.js"
+			"ext": "FMy4wLjJ8aHR0cDovLzQzLjI0OC4xMjguMTM4OjgxMzN8NDJmN2EyMDl8MjV8NTY4Njg1NDM0RkVDN0M4QzI5MEFFNEZCMzI1RkYxMzB8c2hpamllbWFvdHZ8MzNhN2ZmYTljODU0MTJjNzQyZjdhMjA5fDI1fDU2ODY4NTQzNEZFQzdDOEMyOTBBRTRGQjMyNUZGMTMwfHNoaWppZW1hb3R2fDMzYTdmZmE5Yzg1NDEyYzc=",
+			"jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732107398295/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"
 		},
 		{
 			"key": "天天",
@@ -456,6 +346,28 @@
 			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540"
 		},
 		{
+			"key": "萌米",
+			"name": "👀萌米",
+			"type": 3,
+			"api": "csp_AppTT",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+		},
+		{
+			"key": "欢视",
+			"name": "👓欢视",
+			"type": 3,
+			"api": "csp_AppTT",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+		},
+		{
 			"key": "热播影视",
 			"name": "🐰热播",
 			"type": 3,
@@ -466,25 +378,12 @@
 			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;ba2be4662147a4ab7ec2292cc516fb32"
 		},
 		{
-			"key": "比特",
-			"name": "🍄比特",
+			"key": "csp_Tvyb",
+			"name": "☁︎云播",
 			"type": 3,
-			"api": "csp_Bttwoo",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "FERRR",
-			"name": "👀FREE",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/FREE.js"
+			"api": "csp_Tvyb",
+			"playerType": 2,
+			"jar": "./lib/fm.txt"
 		},
 		{
 			"key": "小米",
@@ -508,6 +407,68 @@
 			"filterable": 1,
 			"ext": "./lib/七新影视.json",
 			"jar": "./lib/HeChengChaXiu.jar"
+		},
+		{
+			"key": "厂长",
+			"name": "📔厂长",
+			"type": 3,
+			"api": "csp_NewCz",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "https://www.czzy77.com/"
+		},
+		{
+			"key": "csp_Qiyou",
+			"name": "🥝奇优",
+			"type": 3,
+			"api": "csp_Qiyou",
+			"jar": "./lib/fm.txt"
+		},
+		{
+			"key": "csp_饭团",
+			"name": "🍙饭团",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"api": "csp_FanTuan",
+			"jar": "./lib/1106.jar",
+			"playerType": 2,
+			"filterable": 1,
+			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+			"ext": "https://fantuan.vip/"
+		},
+		{
+			"key": "比特",
+			"name": "🍄比特",
+			"type": 3,
+			"api": "csp_Bttwoo",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "可可",
+			"name": "🥛可可",
+			"type": 3,
+			"api": "./lib/可可.py",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "FERRR",
+			"name": "👀FREE",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "./lib/FREE.js"
 		},
 		{
 			"key": "huohuo",
