@@ -878,35 +878,6 @@
 	],
 	"parses": [
 		{
-			"name": "小米4K解析",
-			"type": 1,
-			"url": "https://jx.xiaofengtv.com/jx.php?url=",
-			"ext": {
-				"flag": [
-					"qq",
-					"腾讯",
-					"qiyi",
-					"爱奇艺",
-					"奇艺",
-					"youku",
-					"优酷",
-					"sohu",
-					"搜狐",
-					"letv",
-					"乐视",
-					"mgtv",
-					"芒果",
-					"tnmb",
-					"seven",
-					"bilibili",
-					"1905"
-				],
-				"header": {
-					"User-Agent": "okhttp/4.9.1"
-				}
-			}
-		},
-		{
 			"name": "🚀虾米官解",
 			"type": 0,
 			"url": "https://jx.xmflv.com/?url=",
