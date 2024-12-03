@@ -13,18 +13,6 @@
 			"filterable": 0
 		},
 		{
-			"key": "电影驿站",
-			"name": "🚬驿站",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0,
-			"playerType": "2",
-			"ext": "./测试.json",
-			"jar": "./lib/feimao.jar"
-		},
-		{
 			"key": "玩偶",
 			"name": "👽玩偶4K",
 			"type": 3,
@@ -231,6 +219,22 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
+		},
+		{
+			"key": "nyyingyuan",
+			"name": "🍮纽约",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/XBPQ1.jar",
+			"ext": {
+				"分类url": "https://www.nycvod.com/vodshow/{cateid}-{area}-{by}-{class}-{lang}-{letter}---{catepg}---{year}.html",
+				"分类": "电影$2#电视剧$3#综艺$4#动漫$50#短剧$5#竞技体育$8#",
+				"图片": "data-src=\"&&\"",
+				"线路数组": "class=\"swiper-wrapper&&/a>",
+				"线路标题":"👉师徒三人行👈",
+				"导演":"懒觉觉主阿光</a>",
+				"演员":"傻柱子&徒弟熊大</a>"
+			}
 		},
 		{
 			"key": "贱贱",
@@ -466,6 +470,14 @@
 			"jar": "./lib/fm.txt"
 		},
 		{
+			"key": "嫖嫖嫖",
+			"name": "🌨飘雪",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
+			"ext": "./lib/飘雪.json"
+		},
+		{
 			"key": "小米",
 			"name": "🌽米米",
 			"type": 3,
@@ -475,7 +487,7 @@
 			"changeable": 0,
 			"playerType": "2",
 			"ext": "./lib/米米.json",
-			"jar": "./lib/xm1.txt"
+			"jar": "./lib/xbpqxm.txt"
 		},
 		{
 			"key": "hipy_js_8号影院",
@@ -544,13 +556,6 @@
 			"jar": "./lib/火火.jar"
 		},
 		{
-			"key": "drpy_js_NY影院",
-			"name": "🍭NY",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/NY影院.js"
-		},
-		{
 			"key": "csp_NanGua",
 			"name": "🎃南瓜",
 			"type": 3,
@@ -565,15 +570,7 @@
 			"name": "🌾农民",
 			"type": 3,
 			"api": "csp_Nongm",
-			"jar": "./lib/feimao.jar"
-		},
-		{
-			"key": "嫖嫖嫖",
-			"name": "🌨飘雪",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "https://tv.nxog.top/m/jar.php?id=ou&ou=公众号欧歌app;md5;119acfe3682bc8197f8865af36a13540",
-			"ext": "./lib/飘雪.json"
+			"jar": "./lib/xbpqfmao.jar"
 		},
 		{
 			"key": "木耳",
