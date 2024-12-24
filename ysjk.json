@@ -1,48 +1,44 @@
 {
 	"urls": [
 		{
-			"name": "流水无情",
+			"name": "🍏青苹果",
 			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json"
 		},
 		{
-			"name": "饭太硬",
+			"name": "🍚饭太硬",
 			"url": "http://www.饭太硬.com/tv"
 		},
 		{
-			"name": "肥猫宝贝",
-			"url": "http://肥猫.com"
-		},
-		{
-			"name": "小米线路主",
+			"name": "🍜小米线路",
 			"url": "https://mpanso.me/DEMO.json"
 		},
 		{
-			"name": "小米线路备",
-			"url": "http://www.mpanso.com/小米/DEMO.json"
+			"name": "🐼肥猫宝贝",
+			"url": "https://肥猫.com"
 		},
 		{
-			"name": "道长线路",
-			"url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json"
-		},
-		{
-			"name": "OK线路",
-			"url": "http://ok321.top/ok"
-		},
-		{
-			"name": "老虎线路",
-			"url": "http://tv.laohu.cool/tvbox.json"
-		},
-		{
-			"name": "巧计线路",
+			"name": "🦜巧计线路",
 			"url": "http://cdn.qiaoji8.com/tvbox.json"
 		},
 		{
-			"name": "欧歌线路",
-			"url": "http://tv.nxog.top/m/"
+			"name": "🥇玉玉软件库",
+			"url": "https://fmbox.cc"
 		},
 		{
-			"name": "我不是摸鱼儿",
-			"url": "http://我不是.摸鱼儿.com"
+			"name": "👨‍🦰不良帅",
+			"url": "https://notabug.org/qizhen15800/My9394/raw/master/不良帅.json"
+		},
+		{
+			"name": "🎋无名线路",
+			"url": "https://git.acwing.com/lw0704/66/-/raw/master/jjzx.json"
+		},
+		{
+			"name": "🌹分享者",
+			"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/maoystv/6/main/000.json"
+		},
+		{
+			"name": "🕊欧歌多线",
+			"url": "https://欧歌.e.nxog.top/api.php?id=3"
 		}
 	]
 }
