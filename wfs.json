@@ -1,11 +1,11 @@
 {
 	"spider": "./lib/1QPG.jar",
-	"logo": "./lib/10086.png",
+	"logo": "./lib/qpg.png",
 	"wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🍏作者:青苹果12/24",
+			"name": "🍏青苹果12/24",
 			"type": 3,
 			"api": "csp_DouDou",
 			"jar": "./lib/fan.txt",
@@ -751,24 +751,14 @@
 	],
 	"parses": [
 		{
-			"name": "🍏虾米嗅探",
-			"type": 0,
-			"url": "https://jx.xmflv.com/?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-				}
-			}
+			"name": "🍏流光解析",
+			"type": 1,
+			"url": "https://dl.love0997.top/liuguang.php?v="
 		},
 		{
-			"name": "🍏M3u8.嗅探",
+			"name": "🍏虾米嗅探",
 			"type": 0,
-			"url": "https://jx.m3u8.tv/jx/jx.php?url=",
-			"ext": {
-				"header": {
-					"user-agent": "Mozilla/5.0 (Linux; Android 14; V2171A Build/UP1A.231005.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
-				}
-			}
+			"url": "https://jx.xmflv.com/?url="
 		}
 	],
 	"lives": [
@@ -784,7 +774,7 @@
 		{
 			"name": "🍏青苹果2",
 			"type": 0,
-			"url": "https://d.kstore.dev/download/6595/Live.txt",
+			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/live.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
