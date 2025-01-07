@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🍏青苹果12/24",
+			"name": "🍏青苹果01/07",
 			"type": 3,
 			"api": "csp_DouDou",
 			"jar": "./lib/fan.txt",
@@ -225,6 +225,17 @@
 			"ext": "./lib/jinpai.js"
 		},
 		{
+			"key": "白白",
+			"name": "🐭素白白",
+			"type": 3,
+			"api": "csp_Sbaibai",
+			"jar": "./lib/fan.txt",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"key": "csp_视觉",
 			"name": "🔭视觉",
 			"type": 3,
@@ -290,13 +301,13 @@
 			"jar": "./lib/yuyu.jar"
 		},
 		{
-			"key": "木叶",
-			"name": "🌿木叶",
+			"key": "csp_DUODUO",
+			"name": "💨多多",
 			"type": 3,
-			"api": "csp_Xdai",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 2,
-			"ext": "saHR0cDovLzE1Ni4yMjUuMzAuNjU6Nzc4OHw2dmF4am40dmJrcmhzenA4fDZ2YXhqbjR2YmtyaHN6cDh8MTAw"
+			"quickSearch": 0,
+			"api": "csp_MiTuApp",
+			"jar": "./lib/xm.jar",
+			"ext": "sHR2rlsfjI4L3t4RXQMkn6HTjU76bdvB3up+9CiGGVZHR3fM8KlJPXSneStHrC+DgWIxl9G+rM70oCwdQkorhrIzUoY/hqgTn/n8VXBDfMYYJQXjRv4wnyIB9zbV+McOQuf9XquqTIYCrvZq2K/XN8gy3u6uGRNLRlVrwt2esQ5pwE+Y8C3ts7ivRub9bEpuB7nN4tthfe6L4f4RdQDHpA=="
 		},
 		{
 			"key": "柠檬",
@@ -306,6 +317,33 @@
 			"jar": "./lib/qiaoji.jar",
 			"playerType": 2,
 			"ext": "eaHR0cHM6Ly92aXAud3dnei5jbjo1MjAwL25tcGxheS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+		},
+		{
+			"key": "蝴蝶",
+			"name": "🦋蝴蝶",
+			"type": 3,
+			"api": "csp_Hudie",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 2,
+			"ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+		},
+		{
+			"key": "荣荣",
+			"name": "🐛荣荣",
+			"type": 3,
+			"api": "csp_Xdai",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 1,
+			"ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS9qaWVrb3UudHh0fEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyN3wxOTE="
+		},
+		{
+			"key": "木头",
+			"name": "🪵木头",
+			"type": 3,
+			"api": "csp_Shark",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 1,
+			"ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
 		},
 		{
 			"key": "贱贱",
@@ -503,12 +541,7 @@
 				"作者": "",
 				"站名": "姿态影院",
 				"分类url": "https://www.nycvod.com/vodshow/{cateid}-{area}-{by}-{class}-{lang}-{letter}---{catepg}---{year}.html",
-				"分类": "电影$2#电视剧$3#综艺$4#动漫$50#短剧$5#竞技体育$8#",
-				"图片": "data-src=\"&&\"",
-				"导演": "👉请勿相信视频中广告理性观影</a>",
-				"演员": "👉播放失败卡顿,请更换线路</a>",
-				"线路数组": "class=\"swiper-wrapper&&/a>",
-				"线路标题": "👉作者流水无情"
+				"分类": "电影$2#电视剧$3#综艺$4#动漫$50#短剧$5#竞技体育$8#"
 			}
 		},
 		{
@@ -655,15 +688,15 @@
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext": {
-				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
+				"json": "./lib/哔哩.json"
 			}
 		},
 		{
 			"key": "dr_兔小贝",
 			"name": "📚儿童",
 			"type": 3,
-			"api": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-			"ext": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/兔小贝.js",
 			"style": {
 				"type": "rect",
 				"ratio": 1.597
@@ -686,7 +719,7 @@
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext": {
-				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/少儿教育.json"
+				"json": "./lib/少儿教育.json"
 			}
 		},
 		{
@@ -703,7 +736,7 @@
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext": {
-				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/小学课堂.json"
+				"json": "./lib/小学课堂.json"
 			}
 		},
 		{
@@ -720,7 +753,7 @@
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext": {
-				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/初中课堂.json"
+				"json": "./lib/初中课堂.json"
 			}
 		},
 		{
@@ -737,7 +770,7 @@
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext": {
-				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/高中课堂.json"
+				"json": "./lib/高中课堂.json"
 			}
 		},
 		{
