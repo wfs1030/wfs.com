@@ -784,14 +784,19 @@
 	],
 	"parses": [
 		{
+			"name": "🍏虾米嗅探",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url="
+		},
+		{
 			"name": "🍏流光解析",
 			"type": 1,
 			"url": "https://dl.love0997.top/liuguang.php?v="
 		},
 		{
-			"name": "🍏虾米嗅探",
-			"type": 0,
-			"url": "https://jx.xmflv.com/?url="
+			"name": "优选解析",
+			"type": 1,
+			"url": "http://1.94.221.189:88/algorithm.php?url="
 		}
 	],
 	"lives": [
