@@ -247,30 +247,6 @@
 			"filterable": 1
 		},
 		{
-			"key": "萌米",
-			"name": "👀萌米",
-			"type": 3,
-			"api": "csp_AppTT",
-			"jar": "./lib/fan.txt",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-		},
-		{
-			"key": "欢视",
-			"name": "👓欢视",
-			"type": 3,
-			"api": "csp_AppTT",
-			"jar": "./lib/fan.txt",
-			"playerType": 2,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
-		},
-		{
 			"key": "木星",
 			"name": "🌞木星",
 			"type": 3,
@@ -287,17 +263,6 @@
 			"type": 3,
 			"api": "csp_Bttwoo",
 			"jar": "./lib/fan.txt",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "南瓜",
-			"name": "🎃南瓜",
-			"jar": "./lib/fan.txt",
-			"type": 3,
-			"api": "csp_NanGua",
-			"playerType": 2,
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
@@ -399,15 +364,6 @@
 			"ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS9qaWVrb3UudHh0fEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyN3wxOTE="
 		},
 		{
-			"key": "剧评",
-			"name": "🎗剧评",
-			"type": 3,
-			"api": "csp_Jpys",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 1,
-			"ext": "caHR0cHM6Ly93d3cuY2Zrajg2LmNvbQ=="
-		},
-		{
 			"key": "木叶",
 			"name": "🍁木叶",
 			"type": 3,
@@ -424,15 +380,6 @@
 			"jar": "./lib/qiaoji.jar",
 			"playerType": 1,
 			"ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
-		},
-		{
-			"key": "星河",
-			"name": "🐬星河",
-			"type": 3,
-			"api": "csp_Muou",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 2,
-			"ext": "caHR0cDovL2EubXVxaXhoLnRvcDo1NjIzfOW5leWQr+aYn+ays3w0LjEuOA=="
 		},
 		{
 			"key": "贱贱",
@@ -460,15 +407,6 @@
 			"jar": "./lib/qiaoji.jar",
 			"playerType": 1,
 			"ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA"
-		},
-		{
-			"key": "csp_DUODUO",
-			"name": "💨多多",
-			"type": 3,
-			"quickSearch": 0,
-			"api": "csp_MiTuApp",
-			"jar": "./lib/xm.jar",
-			"ext": "sHR2rlsfjI4L3t4RXQMkn6HTjU76bdvB3up+9CiGGVZHR3fM8KlJPXSneStHrC+DgWIxl9G+rM70oCwdQkorhrIzUoY/hqgTn/n8VXBDfMYYJQXjRv4wnyIB9zbV+McOQuf9XquqTIYCrvZq2K/XN8gy3u6uGRNLRlVrwt2esQ5pwE+Y8C3ts7ivRub9bEpuB7nN4tthfe6L4f4RdQDHpA=="
 		},
 		{
 			"key": "csp_良人",
@@ -550,6 +488,32 @@
 			"filterable": 1,
 			"ext": "./lib/七新影视.json",
 			"jar": "./lib/XBPQ1.jar"
+		},
+		{
+			"key": "Lguang",
+			"name": "☄️流光",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/XBPQ1.jar",
+			"ext": {
+				"作者": "🍏青苹果",
+				"站名": "流光影院",
+				"首页": "0",
+				"播放链接前缀": "https://www.gyf.lol",
+				"数组": "public-list-box&&</div>",
+				"图片": "data-src=\"&&\"",
+				"标题": "title=\"&&\"",
+				"副标题": "class=\"public-prt hide ol2\">&&</span>",
+				"链接": "href=\"&&\"",
+				"线路数组": "swiper-slide&&</a>",
+				"线路标题": "</i>&&<span",
+				"播放数组": "<ul class=\"anthology-list-play&&</ul>",
+				"播放列表": "<li&&</li>",
+				"播放标题": "html\">&&</a>",
+				"播放链接": "href=\"&&\"",
+				"分类url": "https://www.gyf.lol/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
+				"分类": "电影$1#剧集$2#综艺$3#动漫$4#短剧$21#少儿$22"
+			}
 		},
 		{
 			"key": "Lguang",
