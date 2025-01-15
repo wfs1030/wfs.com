@@ -301,13 +301,28 @@
 			"ext": "https://www.czzyvideo.com/"
 		},
 		{
-			"key": "客星",
-			"name": "💫客星",
+			"key": "萌米",
+			"name": "👀萌米",
 			"type": 3,
-			"api": "csp_Xdai",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 1,
-			"ext": "caHR0cDovL3d3dy5kdW9kdW90di5jY3xlNDYxYzdjMGVmMGI2Y2QxfGU0NjFjN2MwZWYwYjZjZDF8NTQ0"
+			"api": "csp_AppTT",
+			"jar": "./lib/fan.txt",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+		},
+		{
+			"key": "欢视",
+			"name": "👓欢视",
+			"type": 3,
+			"api": "csp_AppTT",
+			"jar": "./lib/fan.txt",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
 		},
 		{
 			"key": "热播",
@@ -468,7 +483,7 @@
 		},
 		{
 			"key": "FERRR",
-			"name": "👀FREE",
+			"name": "🪲FREE",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
