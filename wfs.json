@@ -798,11 +798,6 @@
 	],
 	"parses": [
 		{
-			"name": "🍏优选解析",
-			"type": 1,
-			"url": "http://1.94.221.189:88/algorithm.php?url="
-		},
-		{
 			"name": "🍏流光解析",
 			"type": 1,
 			"url": "https://dl.love0997.top/liuguang.php?v="
