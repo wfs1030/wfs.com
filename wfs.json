@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🍏青苹果01/12",
+			"name": "🍏青苹果01/16",
 			"type": 3,
 			"api": "csp_DouDou",
 			"jar": "./lib/fan.txt",
@@ -218,13 +218,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "JINPAI",
-			"name": "🥇金牌",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/jinpai.js"
-		},
-		{
 			"key": "白白",
 			"name": "🐭素白白",
 			"type": 3,
@@ -379,15 +372,6 @@
 			"ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS9qaWVrb3UudHh0fEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyN3wxOTE="
 		},
 		{
-			"key": "木叶",
-			"name": "🍁木叶",
-			"type": 3,
-			"api": "csp_Xdai",
-			"jar": "./lib/qiaoji.jar",
-			"playerType": 2,
-			"ext": "saHR0cDovL3R4dC55eXlzLm5ld3MvdjQudHh0fGlsYnZ6d3o1MGthZ3U5eHR8aWxidnp3ejUwa2FndTl4dHw1NDQ="
-		},
-		{
 			"key": "现代",
 			"name": "🐚现代",
 			"type": 3,
@@ -395,24 +379,6 @@
 			"jar": "./lib/qiaoji.jar",
 			"playerType": 1,
 			"ext": "caHR0cHM6Ly9hcHAuYnJvdm9kLmNvbXxzemRqd2RhcHB3Y25tZGhifHN6ZGp3ZGFwcHdjbm1kaGJ8MTE0"
-		},
-		{
-			"key": "贱贱",
-			"name": "🧲荐片",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"playerType": "1",
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/jp.js"
-		},
-		{
-			"key": "Dygang",
-			"name": "🧲电影港",
-			"type": 3,
-			"jar": "./lib/qiaoji.jar",
-			"api": "csp_Dygang"
 		},
 		{
 			"key": "雨滴",
@@ -424,22 +390,63 @@
 			"ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOA"
 		},
 		{
-			"key": "csp_良人",
-			"name": "🍍良人",
+			"key": "csp_猎手",
+			"name": "🐯猎手",
 			"type": 3,
-			"quickSearch": 0,
+			"searchable": 1,
+			"changeable": 1,
+			"quickSearch": 1,
+			"api": "https://drive.almondcloud.cn/f/mnyRt1/py_%E7%94%B5%E5%BD%B1%E7%8C%8E%E6%89%8B.py",
+			"playerType": 2,
+			"filterable": 1
+		},
+		{
+			"key": "csp_良人",
+			"name": "👨良人",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
 			"api": "csp_MiTuApp",
 			"jar": "./lib/xm.jar",
 			"ext": "sHR2rlsfjI4L3t4RXQMkn+pzOh0GsJJgcwHHxDs8FcBDGD81qAZtun78VAJxzshCbStdXIlQiksUvc2b5fXyuxJO9KBNp5LzL/pYLLOs1V3R3WOh90eVpJGxxXWEZtoq+F7Cq4CbQ3J1TTXahpYpeXXeevwPopQutGBNaxYkdBgBL6rCgov0BCUWOXriRXNndZJYNJohfwIzBP+iTuz6C8FWXazDuKfwSS4BfeyQuGM="
 		},
 		{
 			"key": "csp_麻花",
-			"name": "🫔麻花",
+			"name": "🥙麻花",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"api": "csp_MiTuApp",
+			"jar": "./lib/xm.jar",
+			"ext": "sHR2rlsfjI4L3t4RXQMkn8ivSF5g8jXfhsjvizFR8ljN3AOVzpH9pr9GtPv0p/pnhxACPxmzklGulcZ5QfkGRCf6Rs7SjJmolZldAYa939+CUP8xvcjHb492E8waghkGxrtWlTiEC9t4dl/TaQf07LDUAJHsnAKfXpKlbKLXQWnAB8CtibGEXY01QAOeG3k4IaLl5w+AZDEEMHPNX5zL4bnOOk1PYBVZKZWV+DzWC9I="
+		},
+		{
+			"key": "csp_DUODUO",
+			"name": "💨多多",
 			"type": 3,
 			"quickSearch": 0,
 			"api": "csp_MiTuApp",
 			"jar": "./lib/xm.jar",
-			"ext": "sHR2rlsfjI4L3t4RXQMkn8ivSF5g8jXfhsjvizFR8ljN3AOVzpH9pr9GtPv0p/pnhxACPxmzklGulcZ5QfkGRCf6Rs7SjJmolZldAYa939+CUP8xvcjHb492E8waghkGxrtWlTiEC9t4dl/TaQf07LDUAJHsnAKfXpKlbKLXQWnAB8CtibGEXY01QAOeG3k4IaLl5w+AZDEEMHPNX5zL4bnOOk1PYBVZKZWV+DzWC9I="
+			"ext": "sHR2rlsfjI4L3t4RXQMkn9Eir6RzAIaQXa7PAZzZhsYO7tEfOCUAO2ipKyX1sxqAYggPt4M4DNHWCnz414Yfuh19nNi3k0dkJGtsOqEQzKCgcf9wGo4XmYWuIzgVworYxXRSYBQb2oLBmTl1W7hxxhfer8LsRYZB6ALfwu2bInzh3EENDkFkaHYb1olDPUR1EqpMaZLpMW0oSOW9zzMF5WIDfKUOvd7q2bKD4uZ8/oc="
+		},
+		{
+			"key": "csp_MiTuApp",
+			"name": "🐰米兔",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"api": "csp_MiTuApp",
+			"jar": "./lib/xm.jar",
+			"ext": "s1/kf8dfHZAgs5H4ledT0oVFC1n/KhNfQfc0onBTauGjjbKin/VdMFrfJlKKnt/ClccntSyJqzbI1hHzGUUmZg7v02l1fvcdAH0iCUzGlopNgnI3rkeQtAwS54GySfRT0IRokasLwr5Rr6pm8/lTNJXMTEkq+9mzK976Dvv80seU9riYmFeBD+EBp8RzurdP02PNc0S2aZPlMbdm5yTIQfI8QeSRJGz+0AIsFOyBoPr4LDptq0AAc37KMhnWDCXF"
+		},
+		{
+			"key": "csp_AppDrama2",
+			"name": "🐯虎虎",
+			"type": 3,
+			"quickSearch": 0,
+			"api": "csp_AppDrama",
+			"jar": "./lib/xm.jar",
+			"ext": "dZyf/FE+KyNozU1BJTipIlQwV9Exzgodak8HaPQS3+zONEYCA2iEg3LraoCo2u5+6rn3VmrCG6H/XvFKSMzGrev5JV2DZOVsAQxLXRNRbxFUFKM1SEJpngJgi7Fj/n1DfJU3XaJt/aV+5tEC4C+/K7Bx/k1Kz08b1iyW0f8Ghf/NH5BnTsoFeiXrPUjRIyi1oIQh1RUF0aQHwI/DPqGAMHE+KK9efsb7FTDKW7TXastSWVcfpizheTXfXFdRtX+qjWkii8PMPPizDUAlTR3Ptg=="
 		},
 		{
 			"key": "csp_Wwys",
@@ -542,150 +549,40 @@
 			}
 		},
 		{
-			"key": "嫖嫖嫖",
-			"name": "🌨飘雪",
+			"key": "例子",
+			"name": "🌾麦田",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
 			"ext": {
-				"主页url": "https://www.gs4x7nq4.com/",
-				"播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36",
-				"简介": "⚠️欧歌特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>",
-				"嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
-				"影片类型": "tags\">&&director\">",
-				"影片状态": "bottom\">&&</div>",
-				"二次截取": "videoList\":\\[&&\\]",
-				"数组": "{&&}[不包含:轮播剧]",
-				"图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
-				"标题": "vodName\":\"&&\"",
-				"副标题": "vodRemarks\":\"&&\"",
-				"链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
-				"导演": "导演:</div>&&主演",
-				"主演": "主演:</div>&&别名",
-				"线路标题": "xxx",
-				"播放数组": "listitem\">&&info\">",
-				"播放列表": "<a&&</a>",
-				"倒序": "否",
-				"搜索url": "https://www.gs4x7nq4.com/vod/search/{wd}",
-				"搜索副标题": "class=\"boottom\"*<div>&&</div",
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-				"分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
+				"作者": "🍏青苹果",
+				"站名": "麦田影院",
+				"分类url": "https://mtyy1.com/vodshow/{cateId}-{area}--{class}-{lang}-{letter}---{catePg}---{year}.html",
+				"分类": "电视剧$1#电影$2#综艺$3#动漫$4#短剧$5",
+				"数组": "class=\"public-list-exp\"&&</a>",
+				"链接": "href=\"&&\"",
+				"标题": "title=\"&&\"",
+				"图片": "data-src=\"&&\"",
+				"搜索数组": "class=\"public-list-exp\"&&</a>",
+				"搜索链接": "href=\"&&\"",
+				"搜索标题": "title=\"&&\"",
+				"搜索图片": "data-src=\"&&\"",
+				"搜索副标题": "<span class=\"public-list-prb hide ft2\">&&</span>",
+				"线路数组": "swiper-slide&&</a>",
+				"线路标题": "</i>&nbsp;&&</a>"
 			}
 		},
 		{
-			"key": "木耳",
-			"name": "🦚黑木耳",
-			"type": 1,
-			"api": "https://json02.heimuer.xyz/api.php/provide/vod",
-			"searchable": 1,
-			"filterable": 1,
-			"changeable": 1,
-			"timeout": 20,
-			"categories": [
-				"剧情片",
-				"动作片",
-				"冒险片",
-				"喜剧片",
-				"奇幻片",
-				"恐怖片",
-				"悬疑片",
-				"惊悚片",
-				"灾难片",
-				"爱情片",
-				"犯罪片",
-				"科幻片",
-				"歌舞片",
-				"战争片",
-				"经典片",
-				"动画电影",
-				"网络电影",
-				"其他片",
-				"国产剧",
-				"港剧",
-				"韩剧",
-				"日剧",
-				"泰剧",
-				"台剧",
-				"美剧",
-				"新马剧",
-				"其他剧",
-				"综艺2",
-				"港台综艺",
-				"韩国综艺",
-				"日本综艺",
-				"综艺世界",
-				"新马泰综艺",
-				"其他综艺",
-				"古装短剧",
-				"虐恋短剧",
-				"逆袭短剧",
-				"神豪短剧",
-				"重生短剧",
-				"复仇短剧",
-				"穿越短剧",
-				"甜宠短剧",
-				"强者短剧",
-				"动漫世界",
-				"日本动漫",
-				"韩国动漫",
-				"国产动漫",
-				"港台动漫"
-			],
-			"header": {
-				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-			}
-		},
-		{
-			"key": "cjzy_极速",
-			"name": "🐰极兔",
-			"type": 1,
-			"api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/",
-			"categories": [
-				"内地剧",
-				"中国动漫",
-				"香港剧",
-				"动作片",
-				"爱情片",
-				"恐怖片",
-				"剧情片",
-				"战争片",
-				"灾难片",
-				"悬疑片",
-				"犯罪片",
-				"奇幻片",
-				"纪录片",
-				"体育赛事",
-				"动漫",
-				"动画片",
-				"爱看动漫",
-				"好看动漫",
-				"美剧",
-				"韩剧",
-				"日剧",
-				"马泰剧",
-				"台湾剧",
-				"综艺",
-				"大陆综艺",
-				"心选综艺",
-				"港台综艺",
-				"小小综艺"
-			]
-		},
-		{
-			"key": "Bili",
-			"name": "🅱站合集",
+			"key": "TVB",
+			"name": "⛅️云播",
 			"type": 3,
-			"api": "csp_Bili",
-			"jar": "./lib/fan.txt",
-			"style": {
-				"type": "rect",
-				"ratio": 1.597
-			},
-			"searchable": 1,
-			"quickSearch": 0,
-			"changeable": 0,
+			"api": "csp_XBPQ",
+			"jar": "./lib/XBPQ1.jar",
 			"ext": {
-				"json": "https://ghp.ci/raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/bilibili.json"
+				"分类url": "http://www.tvyun01.com/vod/show/area/{area}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+				"线路数组": "<a class=\"more sort-button pull-right\"&&</div>",
+				"线路标题": "<h3 class=\"title\"&&</h3>"
 			}
 		},
 		{
@@ -698,7 +595,7 @@
 				"type": "rect",
 				"ratio": 1.597
 			},
-			"searchable": 1,
+			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0,
 			"ext": {
