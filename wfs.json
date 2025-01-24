@@ -1,5 +1,5 @@
 {
-	"spider": "./lib/1QPG.jar",
+	"spider": "./lib/1.jar",
 	"logo": "./lib/qpg.png",
 	"wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
 	"sites": [
@@ -27,6 +27,47 @@
 				"from": "4k|auto",
 				"siteUrl": "https://www.wogg.net/",
 				"danMu": "弹"
+			}
+		},
+		{
+			"key": "🈵 醉挽清风 | JX",
+			"name": "🈵 醉挽清风 | JX",
+			"type": 3,
+			"api": "csp_Breeze",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Hr8Iezx0OEJ5uZL6ag4dHNPBrfQw94I9nBSe/JomD5LRPAPA4OWRcJssiuZuXHmbMM=",
+				"prefix": "yQemwLacBOL9i5k7nNNyn2AJvVvGlCzm9UnCna8URlc="
+			}
+		},
+		{
+			"key": "🈵 小满万全 | JX",
+			"name": "🈵 小满万全 | JX",
+			"type": 3,
+			"api": "csp_LessIsMore",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"playerType": 2,
+			"ext": {
+				"jxApi": "CgTA86zDgD7DVkEpMKBfYe4TxUVvcvaNYyXNDj012Hr8Iezx0OEJ5uZL6ag4dHNPBrfQw94I9nBSe/JomD5LRPAPA4OWRcJssiuZuXHmbMM=",
+				"prefix": "aKKG6Ixij3hB8wa0VvK8YnCeM7SF65Y0o32U8xvusCA="
+			}
+		},
+		{
+			"key": "白嫖讯讯",
+			"name": "白嫖讯讯",
+			"type": 3,
+			"api": "csp_Breeze",
+			"jar": "./lib/Mscd.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"jxApi": "",
+				"prefix": "OqNkQJ8UE5ePJyQ+3ZIVXvNU6Mwa84ccq4DB2/4eYsQ="
 			}
 		},
 		{
@@ -303,6 +344,17 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"ext": "https://www.czzyvideo.com/"
+		},
+		{
+			"key": "洽洽影视",
+			"name": "🍉瓜子",
+			"type": 3,
+			"api": "csp_AppGZ",
+			"jar": "./lib/guazi.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "KhY021WelCEl+6MsvwnzaPussky6FQJcpCjT9V7/D61ft9vQAhNEPOYSMZVJSODd/JOOSOwUzim+9qfvgpNz7SvUPpAkXAweyrp76WY8s5EBwW7DBMY="
 		},
 		{
 			"key": "热播",
@@ -698,6 +750,69 @@
 			}
 		},
 		{
+			"key": "heimuer",
+			"name": "🫐黑木耳",
+			"type": 1,
+			"api": "https://json02.heimuer.xyz/api.php/provide/vod",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"timeout": 20,
+			"categories": [
+				"剧情片",
+				"动作片",
+				"冒险片",
+				"喜剧片",
+				"奇幻片",
+				"恐怖片",
+				"悬疑片",
+				"惊悚片",
+				"灾难片",
+				"爱情片",
+				"犯罪片",
+				"科幻片",
+				"歌舞片",
+				"战争片",
+				"经典片",
+				"动画电影",
+				"网络电影",
+				"其他片",
+				"国产剧",
+				"港剧",
+				"韩剧",
+				"日剧",
+				"泰剧",
+				"台剧",
+				"美剧",
+				"新马剧",
+				"其他剧",
+				"国产综艺",
+				"港台综艺",
+				"韩国综艺",
+				"日本综艺",
+				"小小综艺",
+				"新马泰综艺",
+				"其他综艺",
+				"古装短剧",
+				"虐恋短剧",
+				"逆袭短剧",
+				"神豪短剧",
+				"重生短剧",
+				"复仇短剧",
+				"穿越短剧",
+				"甜宠短剧",
+				"强者短剧",
+				"动漫世界",
+				"日本动漫",
+				"韩国动漫",
+				"国产动漫",
+				"港台动漫"
+			],
+			"header": {
+				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+			}
+		},
+		{
 			"key": "Bili",
 			"name": "🎉站合集",
 			"type": 3,
@@ -806,6 +921,11 @@
 		}
 	],
 	"parses": [
+		{
+			"name": "🍎专属4K",
+			"type": 1,
+			"url": "http://白嫖4k.失眠的夜.icu/jx/?url="
+		},
 		{
 			"name": "🍏流光解析",
 			"type": 1,
