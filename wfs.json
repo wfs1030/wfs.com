@@ -5,20 +5,13 @@
 	"sites": [
 		{
 			"key": "豆豆",
-			"name": "🍏青苹果01/16",
+			"name": "🍏青苹果01/24",
 			"type": 3,
 			"api": "csp_DouDou",
 			"jar": "./lib/fan.txt",
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 0
-		},
-		{
-			"key": "Duanju",
-			"name": "🍟短剧库",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"ext": "./lib/短库.js"
 		},
 		{
 			"key": "玩偶",
@@ -575,6 +568,38 @@
 			}
 		},
 		{
+			"key": "看剧吧",
+			"name": "💡看剧吧",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"jar": "./lib/XBPQ1.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"作者": "🍏青苹果",
+				"站名": "看剧吧",
+				"请求头": "手机",
+				"主页url": "http://wenhi.com/",
+				"数组": "class=\"stui-vodlist__box\">&&</div>",
+				"简介": "剧情简介</h3>&&</span>",
+				"线路数组": "href=\"stui-pannel-box\"&&</li>",
+				"线路标题": "class=\"title\">&&<",
+				"播放数组": "class=\"stui-content__playlist playlink clearfix column8\"&&</ul>",
+				"播放列表": "<li&&</li>",
+				"播放标题": ">&&</a",
+				"播放链接": "href=\"&&\"",
+				"搜索数组": "v-thumb stui-vodlist__thumb lazyload\"&&</a",
+				"搜索图片": "data-original=\"&&\"",
+				"搜索标题": "title=\"&&\"",
+				"搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
+				"搜索链接": "href=\"&&\"",
+				"搜索url": "http://wenhi.com/search.php?searchword={wd}",
+				"分类": "电影$dy#电视剧$tv#动漫$dm#综艺$zy",
+				"分类url": "http://wenhi.com/{cateId}/index.html"
+			}
+		},
+		{
 			"key": "例子",
 			"name": "🌾麦田",
 			"type": 3,
@@ -653,7 +678,7 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"ext": {
-				"搜索url": "https://www.xlys01.com/s/all/search/wd/catePg",
+				"搜索url": "https://www.xlys01.com/s/all/search/{wd}/catePg",
 				"播放数组": "<div class=\"card-body scroll-x\"&&</div>",
 				"播放列表": "<a&&</a>",
 				"播放链接": "href=\"&&\"",
@@ -785,7 +810,7 @@
 		{
 			"name": "🍏青苹果1",
 			"type": 0,
-			"url": "https://d.kstore.dev/download/6595/Live.txt",
+			"url": "https://d.kstore.dev/download/6595/live.txt",
 			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
