@@ -195,6 +195,17 @@
 			"changeable": 1
 		},
 		{
+			"key": "贱贱",
+			"name": "🐭荐片",
+			"type": 3,
+			"api": "csp_JPJ",
+			"jar": "./lib/fan.txt",
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0
+		},
+		{
 			"key": "原创",
 			"name": "👒原创",
 			"type": 3,
