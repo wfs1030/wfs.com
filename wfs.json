@@ -59,7 +59,7 @@
 		},
 		{
 			"key": "AQYJX",
-			"name": "💫小艺",
+			"name": "💫爱奇艺",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
@@ -71,7 +71,7 @@
 		},
 		{
 			"key": "youku",
-			"name": "💫优优",
+			"name": "💫优酷",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
@@ -83,7 +83,7 @@
 		},
 		{
 			"key": "TXJX",
-			"name": "💫讯讯",
+			"name": "💫腾讯",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"searchable": 1,
@@ -95,7 +95,7 @@
 		},
 		{
 			"key": "MGJX",
-			"name": "💫果果",
+			"name": "💫芒果",
 			"type": 3,
 			"api": "csp_LessIsMore",
 			"jar": "./lib/chadou.jar",
