@@ -5,28 +5,24 @@
 			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json"
 		},
 		{
-			"name": "🍏青苹果2",
-			"url": "https://d.kstore.dev/download/6595/wfs.json"
-		},
-		{
 			"name": "🍚饭太硬",
 			"url": "http://www.饭太硬.com/tv"
 		},
 		{
-			"name": "🍜小米线路",
+			"name": "🍜小米",
 			"url": "https://mpanso.me/DEMO.json"
 		},
 		{
-			"name": "🦜巧计线路",
+			"name": "🐦️巧计",
 			"url": "http://cdn.qiaoji8.com/tvbox.json"
+		},
+		{
+			"name": "🕊欧歌解析",
+			"url": "https://o.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=o"
 		},
 		{
 			"name": "🐼肥猫宝贝",
 			"url": "https://肥猫.com"
-		},
-		{
-			"name": "🌹分享者",
-			"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/maoystv/6/main/000.json"
 		}
 	]
 }

@@ -1,4 +1,4 @@
-🛰️黑龙江本地,#genre#
+📡黑龙江本地,#genre#
 黑龙江卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8							
 黑龙江卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226467/index.m3u8							
 黑龙江卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226525/index.m3u8							
@@ -63,7 +63,7 @@
 
 桦南综合,https://masterpull.hljtv.com/live/76oCVZd3.m3u8
 
-🛰️央视频道,#genre#
+📡央视频道,#genre#
 CCTV1综合,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8							
 CCTV1综合,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226559/index.m3u8							
 CCTV1综合,http://39.134.67.108/PLTV/88888888/224/3221225816/1.m3u8
@@ -205,7 +205,7 @@ CCTV17农业农村,http://39.134.65.141/PLTV/88888888/224/3221225708/1.m3u8
 CCTV17农业农村,http://39.134.65.151/PLTV/88888888/224/3221225708/1.m3u8
 CCTV17农业农村,http://39.134.65.149/PLTV/88888888/224/3221225708/1.m3u8
 
-🛰️卫视频道,#genre#
+📡卫视频道,#genre#
 北京卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225728/index.m3u8							
 北京卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8							
 北京卫视,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/index.m3u8
@@ -411,7 +411,7 @@ CCTV17农业农村,http://39.134.65.149/PLTV/88888888/224/3221225708/1.m3u8
 西藏卫视,http://39.134.65.151/PLTV/88888888/224/3221225951/1.m3u8
 西藏卫视,http://39.134.65.149/PLTV/88888888/224/3221225951/1.m3u8
 
-🛰️数字频道,#genre#
+📡数字频道,#genre#
 黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8							
 黑莓电影,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 黑莓电影,http://39.134.65.141/PLTV/88888888/224/3221225681/1.m3u8
@@ -495,7 +495,7 @@ CCTV17农业农村,http://39.134.65.149/PLTV/88888888/224/3221225708/1.m3u8
 
 纪实科教,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8							
 
-🛰️少儿频道,#genre#
+📡少儿频道,#genre#
 黑龙江少儿,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8							
 黑龙江少儿,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
 黑龙江少儿,http://39.134.67.108/PLTV/88888888/224/3221225979/1.m3u8
