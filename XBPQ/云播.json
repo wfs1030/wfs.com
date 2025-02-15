@@ -1,0 +1,10 @@
+{
+	"作者": "🍎小苹果",
+	"站名": "TVB云播",
+	"备用地址": "http://www.tvyun05.com/",
+	"发布地址": "http://www.hktvyb.vip/",
+	"分类url": "http://www.tvyun01.com/vod/show/area/{area}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+	"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+	"线路数组": "<a class=\"more sort-button pull-right\"&&</div>",
+	"线路标题": "🍎请勿相信视频中广告｜+<h3 class=\"title\"&&</h3>"
+}
