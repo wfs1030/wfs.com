@@ -1,7 +1,7 @@
 {
 	"urls": [
 		{
-			"name": "🍏青苹果",
+			"name": "🍎小苹果",
 			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json"
 		},
 		{
@@ -17,12 +17,12 @@
 			"url": "http://cdn.qiaoji8.com/tvbox.json"
 		},
 		{
-			"name": "🕊欧歌解析",
-			"url": "https://o.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=o"
+			"name": "⭐️星辰",
+			"url": "https://fmbox.cc"
 		},
 		{
-			"name": "🐼肥猫宝贝",
-			"url": "https://肥猫.com"
+			"name": "🕊欧歌解析",
+			"url": "https://o.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=o"
 		}
 	]
 }
