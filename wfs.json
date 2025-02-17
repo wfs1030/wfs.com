@@ -22,6 +22,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
+			"playerType": 2,
 			"ext": {
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto",
@@ -36,35 +37,18 @@
 			"api": "csp_LiteApple",
 			"searchable": 1,
 			"quickSearch": 1,
+			"playerType": 2,
 			"changeable": 1
 		},
 		{
-			"key": "原创",
-			"name": "🚅原创",
+			"key": "贱贱",
+			"name": "🐭贱贱",
 			"type": 3,
-			"api": "csp_YCyz",
-			"timeout": 15,
+			"api": "csp_JPJ",
+			"playerType": 2,
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "csp_Bttoo",
-			"name": "🍄比特",
-			"type": 3,
-			"api": "csp_Bttwoo",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
-		},
-		{
-			"key": "糯米",
-			"name": "🍛糯米",
-			"type": 3,
-			"api": "csp_Nmyswv",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1
+			"changeable": 0
 		},
 		{
 			"key": "萌米",
@@ -74,6 +58,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1,
+			"playerType": 2,
 			"ext": "AO7TcBkd8I2bux0Y8Qze6tVlMg=="
 		},
 		{
@@ -84,6 +69,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1,
+			"playerType": 2,
 			"ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
 		},
 		{
@@ -93,6 +79,29 @@
 			"api": "csp_Kekys",
 			"searchable": 1,
 			"quickSearch": 1,
+			"playerType": 2,
+			"changeable": 1
+		},
+		{
+			"key": "厂长",
+			"name": "📔厂长",
+			"type": 3,
+			"api": "csp_NewCz",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"playerType": 2,
+			"ext": "https://www.czzyvideo.com/"
+		},
+		{
+			"key": "原创",
+			"name": "🚅原创",
+			"type": 3,
+			"api": "csp_YCyz",
+			"timeout": 15,
+			"searchable": 1,
+			"quickSearch": 1,
+			"playerType": 2,
 			"changeable": 1
 		},
 		{
@@ -102,6 +111,7 @@
 			"api": "csp_Ddrk",
 			"searchable": 1,
 			"quickSearch": 1,
+			"playerType": 2,
 			"changeable": 1
 		},
 		{
@@ -111,22 +121,14 @@
 			"jar": "./lib/xcyidong.jar",
 			"api": "csp_YDjisu",
 			"searchable": 1,
+			"playerType": 2,
 			"changeable": 1
-		},
-		{
-			"key": "星辰2",
-			"name": "👓看客",
-			"type": 3,
-			"api": "csp_Kanke",
-			"jar": "./lib/xingchen.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
 		},
 		{
 			"key": "巧计1",
 			"name": "🔥热播",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_TTian",
 			"jar": "./lib/qiaoji.jar",
 			"ext": "caHR0cDovL3YucmJvdHYuY24="
@@ -135,6 +137,7 @@
 			"key": "巧计2",
 			"name": "🌙天天",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_TTian",
 			"jar": "./lib/qiaoji.jar",
 			"ext": "baHR0cDovL3R0LnlzZHFqcy5jbg=="
@@ -143,22 +146,69 @@
 			"key": "巧计3",
 			"name": "🏃追剧",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_TTian",
 			"jar": "./lib/qiaoji.jar",
 			"ext": "daHR0cDovL3YubGt1eXMuY24="
 		},
 		{
-			"key": "巧计5",
-			"name": "🎀蝴蝶",
+			"key": "木叶",
+			"name": "🍃木叶",
 			"type": 3,
-			"api": "csp_Hudie",
+			"api": "csp_Xdai",
 			"jar": "./lib/qiaoji.jar",
-			"ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+			"ext": "saHR0cDovL3d3dy56amMuYXBwfGFiNGU5YTQyMTY3NWYxNGJ8YWI0ZTlhNDIxNjc1ZjE0Ynw0NDI="
+		},
+		{
+			"key": "玉米",
+			"name": "🌽玉米",
+			"type": 3,
+			"api": "csp_Xdai",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 2,
+			"ext": "jaHR0cDovL3NkeXMudXMvc2QudHh0fDdmOWI0OWRhZjkyOGNjZTd8N2Y5YjQ5ZGFmOTI4Y2NlN3w0NDI="
+		},
+		{
+			"key": "星河",
+			"name": "⭐️星河",
+			"type": 3,
+			"api": "csp_Muou",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 2,
+			"ext": "caHR0cHM6Ly9odC5tb3liay5jbnzphZLlrqLlvbHop4Z8NC4xLjg="
+		},
+		{
+			"key": "雨滴",
+			"name": "💧雨滴",
+			"type": 3,
+			"api": "csp_Xdai",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 2,
+			"ext": "jaHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrfGs5bzNwMmM4YjdtM3owbzh8azlvM3AyYzhiN20zejBvOHwxMDA="
+		},
+		{
+			"key": "现代",
+			"name": "🚘︎现代",
+			"type": 3,
+			"api": "csp_Xdai",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 2,
+			"ext": "caHR0cHM6Ly94ZHlzLnZpcC9nZXRhcHAudHh0fHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYnwxMTQ="
+		},
+		{
+			"key": "柠檬",
+			"name": "🍋柠檬",
+			"type": 3,
+			"api": "csp_Nmvod",
+			"jar": "./lib/qiaoji.jar",
+			"playerType": 2,
+			"ext": "eaHR0cHM6Ly92aXAud3dnei5jbjo1MjAwL25tcGxheS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
 		},
 		{
 			"key": "巧计6",
 			"name": "💯优质",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_Xdai",
 			"jar": "./lib/qiaoji.jar",
 			"ext": "jaHR0cDovL2R5eXp0dmFwcGFwaWdvb2RneC42OC5neS9jaXdrMjh2dTM4aW84L2FwaXVybC50eHR8ZHl5enR2YXBpYXBweXlkc3xkeXl6dHZhcGlhcHB5eWRzfDEwMA=="
@@ -167,6 +217,7 @@
 			"key": "巧计7",
 			"name": "🐦️巧技",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_qiao2",
 			"jar": "./lib/qiaoji.jar",
 			"ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739517660808/cksp.txt"
@@ -179,7 +230,24 @@
 			"jar": "./lib/qiaoji.jar",
 			"searchable": 1,
 			"quickSearch": 1,
+			"playerType": 2,
 			"filterable": 1
+		},
+		{
+			"key": "csp_Lkdy",
+			"name": "💐来看",
+			"type": 3,
+			"playerType": 2,
+			"jar": "./lib/xm.jar",
+			"api": "csp_Lkdy"
+		},
+		{
+			"key": "csp_Jpys",
+			"name": "🥇金牌",
+			"type": 3,
+			"playerType": 2,
+			"jar": "./lib/xm.jar",
+			"api": "csp_Jpys"
 		},
 		{
 			"key": "瓜子",
@@ -191,30 +259,24 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
+			"playerType": 2,
 			"changeable": 0
 		},
 		{
 			"key": "︎小米1",
-			"name": "🐰流氓兔",
+			"name": "🐰米兔",
 			"type": 3,
 			"quickSearch": 0,
+			"playerType": 2,
 			"jar": "./lib/xm.jar",
 			"api": "csp_MiTuApp",
 			"ext": "sHR2rlsfjI4L3t4RXQMkn9vBxsiZMC9mEjdFHy1b0JxMI9e9kwLyaPtpomLvf/SELlR2tG4av7VLVOnJfhzo9ctafjyVzyG8mJz6OMXeHP7ApPRdTfqKs9a3vBioIdqaC4SFZmteBwEWgHRwJv8Eecn5qIoxur3gmurN6cdUqIwRj8TAAm0asiETQ4b9bq0OXuO6Att6+aOM406026kk7qswMkcs8TxRXUyvexxaQgk="
 		},
 		{
-			"key": "小米2",
-			"name": "🐱小猫咪",
-			"type": 3,
-			"quickSearch": 0,
-			"api": "csp_MiTuApp",
-			"jar": "./lib/xm.jar",
-			"ext": "sHR2rlsfjI4L3t4RXQMkn1xFjIix0m8Cj9X8OUrGrK4fl4xu1EDS3cPpLFW/FctyWeOV755l/zvJzsf4Rq5dH82tGLii5o2Wvz3PcDGX7hgkjVxwZEyPqNUMRYFbQpmgyLVzYt4LYN1N1hC91NEscnCu4djQ0sa9TGuk4FO9yXzddgCJ2lWF9cJPVFd9ro6QI83NqCw0yBUcmhyF6YeEF4vM0+Q34Ku2OHQ2EQM2Kuo="
-		},
-		{
 			"key": "小米3",
 			"name": "🚜农民",
 			"type": 3,
+			"playerType": 2,
 			"changeable": 0,
 			"api": "csp_Wwys",
 			"jar": "./lib/xm.jar",
@@ -227,21 +289,21 @@
 			"searchable": 1,
 			"changeable": 1,
 			"quickSearch": 1,
+			"playerType": 2,
 			"api": "./lib/猎手.py",
 			"filterable": 1
 		},
 		{
 			"key": "FERRR",
-			"name": "🆓FREE",
+			"name": "🆓free",
 			"type": 3,
 			"api": "./lib/drpy2.min.js",
 			"jar": "./lib/fmjs.jar",
+			"ext": "./lib/free.js",
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"changeable": 0,
-			"ext": "./lib/FREE.js"
+			"playerType": 2,
+			"filterable": 1
 		},
 		{
 			"key": "csp_七新",
@@ -250,6 +312,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
 			"ext": "./XBPQ/七新影视.json"
@@ -261,6 +324,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
 			"ext": "./XBPQ/流光.json"
@@ -272,6 +336,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ2.jar",
 			"ext": "./XBPQ/耐看.json"
@@ -283,6 +348,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ4.jar",
 			"ext": "./XBPQ/修罗影视.json"
@@ -293,6 +359,7 @@
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
+			"playerType": 2,
 			"filterable": 1,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
@@ -306,6 +373,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
 			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
@@ -318,6 +386,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
 			"ext": "./XBPQ/云播.json"
@@ -329,6 +398,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
 			"ext": "./XBPQ/火火.json"
@@ -340,6 +410,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
 			"ext": "./XBPQ/麦田.json"
@@ -351,6 +422,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
+			"playerType": 2,
 			"api": "csp_XBPQ",
 			"jar": "./lib/XBPQ1.jar",
 			"ext": "./XBPQ/小镇.json"
@@ -363,6 +435,7 @@
 			"searchable": 1,
 			"filterable": 1,
 			"changeable": 1,
+			"playerType": 2,
 			"timeout": 20,
 			"categories": [
 				"剧情片",
@@ -422,6 +495,7 @@
 			"key": "Bili",
 			"name": "🎉站合集",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_Bili",
 			"style": {
 				"type": "rect",
@@ -438,6 +512,7 @@
 			"key": "dr_兔小贝",
 			"name": "📚儿童",
 			"type": 3,
+			"playerType": 2,
 			"api": "./lib/drpy2.min.js",
 			"jar": "./lib/fmjs.jar",
 			"ext": "./lib/兔小贝.js",
@@ -453,6 +528,7 @@
 			"key": "少儿教育",
 			"name": "📚少儿",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_Bili",
 			"style": {
 				"type": "rect",
@@ -469,6 +545,7 @@
 			"key": "小学课堂",
 			"name": "📚小学",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_Bili",
 			"style": {
 				"type": "rect",
@@ -485,6 +562,7 @@
 			"key": "初中课堂",
 			"name": "📚初中",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_Bili",
 			"style": {
 				"type": "rect",
@@ -501,6 +579,7 @@
 			"key": "高中教育",
 			"name": "📚高中",
 			"type": 3,
+			"playerType": 2,
 			"api": "csp_Bili",
 			"style": {
 				"type": "rect",
