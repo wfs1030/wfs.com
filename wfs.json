@@ -1,6 +1,6 @@
 {
 	"wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
-	"spider": "./lib/fty.txt",
+	"spider": "./lib/fty.jar",
 	"logo": "./lib/1.png",
 	"sites": [
 		{
