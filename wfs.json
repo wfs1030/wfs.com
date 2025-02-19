@@ -1,6 +1,6 @@
 {
 	"wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
-	"spider": "./lib/fan.txt;md5;0d0e3817ef4fd3f0526b3d52f60da991",
+	"spider": "./lib/fty.txt",
 	"logo": "./lib/1.png",
 	"sites": [
 		{
@@ -60,6 +60,15 @@
 			"changeable": 1,
 			"playerType": 2,
 			"ext": "AO7TcBkd8I2bux0Y8Qze6tVlMg=="
+		},
+		{
+			"key": "糯米",
+			"name": "🍓糯米",
+			"type": 3,
+			"api": "csp_Nmyswv",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
 		},
 		{
 			"key": "欢视",
