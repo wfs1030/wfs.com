@@ -1,6 +1,6 @@
 {
 	"wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
-	"spider": "./lib/fty.jar",
+	"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739954396935/f0219.txt;md5;ba35fb2f0e67c77dce39098d79093a8e",
 	"logo": "./lib/1.png",
 	"sites": [
 		{
@@ -19,7 +19,6 @@
 			"name": "👽玩偶4K",
 			"type": 3,
 			"api": "csp_WoGG",
-			"jar": "./lib/fan.txt",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
@@ -35,7 +34,6 @@
 			"name": "🌈优汐4K",
 			"type": 3,
 			"api": "csp_UuSs",
-			"jar": "./lib/fan.txt",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
