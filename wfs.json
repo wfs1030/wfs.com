@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆瓣",
-			"name": "👻傻柱子｜广告勿信❗️",
+			"name": "👻傻柱子 广告勿信",
 			"type": 3,
 			"api": "csp_DouDouGuard",
 			"indexs": 1,
@@ -14,7 +14,7 @@
 			"changeable": 0
 		},
 		{
-			"key": "XBPQ1",
+			"key": "dandan",
 			"name": "👻蛋蛋",
 			"type": 3,
 			"searchable": 1,
@@ -22,51 +22,78 @@
 			"playerType": 2,
 			"filterable": 1,
 			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ2.jar",
+			"jar": "./lib/XBPQ.jar",
 			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
 			"ext": "./XBPQ/蛋蛋.json"
 		},
 		{
-			"key": "XBPQ2",
-			"name": "👻剧圈",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ2.jar",
-			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
-			"ext": "./XBPQ/剧圈.json"
-		},
-		{
-			"key": "XBPQ3",
+			"key": "xiaofang",
 			"name": "👻小芳",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ2.jar",
+			"jar": "./lib/XBPQ.jar",
 			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
 			"ext": "./XBPQ/小芳.json"
 		},
 		{
-			"key": "XBPQ5",
+			"key": "xigua",
+			"name": "👻西瓜",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./lib/XBPQ.jar",
+			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
+			"ext": "./XBPQ/西瓜.json"
+		},
+		{
+			"key": "xiaozhen",
 			"name": "👻小镇",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ1.jar",
+			"jar": "./lib/XBPQ.jar",
 			"ext": "./XBPQ/小镇.json"
 		},
 		{
-			"key": "XBPQ6",
+			"key": "yongle",
+			"name": "👻永乐",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./lib/XBPQ.jar",
+			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
+			"ext": "./XBPQ/永乐.json"
+		},
+		{
+			"key": "xiami",
+			"name": "👻虾米",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./lib/XBPQ.jar",
+			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
+			"ext": "./XBPQ/虾米.json"
+		},
+		{
+			"key": "xiuluo",
 			"name": "👻修罗",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"api": "csp_XBPQ",
-			"jar": "./lib/XBPQ1.jar",
+			"jar": "./lib/XBPQ.jar",
 			"ext": "./XBPQ/修罗.json"
 		},
 		{
@@ -100,7 +127,7 @@
 		},
 		{
 			"key": "苹果",
-			"name": "🍎苹果",
+			"name": "🍎小苹果",
 			"type": 3,
 			"api": "csp_LiteAppleGuard",
 			"timeout": 15,
@@ -476,7 +503,7 @@
 	],
 	"lives": [
 		{
-			"name": "🍎小苹果",
+			"name": "👻傻柱子",
 			"type": 0,
 			"url": "https://d.kstore.dev/download/6595/live.txt",
 			"playerType": 2,
@@ -485,7 +512,7 @@
 			"logo": "https://epg.112114.xyz/logo/{name}.png"
 		},
 		{
-			"name": "🍎小苹果2",
+			"name": "👻傻柱子2",
 			"type": 0,
 			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/live.txt",
 			"playerType": 2,
