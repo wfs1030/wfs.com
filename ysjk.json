@@ -1,11 +1,11 @@
 {
 	"urls": [
 		{
-			"name": "👻傻柱子",
+			"name": "🍏小柱子",
 			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json"
 		},
 		{
-			"name": "👻备用接口",
+			"name": "🍏备用",
 			"url": "https://d.kstore.dev/download/6595/wfs.json"
 		},
 		{
@@ -17,12 +17,8 @@
 			"url": "http://mitvbox.xyz/小米/DEMO.json"
 		},
 		{
-			"name": "👌🏻OK",
-			"url": "http://ok321.top/tv"
-		},
-		{
-			"name": "🕊欧歌解析",
-			"url": "https://o.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=o"
+			"name": "🐯小虎斑",
+			"url": "http://hb.小虎斑.site:25252/仅供测试"
 		}
 	]
 }
