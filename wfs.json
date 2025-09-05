@@ -5,207 +5,13 @@
 	"sites": [
 		{
 			"key": "豆瓣",
-			"name": "🍏小柱子.广告勿信",
+			"name": "🍏小柱子｜温馨提示:请勿相信视频中任何广告｜更新于9月5日｜修复已知问题！",
 			"type": 3,
 			"api": "csp_DouDouGuard",
 			"indexs": 1,
 			"searchable": 0,
 			"quickSearch": 0,
 			"changeable": 0
-		},
-		{
-			"key": "饺子点播",
-			"name": "饺子🅠点播",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"playerType": 2,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-				"分类url": "https://www.jzvod.fun/vodshow/{cateId}--------{catePg}---.html;;m0",
-				"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
-				"线路标题": "<h3 class=\"title\">&&</h3>"
-			}
-		},
-		{
-			"key": "西瓜",
-			"name": "西瓜🅠在线",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"playerType": 2,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$20#连续剧$37#动漫$43#综艺$45",
-				"分类url": "https://sszzyy.com/index.php/vod/type/id/{cateId}/page/{catePg}.html;;m0",
-				"线路标题": "data-toggle=\"tab\">&&</a>+|请勿相信视频中任何广告"
-			}
-		},
-		{
-			"key": "电影小镇",
-			"name": "电影🅠小镇",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$1#电视剧$2#动漫$3#综艺$4",
-				"分类url": "http://www.du88.cc/list/{cateId}_{catePg}.html",
-				"线路标题": "<a data-toggle=\"tab\" href=\"*>&&</a>+|请勿相信视频中任何广告"
-			}
-		},
-		{
-			"key": "老地方影院",
-			"name": "地方🅠影院",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$1#连续剧$2#动漫$4#综艺$3",
-				"分类url": "https://www.laodifang.tv/vodshow/{cateId}--------{catePg}---.html",
-				"播放数组": "<div class=\"playlist_full\"&&</div>",
-				"播放列表": "<li>&&</li>",
-				"播放标题": ">&&<",
-				"播放链接": "href=\"&&\"",
-				"线路标题": "[排序:精品1]"
-			}
-		},
-		{
-			"key": "金牌影院",
-			"name": "金牌🅠影院",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-				"分类url": "https://huadian2.com/show/{cateId}--------{catePg}---.html",
-				"数组": "class=\"hl-item-thumb hl-lazy\"&&</a>",
-				"链接": "href=\"&&\"",
-				"标题": "title=\"&&\"",
-				"图片": "data-original=\"&&\"",
-				"线路标题": "alt=\"&&\"+|请勿相信视频中任何广告"
-			}
-		},
-		{
-			"key": "永乐视频",
-			"name": "永乐🅠视频",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$1#剧集$2#综艺$3#动漫$4",
-				"分类url": "https://www.xz8.cc/vodshow/{cateId}--------{catePg}---/",
-				"线路标题": "data-dropdown-value=\"&&\"+|请勿相信视频中任何广告"
-			}
-		},
-		{
-			"key": "兄弟影视",
-			"name": "兄弟🅠影视",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ1.jar",
-			"ext": {
-				"分类": "电影$movie#电视剧$tv#综艺$show#动漫$cartoon",
-				"分类url": "https://www.brovods.top/show/{cateId}--------{catePg}---/;;m0",
-				"数组": "class=\"public-list-exp\"&&</a>",
-				"链接": "href=\"&&\"",
-				"标题": "title=\"&&\"",
-				"副标题": "class=\"public-list-prb hide ft2\">&&</span>",
-				"图片": "data-src=\"&&\"",
-				"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
-				"线路数组": "swiper-slide&&</a>",
-				"线路标题": "</i>&nbsp;&&</a>",
-				"地区": "地区：>&&</strong>+请勿相"
-			}
-		},
-		{
-			"key": "小红影视",
-			"name": "小红🅠影视",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ1.jar",
-			"ext": {
-				"分类": "电影$movie#电视剧$tv#综艺$variety#动漫$anime",
-				"分类url": "https://www.xiaohys.com/",
-				"数组": "class=\"public-list-exp\"&&</a>",
-				"链接": "href=\"&&\"",
-				"标题": "title=\"&&\"",
-				"图片": "data-src=\"&&\"",
-				"线路数组": "swiper-slide&&</a>",
-				"线路标题": "</i>&nbsp;&&</a>"
-			}
-		},
-		{
-			"key": "星辰影院",
-			"name": "星辰🅠影院",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-				"分类url": "https://www.xcyycn.com/vs/{cateId}--------{catePg}---.html;;m0",
-				"播放数组": "class=\"hl-list-wrap\">&&</div>",
-				"播放列表": "li&&</li>",
-				"播放标题": "class=\"hl-col-xs-4 hl-col-sm-2\">&&</a>",
-				"播放链接": "href=\"&&\""
-			}
-		},
-		{
-			"key": "电影天堂",
-			"name": "电影🅠天堂",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$1#连续剧$2#动漫$4#综艺$3",
-				"分类url": "https://dyttzyw.tv/index.php/vod/type/id/{cateId}/page/{catePg}.html",
-				"播放数组": "class=\"playlist wbox dytt\">&&</ul></div>",
-				"播放列表": "li&&</li>",
-				"播放标题": "title=\"&&\"",
-				"播放链接": "href=\"&&\"",
-				"线路标题": "<div>&&</div>"
-			}
-		},
-		{
-			"key": "测试",
-			"name": "测试🅠专用",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"jar": "./XBPQ.jar/XBPQ.jar",
-			"ext": {
-				"分类": "电影$1#连续剧$2#动漫$4#综艺$3"
-			}
 		},
 		{
 			"key": "玩偶",
@@ -371,62 +177,12 @@
 			"api": "csp_Jpys"
 		},
 		{
-			"key": "追忆",
-			"name": "追忆|影视",
-			"type": 3,
-			"api": "csp_AppSy",
-			"jar": "./lib/xm.jar",
-			"quickSearch": 0,
-			"ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeWtPAwa8PAzOjbdregJfgecQjmbgYlvm+1rK87EwCqgaovlgh315Qrh90D+nl+f08o="
-		},
-		{
 			"key": "牛牛",
 			"name": "牛牛|影视",
 			"type": 3,
 			"quickSearch": 0,
 			"searchable": 1,
 			"api": "https://13826.kstore.space/mioaying.py"
-		},
-		{
-			"key": "麻花",
-			"name": "麻花|影院",
-			"type": 3,
-			"quickSearch": 0,
-			"searchable": 1,
-			"api": "csp_AppQi",
-			"jar": "./lib/xm.jar",
-			"ext": "lo54N2bJ4DtrhxC9P676hHekMnvMvX1mNNhVKf3kE5Wgy3H/b30VkkDKAYauTqZsDdvpB5GqFDm8YyeyiKclJTSLQ/tOARL2p/dbX8OIae9/PHnAUKONnpKuoD52E5AT"
-		},
-		{
-			"key": "云速",
-			"name": "云速|影视",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 0,
-			"api": "csp_AppQi",
-			"jar": "./lib/xm.jar",
-			"ext": "9ee0oa0Y30GapSvZ2C2RVE2HwH08KKvP0VhAZCVWpnluXpZNLRZrNCMeKyCWw1JOj3jlA6tSdRPHvvTyBCuIMzwlKeODvXst4zEi0DFYqmEXOu+cG8rF7/kIckBMVYvn"
-		},
-		{
-			"key": "AppQi1",
-			"name": "爱盈|影视",
-			"type": 3,
-			"api": "csp_AppQi",
-			"jar": "./lib/xm.jar",
-			"changeable": "0",
-			"quickSearch": 0,
-			"filterable": 1,
-			"ext": "BciM/oLDYQqSU++RAsI5xz2Dmz98Blyw0pp0T+0QPiq/bSU1IhcLmPsn25NijfG6B3fLoAmVGEL0/tWb+o0nZYn1u5i3pWNxWaYYmNV1x0c="
-		},
-		{
-			"key": "鲸鱼",
-			"name": "鲸鱼|影视",
-			"quickSearch": 0,
-			"searchable": 1,
-			"type": 3,
-			"api": "csp_AppQi",
-			"jar": "./lib/xm.jar",
-			"ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQXowVmh33j+qD55VxmvMzzffqLi7UXvCKdy6PzbDhzFq"
 		},
 		{
 			"key": "爆炸",
@@ -493,6 +249,173 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"playerType": 2
+		},
+		{
+			"key": "西瓜",
+			"name": "西瓜🅠在线",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"playerType": 2,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$20#连续剧$37#动漫$43#综艺$45",
+				"分类url": "https://sszzyy.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+				"线路标题": "data-toggle=\"tab\">&&</a>"
+			}
+		},
+		{
+			"key": "电影小镇",
+			"name": "电影🅠小镇",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+				"分类url": "http://www.du88.cc/list/{cateId}_{catePg}.html",
+				"线路标题": "<a data-toggle=\"tab\" href=\"*>&&</a>"
+			}
+		},
+		{
+			"key": "老地方影院",
+			"name": "地方🅠影院",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$1#连续剧$2#动漫$4#综艺$3",
+				"分类url": "https://www.laodifang.tv/vodshow/{cateId}--------{catePg}---.html",
+				"播放数组": "<div class=\"playlist_full\"&&</div>",
+				"播放列表": "<li>&&</li>",
+				"播放标题": ">&&<",
+				"播放链接": "href=\"&&\""
+			}
+		},
+		{
+			"key": "兄弟影视",
+			"name": "兄弟🅠影视",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$movie#电视剧$tv#综艺$show#动漫$cartoon",
+				"分类url": "https://www.brovods.top/show/{cateId}--------{catePg}---/;;m0",
+				"数组": "class=\"public-list-exp\"&&</a>",
+				"链接": "href=\"&&\"",
+				"标题": "title=\"&&\"",
+				"副标题": "class=\"public-list-prb hide ft2\">&&</span>",
+				"图片": "data-src=\"&&\"",
+				"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click()",
+				"线路数组": "swiper-slide&&</a>",
+				"线路标题": "</i>&nbsp;&&</a>"
+			}
+		},
+		{
+			"key": "金牌影院",
+			"name": "金牌🅠影院",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+				"分类url": "https://huadian2.com/show/{cateId}--------{catePg}---.html",
+				"数组": "class=\"hl-item-thumb hl-lazy\"&&</a>",
+				"链接": "href=\"&&\"",
+				"标题": "title=\"&&\"",
+				"图片": "data-original=\"&&\"",
+				"线路标题": "alt=\"&&\""
+			}
+		},
+		{
+			"key": "永乐视频",
+			"name": "永乐🅠视频",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$1#剧集$2#综艺$3#动漫$4",
+				"分类url": "https://www.xz8.cc/vodshow/{cateId}--------{catePg}---/",
+				"线路标题": "data-dropdown-value=\"&&\""
+			}
+		},
+		{
+			"key": "小红影视",
+			"name": "小红🅠影视",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$movie#电视剧$tv#综艺$variety#动漫$anime",
+				"分类url": "https://www.xiaohys.com/",
+				"数组": "class=\"public-list-exp\"&&</a>",
+				"链接": "href=\"&&\"",
+				"标题": "title=\"&&\"",
+				"图片": "data-src=\"&&\"",
+				"线路数组": "swiper-slide&&</a>",
+				"线路标题": "</i>&nbsp;&&</a>"
+			}
+		},
+		{
+			"key": "星辰影院",
+			"name": "星辰🅠影院",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+				"分类url": "https://www.xcyycn.com/vs/{cateId}--------{catePg}---.html;;m0",
+				"播放数组": "class=\"hl-list-wrap\">&&</div>",
+				"播放列表": "li&&</li>",
+				"播放标题": "class=\"hl-col-xs-4 hl-col-sm-2\">&&</a>",
+				"播放链接": "href=\"&&\""
+			}
+		},
+		{
+			"key": "电影天堂",
+			"name": "电影🅠天堂",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"jar": "./XBPQ.jar/XBPQ.jar",
+			"ext": {
+				"分类": "电影$1#连续剧$2#动漫$4#综艺$3",
+				"分类url": "https://dyttzyw.tv/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+				"数组": "<a&&</a>",
+				"链接": "href=\"&&\"",
+				"标题": "<div class=\"overflow-hidden text-ellipsis group-hover:text-blue-500\">&&</div>",
+				"图片": "src=\"&&\"",
+				"播放数组": "class=\"playlist wbox dytt\">&&</ul></div>",
+				"播放列表": "li&&</li>",
+				"播放标题": "title=\"&&\"",
+				"播放链接": "href=\"&&\"",
+				"线路标题": "<div>&&</div>",
+				"搜索副标题": "<p class=\"text-xs font-bold text-green-50\">&&</p>"
+			}
 		},
 		{
 			"key": "Bili",
