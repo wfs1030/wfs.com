@@ -1,0 +1,16 @@
+{
+	"urls": [
+		{
+			"name": "傻柱子",
+			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json"
+		},
+		{
+			"name": "饭太硬",
+			"url": "http://www.饭太硬.com/tv"
+		},
+		{
+			"name": "小米",
+			"url": "http://mitvbox.xyz/小米/DEMO.json"
+		}
+	]
+}
