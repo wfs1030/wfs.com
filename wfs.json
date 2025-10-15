@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆瓣",
-			"name": "傻柱子┃提示您：请勿相信视频中任何广告！更新于10月3日",
+			"name": "傻柱子┃温馨提示：请勿相信视频中任何广告！更新于10月15日",
 			"type": 3,
 			"api": "csp_DouDouGuard",
 			"jar": "./jar/fty.jar",
@@ -345,6 +345,71 @@
 			}
 		},
 		{
+			"key": "宝片",
+			"name": "宝片┃自建",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"ext": {
+				"请求头": "User-Agent$Mozilla/5.0 (Linux; Android 15; V2171A Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36",
+				"分类": "电影$1#剧集$2#综艺$3#动漫$4",
+				"分类url": "https://ibaopian.com/vod/show/id/{cateId}.html;;m0",
+				"线路标题": "<a class=\"swiper-slide\"&&</a>",
+				"简介": "class=\"check text selected cor3&&</div>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
+			}
+		},
+		{
+			"key": "麒麟影视",
+			"name": "麒麟┃自建",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"ext": {
+				"分类": "电影$1#剧集$2#动漫$4#综艺$3#少儿$46",
+				"分类url": "https://www.70ys.site/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+				"线路标题": "switch=\"tab_con_playlist_*\">&&</li>[替换:FF>>FF有广>>#YZ>>YZ有广#TY>>TY有广]",
+				"简介": "<div id=\"content\">&&</div>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
+			}
+		},
+		{
+			"key": "电影天堂",
+			"name": "天堂┃自建",
+			"type": 3,
+			"searchable": 1,
+			"playerType": 2,
+			"api": "csp_XBPQ",
+			"ext": {
+				"分类": "电影$1#连续剧$2#动漫$4#综艺$3",
+				"分类url": "https://dyttzyw.tv/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+				"标题": "<div class=\"overflow-hidden text-ellipsis group-hover:text-blue-500\">&&</div>",
+				"播放数组": "class=\"playlist wbox dytt\">&&</ul></div>",
+				"播放列表": "li&&</li>",
+				"播放标题": "title=\"&&\"",
+				"播放链接": "href=\"&&\"",
+				"线路标题": "<div>&&</div>[替换:dytt地址>>Dytt1#dyttm3u8地址>>Dytt2]",
+				"搜索副标题": "<p class=\"text-xs font-bold text-green-50\">&&</p>",
+				"简介": "<p>&&</p>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
+			}
+		},
+		{
+			"key": "西瓜",
+			"name": "西瓜┃自建",
+			"type": 3,
+			"searchable": 1,
+			"playerType": 2,
+			"api": "csp_XBPQ",
+			"ext": {
+				"分类": "电影$20#连续剧$37#动漫$43#综艺$45",
+				"分类url": "https://sszzyy.com/index.php/vod/type/id/{cateId}/page/{catePg}.html;;m0",
+				"线路标题": "data-toggle=\"tab\">&&</a>",
+				"简介": "<p class=\"desc detail\">&&</p>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
+			}
+		},
+		{
 			"key": "全看网",
 			"name": "小小┃自建",
 			"type": 3,
@@ -371,22 +436,25 @@
 				"分类url": "https://www.svipmovie.cn/vodshow/{cateId}--------{catePg}---.html;;m0",
 				"副标题": "<div class=\"module-item-note\">&&</div>",
 				"线路数组": "<div class=\"module-tab-item&&</div>",
-				"线路标题": "<span>&&</span>[替换:my线路>>my线路有广#mt线路>>mt线路有广#db线路>>db线路有广]",
+				"线路标题": "<span>&&</span>[替换:my线路>>MY有广#mt线路>>MT有广#db线路>>DB有广#tt线路>>Dytt]",
 				"简介": "<p>&&</p>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
 			}
 		},
 		{
-			"key": "西瓜",
-			"name": "西瓜┃自建",
+			"key": "麦田",
+			"name": "麦田┃自建",
 			"type": 3,
 			"searchable": 1,
-			"playerType": 2,
+			"quickSearch": 1,
+			"filterable": 1,
 			"api": "csp_XBPQ",
 			"ext": {
-				"分类": "电影$20#连续剧$37#动漫$43#综艺$45",
-				"分类url": "https://sszzyy.com/index.php/vod/type/id/{cateId}/page/{catePg}.html;;m0",
-				"线路标题": "data-toggle=\"tab\">&&</a>",
-				"简介": "<p class=\"desc detail\">&&</p>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+				"分类url": "https://mtyy1.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+				"副标题": "<span class=\"public-list-prb hide ft2\">&&</span>",
+				"线路标题": "<a class=\"swiper-slide\"&&</a>[替换:YZ源>>YZ有广>>#FF源>>FF有广>>#LZ源>>LZ有广]",
+				"搜索模式": "0",
+				"简介": "<div class=\"this-desc\">&&</div>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
 			}
 		},
 		{
@@ -404,26 +472,6 @@
 			}
 		},
 		{
-			"key": "电影天堂",
-			"name": "天堂┃自建",
-			"type": 3,
-			"searchable": 1,
-			"playerType": 2,
-			"api": "csp_XBPQ",
-			"ext": {
-				"分类": "电影$1#连续剧$2#动漫$4#综艺$3",
-				"分类url": "https://dyttzyw.tv/index.php/vod/type/id/{cateId}/page/{catePg}.html",
-				"标题": "<div class=\"overflow-hidden text-ellipsis group-hover:text-blue-500\">&&</div>",
-				"播放数组": "class=\"playlist wbox dytt\">&&</ul></div>",
-				"播放列表": "li&&</li>",
-				"播放标题": "title=\"&&\"",
-				"播放链接": "href=\"&&\"",
-				"线路标题": "<div>&&</div>[替换:dytt地址>>Dytt1#dyttm3u8地址>>Dytt2]",
-				"搜索副标题": "<p class=\"text-xs font-bold text-green-50\">&&</p>",
-				"简介": "<p>&&</p>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
-			}
-		},
-		{
 			"key": "花火影视",
 			"name": "花火┃自建",
 			"type": 3,
@@ -433,8 +481,9 @@
 			"ext": {
 				"请求头": "User-Agent$MOBILE_UA#Accep&ttext/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7#Accept-Language$zh-CN,zh;q=0.9,en;q=0.8",
 				"分类": "电影$1#电视剧$2[不包含:推荐]",
-				"分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;d0",
+				"分类url": "https://shdy2.com/list/{cateId}-{catePg}.html;;d",
 				"数组": "<li>&&</li>",
+				"线路标题": "[替换:线路1>>花火1#线路2>>花火2#线路3>>花火3]",
 				"简介": "<p class=\"p_txt show_part\">&&</p>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
 			}
 		},
