@@ -5,7 +5,7 @@
 	"sites": [
 		{
 			"key": "豆瓣",
-			"name": "傻柱子┃温馨提示：请勿相信视频中任何广告！更新于10月15日",
+			"name": "傻柱子┃温馨提示：请勿相信视频中任何广告！更新于10月27日",
 			"type": 3,
 			"api": "csp_DouDouGuard",
 			"jar": "./jar/fty.jar",
@@ -15,8 +15,24 @@
 			"changeable": 0
 		},
 		{
+			"key": "MyDrive",
+			"name": "饭太硬┃配置",
+			"type": 3,
+			"api": "csp_MyDriveGuard",
+			"jar": "./jar/fty.jar",
+			"changeable": 0,
+			"indexs": 0,
+			"searchable": 1,
+			"style": {
+				"type": "oval"
+			},
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
 			"key": "config",
-			"name": "网盘┃配置",
+			"name": "小米┃配置",
 			"type": 3,
 			"api": "csp_Config",
 			"jar": "./jar/xm.jar",
@@ -34,9 +50,7 @@
 			"changeable": 0,
 			"ext": {
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
-				"from": "4k|auto",
-				"siteUrl": "https://www.wogg.com/",
-				"danMu": "弹"
+				"from": "4k|auto"
 			}
 		},
 		{
@@ -51,65 +65,6 @@
 			"ext": {
 				"Cloud-drive": "tvfan/Cloud-drive.txt",
 				"from": "4k|auto"
-			}
-		},
-		{
-			"key": "csp_Netfixtv",
-			"name": "至臻┃网盘",
-			"type": 3,
-			"changeable": "0",
-			"quickSearch": 0,
-			"api": "csp_Duopan",
-			"jar": "./jar/xm.jar",
-			"filterable": 1,
-			"ext": {
-				"site_urls": [
-					"http://zzzy.shop",
-					"https://www.zzzy.shop",
-					"https://mihdr.top",
-					"https://www.mihdr.top",
-					"https://www.miqk.cc",
-					"https://xiaomiai.site",
-					"https://xiaomi666.fun",
-					"https://www.zhizhenpan.fun"
-				],
-				"url_key": "Netfixtv",
-				"token": "",
-				"ucCookie": "",
-				"quarkCookie": "",
-				"threadinfo": {
-					"chunksize": 512,
-					"threads": 16
-				}
-			}
-		},
-		{
-			"key": "csp_Netfixtv2",
-			"name": "二小┃网盘",
-			"type": 3,
-			"changeable": "0",
-			"quickSearch": 0,
-			"api": "csp_Duopan",
-			"jar": "./jar/xm.jar",
-			"filterable": 1,
-			"ext": {
-				"site_urls": [
-					"https://www.wexwp.cc",
-					"https://wexwp.cc",
-					"https://www.2xiaopan.fun/",
-					"https://2xiaopan.fun/",
-					"https://www.2xiaoyun.fun/",
-					"https://www.2xiaoyun.fun/",
-					"https://www.xhww.net/"
-				],
-				"url_key": "UC",
-				"token": "",
-				"ucCookie": "",
-				"quarkCookie": "",
-				"threadinfo": {
-					"chunksize": 512,
-					"threads": 16
-				}
 			}
 		},
 		{
@@ -135,6 +90,43 @@
 					"threads": 16
 				},
 				"url_key": "Duopan4"
+			}
+		},
+		{
+			"key": "csp_MiSou",
+			"name": "米搜┃网盘",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 0,
+			"jar": "./jar/xm.jar",
+			"api": "csp_MiSou"
+		},
+		{
+			"key": "csp_Netfixtv",
+			"name": "至臻┃网盘",
+			"type": 3,
+			"changeable": "0",
+			"quickSearch": 0,
+			"api": "csp_Duopan",
+			"jar": "./jar/xm.jar",
+			"filterable": 1,
+			"ext": {
+				"site_urls": [
+					"https://mihdr.top",
+					"https://www.mihdr.top",
+					"https://www.miqk.cc",
+					"https://xiaomiai.site",
+					"https://xiaomi666.fun",
+					"https://www.zhizhenpan.fun"
+				],
+				"url_key": "Netfixtv",
+				"token": "",
+				"ucCookie": "",
+				"quarkCookie": "",
+				"threadinfo": {
+					"chunksize": 512,
+					"threads": 16
+				}
 			}
 		},
 		{
@@ -173,32 +165,27 @@
 			"changeable": 1
 		},
 		{
-			"key": "厂长",
-			"name": "厂长┃饭总",
-			"api": "csp_NewCzGuard",
+			"key": "低端",
+			"name": "低端┃饭总",
+			"type": 3,
+			"api": "csp_DdrkGuard",
 			"jar": "./jar/fty.jar",
 			"timeout": 15,
-			"playerType": 2,
+			"playerType": "2",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 1
 		},
 		{
-			"key": "Bili",
-			"name": "哔哩┃饭总",
+			"key": "Dm84",
+			"name": "动漫┃饭总",
 			"type": 3,
-			"api": "csp_BiliGuard",
+			"api": "csp_Dm84Guard",
 			"jar": "./jar/fty.jar",
-			"style": {
-				"type": "rect",
-				"ratio": 1.597
-			},
+			"timeout": 15,
 			"searchable": 1,
-			"quickSearch": 0,
-			"changeable": 0,
-			"ext": {
-				"json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
-			}
+			"quickSearch": 1,
+			"changeable": 1
 		},
 		{
 			"key": "荐片",
@@ -215,6 +202,17 @@
 			"ext": "https://ev2089.zxbwv.com"
 		},
 		{
+			"key": "巧技",
+			"name": "聚搜┃小米",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 0,
+			"api": "csp_qiao2",
+			"playerType": 2,
+			"jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/714c5f6aa89af46f/071.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10",
+			"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
+		},
+		{
 			"key": "csp_Gz360",
 			"name": "瓜子┃小米",
 			"type": 3,
@@ -224,68 +222,13 @@
 			"api": "csp_Gz360"
 		},
 		{
-			"key": "巧技",
-			"name": "聚搜┃小米",
+			"key": "csp_Jpys",
+			"name": "金牌┃小米",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 0,
-			"api": "csp_qiao2",
-			"jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/714c5f6aa89af46f/071.png;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10",
-			"playerType": 2,
-			"ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
-		},
-		{
-			"key": "追忆",
-			"name": "追忆┃小米",
-			"type": 3,
-			"api": "csp_AppSy",
 			"jar": "./jar/xm.jar",
-			"quickSearch": 0,
-			"ext": "oJGDh+VBrPcwnx19VbSGqy9EkivA/Gc+cSt3uSBzyPzDTmKYyoi6Wr4VgqU2u0Sh7AAuGc4/a7UWVU6BEmFetA=="
-		},
-		{
-			"key": "仓鼠2",
-			"name": "仓鼠┃小米",
-			"quickSearch": 0,
-			"searchable": 1,
-			"type": 3,
-			"api": "csp_AppQi",
-			"jar": "./jar/xm.jar",
-			"ext": "lo54N2bJ4DtrhxC9P676hHekMnvMvX1mNNhVKf3kE5Wgy3H/b30VkkDKAYauTqZsEMYaTrPKBtx3YUMTA+XHh7FPLmLfqp6gWseDzGVsgesALIba2gHVzuE75Sx1II8A"
-		},
-		{
-			"key": "QD4K",
-			"name": "猪猪┃小米",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 0,
-			"api": "https://d.feiliupan.com/t/109056264444579840/AppV2.py",
-			"jar": "./jar/xm.jar",
-			"playerType": 2,
-			"ext": {
-				"api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
-				"datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-				"apisignkey": "lvdoutv-1.0.0"
-			}
-		},
-		{
-			"key": "麻花",
-			"name": "麻花┃小米",
-			"type": 3,
-			"quickSearch": 0,
-			"searchable": 1,
-			"api": "csp_AppGet",
-			"jar": "./jar/xm.jar",
-			"ext": "L5CUOokkdA53FISUojI6hPrPTI97cTkdA/ji0bBBqAxKRl2ZBcdyMIPZYXkkVxwyvG4rB4PEPXKIt7+cirUe3BI+KdfWiEtEO4bT/XoF0PYU0GWsBFU3ARUcHsGqNpNy"
-		},
-		{
-			"key": "金牌APP",
-			"name": "爆炸┃小米",
-			"quickSearch": 0,
-			"type": 3,
-			"api": "csp_AppMuou",
-			"jar": "./jar/xm.jar",
-			"ext": "ewogICJTaXRlVXJsIjogImh0dHBzOi8vbXVvdS53bGJicS54eXoiLAogICJFeHQiOiAiaXA5K1dadnQ5ODNzUzAwOGtyTktobno4Q2Fzb2d3QjlLYkp2U0FmNGJRZEg5aUlGVHE4Y0tGM3Y4RFBicnphUiIsCiAgIkluZm8iOiAiaHR0cHM6Ly9tdW91aHQuZ2d0dmIuY2MiCn0="
+			"api": "csp_Jpys"
 		},
 		{
 			"key": "AppQi1",
@@ -293,7 +236,7 @@
 			"type": 3,
 			"api": "csp_AppQi",
 			"jar": "./jar/xm.jar",
-			"changeable": "0",
+			"changeable": "1",
 			"quickSearch": 0,
 			"filterable": 1,
 			"ext": "BciM/oLDYQqSU++RAsI5xz2Dmz98Blyw0pp0T+0QPiqzXAOG2XsUSh62armSJmz6+8BN455Lbt5tpPqGfXnKgoQ1N+ZOhu3N/KDZ+r/7HZc="
@@ -307,6 +250,15 @@
 			"api": "csp_AppQi",
 			"jar": "./jar/xm.jar",
 			"ext": "rP+4azM8YFgp3eAhyeALtUUEFpbkqmzGj2V5VZryxRbpkSjlsHbarRCZPOInvId4s3WK9rZ2YJsDy8NvMqQKQXowVmh33j+qD55VxmvMzzffqLi7UXvCKdy6PzbDhzFq"
+		},
+		{
+			"key": "追忆",
+			"name": "追忆┃小米",
+			"type": 3,
+			"api": "csp_AppSy",
+			"jar": "./jar/xm.jar",
+			"quickSearch": 0,
+			"ext": "oJGDh+VBrPcwnx19VbSGqy9EkivA/Gc+cSt3uSBzyPzDTmKYyoi6Wr4VgqU2u0Sh7AAuGc4/a7UWVU6BEmFetA=="
 		},
 		{
 			"key": "云速",
@@ -342,22 +294,6 @@
 				"分类url": "https://www.jzvod.fun/vodtype/{cateId}.html;;",
 				"线路标题": "<h3 class=\"title\">&&</h3>",
 				"简介": "<p class=\"col-pd\">&&</p>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
-			}
-		},
-		{
-			"key": "宝片",
-			"name": "宝片┃自建",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"ext": {
-				"请求头": "User-Agent$Mozilla/5.0 (Linux; Android 15; V2171A Build/AP3A.240905.015.A2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Mobile Safari/537.36",
-				"分类": "电影$1#剧集$2#综艺$3#动漫$4",
-				"分类url": "https://ibaopian.com/vod/show/id/{cateId}.html;;m0",
-				"线路标题": "<a class=\"swiper-slide\"&&</a>",
-				"简介": "class=\"check text selected cor3&&</div>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
 			}
 		},
 		{
@@ -425,6 +361,21 @@
 			}
 		},
 		{
+			"key": "樱花影视",
+			"name": "樱花┃自建",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"ext": {
+				"分类": "电影$1#剧集$2#综艺$3#动漫$4",
+				"分类url": "https://buosn.com/vodtype/{cateId}-{catePg}/;;m0",
+				"线路标题": "data-toggle=\"tab\"&&</a>[排序:爱奇艺>腾讯>优酷>芒果]",
+				"简介": "<span class=\"data\" style=\"*\">&&</span>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
+			}
+		},
+		{
 			"key": "SVIP影院",
 			"name": "SVIP┃自建",
 			"type": 3,
@@ -453,8 +404,8 @@
 				"分类url": "https://mtyy1.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
 				"副标题": "<span class=\"public-list-prb hide ft2\">&&</span>",
 				"线路标题": "<a class=\"swiper-slide\"&&</a>[替换:YZ源>>YZ有广>>#FF源>>FF有广>>#LZ源>>LZ有广]",
-				"搜索模式": "0",
-				"简介": "<div class=\"this-desc\">&&</div>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]"
+				"简介": "<div class=\"this-desc\">&&</div>[工具:弹窗-请勿相信视频中任何广告以免上当受骗]",
+				"搜索模式": "1"
 			}
 		},
 		{
@@ -522,8 +473,27 @@
 			}
 		},
 		{
+			"key": "测试",
+			"name": "❤️测试",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "csp_XBPQ",
+			"ext": {
+				"请求头": "User-Agent$MOBILE_UA",
+				"分类": "电影$1#剧集$2#综艺$3#动漫$4",
+				"分类url": "https://www.ikan6.vip/vodshow/{cateId}-----------.html",
+				"数组": "<a class=\"public-list-exp\"&&</a></div>",
+				"链接": "href=\"&&\"",
+				"标题": "alt=\"&&\"",
+				"图片": "data-src=\"&&\"",
+				"搜索url": "https://www.ikan6.vip/vodsearch/-------------.html?wd={wd}"
+			}
+		},
+		{
 			"key": "Bili",
-			"name": "😁哔哩┃合集",
+			"name": "哔哩┃饭总",
 			"type": 3,
 			"api": "csp_BiliGuard",
 			"jar": "./jar/fty.jar",

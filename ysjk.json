@@ -11,6 +11,10 @@
 		{
 			"name": "小米",
 			"url": "http://mitvbox.xyz/小米/DEMO.json"
+		},
+		{
+			"name": "小米2",
+			"url": "https://cnb.cool/xiaomideyun/xiaomideyun/-/git/raw/main/mi.json"
 		}
 	]
 }
