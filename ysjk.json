@@ -1,20 +1,12 @@
 {
 	"urls": [
 		{
-			"name": "🌈时光小站",
+			"name": "👻小柱子",
 			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json"
 		},
 		{
-			"name": "👌OK影视",
-			"url": "http://ok213.top/ok"
-		},
-		{
-			"name": "🍘小米",
-			"url": "http://mitvbox.xyz/小米/DEMO.json"
-		},
-		{
 			"name": "🍚饭太硬",
-			"url": "http://www.饭太硬.com/tv"
+			"url": "http://www.饭太硬.net/tv"
 		}
 	]
 }
