@@ -1,7 +1,7 @@
 {
 	"wallpaper": "https://bing.img.run/rand.php",
 	"spider": "./jar/fty.jar",
-	"logo": "./json/logo.gif",
+	"logo": "./lib/logo.gif",
 	"sites": [
 		{
 			"key": "豆豆",
@@ -302,8 +302,8 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/腾腾.bmp"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/腾腾.bmp"
 		},
 		{
 			"key": "优优",
@@ -312,8 +312,8 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/优优.bmp"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/优优.bmp"
 		},
 		{
 			"key": "奇奇",
@@ -322,8 +322,8 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
-			"api": "./js/drpy2.min.js",
-			"ext": "./js/奇奇.bmp"
+			"api": "./lib/drpy2.min.js",
+			"ext": "./lib/奇奇.bmp"
 		},
 		{
 			"key": "馆源",
