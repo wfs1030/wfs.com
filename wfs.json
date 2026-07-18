@@ -1,1 +1,473 @@
-wodejk01**ewoJIndhbGxwYXBlciI6ICJodHRwczovL2JpbmcuaW1nLnJ1bi9yYW5kLnBocCIsCgkic3BpZGVyIjogIi4vamFyL2Z0eS5qYXIiLAoJImxvZ28iOiAiLi9qc29uL2xvZ28uZ2lmIiwKCSJzaXRlcyI6IFsKCQl7CgkJCSJrZXkiOiAi6LGG6LGGIiwKCQkJIm5hbWUiOiAi8J+OieWwj+afseWtkOKUgzXmnIgyMeaXpeKUg+S/ruWkjeWkseaViOa6kO+8geW5v+WRiuWLv+S/oeKdl++4jyIsCgkJCSJ0eXBlIjogMywKCQkJImFwaSI6ICJjc3BfRG91RG91R3VhcmQiLAoJCQkiaW5kZXhzIjogMSwKCQkJInNlYXJjaGFibGUiOiAwLAoJCQkicXVpY2tTZWFyY2giOiAwLAoJCQkiY2hhbmdlYWJsZSI6IDAKCQl9LAoJCXsKCQkJImtleSI6ICJNRHJpdmUiLAoJCQkibmFtZSI6ICLwn5eC5LqR55uY4pSD6YWN572uIiwKCQkJInR5cGUiOiAzLAoJCQkiYXBpIjogImNzcF9NeURyaXZlR3VhcmQiLAoJCQkiY2hhbmdlYWJsZSI6IDAsCgkJCSJpbmRleHMiOiAwLAoJCQkic2VhcmNoYWJsZSI6IDEsCgkJCSJzdHlsZSI6IHsKCQkJCSJ0eXBlIjogIm92YWwiCgkJCX0sCgkJCSJleHQiOiB7CgkJCQkiQ2xvdWQtZHJpdmUiOiAidHZmYW4vQ2xvdWQtZHJpdmUudHh0IgoJCQl9CgkJfSwKCQl7CgkJCSJrZXkiOiAi546p5YG2IiwKCQkJIm5hbWUiOiAi8J+RveeOqeWBtuKUg+e9keebmCIsCgkJCSJ0eXBlIjogMywKCQkJImFwaSI6ICJjc3BfV29HR0d1YXJkIiwKCQkJInRpbWVvdXQiOiAzMCwKCQkJInNlYXJjaGFibGUiOiAxLAoJCQkicXVpY2tTZWFyY2giOiAxLAoJCQkiY2hhbmdlYWJsZSI6IDAsCgkJCSJleHQiOiB7CgkJCQkiQ2xvdWQtZHJpdmUiOiAidHZmYW4vQ2xvdWQtZHJpdmUudHh0IgoJCQl9CgkJfSwKCQl7CgkJCSJrZXkiOiAiVUMiLAoJCQkibmFtZSI6ICLwn4yI5LyY5rGQ4pSD572R55uYIiwKCQkJInR5cGUiOiAzLAoJCQkiYXBpIjogImNzcF9VdVNzR3VhcmQiLAoJCQkic2VhcmNoYWJsZSI6IDEsCgkJCSJxdWlja1NlYXJjaCI6IDEsCgkJCSJjaGFuZ2VhYmxlIjogMCwKCQkJImV4dCI6IHsKCQkJCSJDbG91ZC1kcml2ZSI6ICJ0dmZhbi9DbG91ZC1kcml2ZS50eHQiCgkJCX0KCQl9LAoJCXsKCQkJImtleSI6ICLmiqDmkJwiLAoJCQkibmFtZSI6ICLwn42E5oqg5oqg4pSD572R55uYIiwKCQkJInR5cGUiOiAzLAoJCQkiYXBpIjogImNzcF9La1NzR3VhcmQiLAoJCQkic2VhcmNoYWJsZSI6IDEsCgkJCSJxdWlja1NlYXJjaCI6IDEsCgkJCSJjaGFuZ2VhYmxlIjogMCwKCQkJImV4dCI6IHsKCQkJCSJDbG91ZC1kcml2ZSI6ICJ0dmZhbi9DbG91ZC1kcml2ZS50eHQiCgkJCX0KCQl9LAoJCXsKCQkJImtleSI6ICJaUGFuIiwKCQkJIm5hbWUiOiAi8J+OiOiBmuaQnOKUg+e9keebmCIsCgkJCSJ0eXBlIjogMywKCQkJImFwaSI6ICJjc3BfU196cHNHdWFyZCIsCgkJCSJzZWFyY2hhYmxlIjogMSwKCQkJInF1aWNrU2VhcmNoIjogMCwKCQkJImNoYW5nZWFibGUiOiAwLAoJCQkiZXh0IjogewoJCQkJInNpdGVVcmwiOiAiaHR0cDovLzEwNy4xNzMuMjExLjE0OC8iCgkJCX0sCgkJCSJpbmRleHMiOiAwLAoJCQkic3R5bGUiOiB7CgkJCQkidHlwZSI6ICJsaXN0IgoJCQl9CgkJfSwKCQl7CgkJCSJrZXkiOiAi54Ot5pKtIiwKCQkJIm5hbWUiOiAi8J+TuueDreaSreKUg+Wkmue6vyIsCgkJCSJ0eXBlIjogMywKCQkJImFwaSI6ICJjc3BfQXBwVFRHdWFyZCIsCgkJCSJ0aW1lb3V0IjogMTAsCgkJCSJwbGF5ZXJUeXBlIjogMiwKCQkJInNlYXJjaGFibGUiOiAxLAoJCQkicXVpY2tTZWFyY2giOiAxLAoJCQkiY2hhbmdlYWJsZSI6IDEsCgkJCSJleHQiOiAidXFHTDFiTkVORXhUNy9oR3hwU0U1cVU9IgoJCX0sCgkJewoJCQkia2V5IjogIuezr+exsyIsCgkJCSJuYW1lIjogIvCfjZPns6/nsbPilIPlpJrnur8iLAoJCQkidHlwZSI6IDMsCgkJCSJhcGkiOiAiY3NwX05teXN3dkd1YXJkIiwKCQkJInRpbWVvdXQiOiAxNSwKCQkJInNlYXJjaGFibGUiOiAxLAoJCQkicXVpY2tTZWFyY2giOiAxLAoJCQkiY2hhbmdlYWJsZSI6IDEKCQl9LAoJCXsKCQkJImtleSI6ICLmlofph4ciLAoJCQkibmFtZSI6ICLwn5Ku5paH6YeH4pSD56eS5pKtIiwKCQkJInR5cGUiOiAzLAoJCQkiYXBpIjogImNzcF9KcHlzR3VhcmQiLAoJCQkidGltZW91dCI6IDEwLAoJCQkicGxheWVyVHlwZSI6IDIsCgkJCSJzZWFyY2hhYmxlIjogMSwKCQkJInF1aWNrU2VhcmNoIjogMSwKCQkJImNoYW5nZWFibGUiOiAxCgkJfSwKCQl7CgkJCSJrZXkiOiAi5Y6C6ZW/IiwKCQkJIm5hbWUiOiAi8J+TlOWOgumVv+KUg+enkuaSrSIsCgkJCSJ0eXBlIjogMywKCQkJImFwaSI6ICJjc3BfTmV3Q3pHdWFyZCIsCgkJCSJ0aW1lb3V0IjogMTAsCgkJCSJwbGF5ZXJUeXBlIjogMiwKCQkJInNlYXJjaGFibGUiOiAxLAoJCQkicXVpY2tTZWFyY2giOiAxLAoJCQkiY2hhbmdlYWJsZSI6IDEKCQl9LAoJCXsKCQkJImtleSI6ICLmr5TnibkiLAoJCQkibmFtZSI6ICLwn42E5q+U54m54pSD56eS5pKtIiwKCQkJInR5cGUiOiAzLAoJCQkiYXBpIjogImNzcF9CdHR3b29HdWFyZCIsCgkJCSJ0aW1lb3V0IjogMTAsCgkJCSJzZWFyY2hhYmxlIjogMSwKCQkJInF1aWNrU2VhcmNoIjogMSwKCQkJImNoYW5nZWFibGUiOiAxCgkJfSwKCQl7CgkJCSJrZXkiOiAi54yr54yrIiwKCQkJIm5hbWUiOiAi8J+Qn+eMq+eMq+KUg+Wkmue6vyIsCgkJCSJ0eXBlIjogMywKCQkJImFwaSI6ICJjc3BfQXBwU3hHdWFyZCIsCgkJCSJ0aW1lb3V0IjogMTAsCgkJCSJzZWFyY2hhYmxlIjogMSwKCQkJInF1aWNrU2VhcmNoIjogMSwKCQkJImNoYW5nZWFibGUiOiAxLAoJCQkiZXh0IjogInJmT2IxdUFXYmtSSHA3aGR4cHJHOXVuMytUREMydC9ybFR3bGNNcitDaGRiZVY4UTl5OXhzS3hxZmJ0TzBNMDV0R1djYWNGVm0yYzQ1amh5SDZ0MVJ0NkE2UGpJQ0dxeFYrdU4xdU9xUzIveDBWcDVKMFZmbzh1c1FBRHBIZz09IgoJCX0sCgkJewoJCQkia2V5IjogIuWltumFqiIsCgkJCSJuYW1lIjogIvCfp4DlpbbpharilIPnp5Lmkq0iLAoJCQkidHlwZSI6IDMsCgkJCSJhcGkiOiAiY3NwX1Q0R3VhcmQiLAoJCQkic2VhcmNoYWJsZSI6IDEsCgkJCSJxdWlja1NlYXJjaCI6IDEsCgkJCSJjaGFuZ2VhYmxlIjogMCwKCQkJImV4dCI6ICJyZk9JelBrU1VrQU52NkFUMnByQzhlbjMrVHpLeDlUbmxUOHZhWTM3SGh0WWZBUWU2QzV4cXJWdUpQaFF3WVY2cjNlUmRNQkdtM1FtNlRoK0J1c2hSODZCNktxSkdYRHNIYXpIdzdhbEJHLzd6VXhrTjF0Sy9OeXBSeG5wQk5vZVV0cHc0amNDR2h5dEk3NXlPNGc0ekc2U09QQTBSU3doa3NNMElGMmZyaUFrckhDV29XM3YrMG1kdzZzano0dDRYQjFEZjd5TC9SNWNmYUEvNUxRWXEzSThPa3ZNckpNVTlRMVA3Slh3eDdOU0YyelR5SC9BTlZtWjR1NW01NjdEVzFLVkc3T3VRalhQalppT1hUWWswK3dqcGZCUlRmMTl5SXE2cS9DNzZrMkZzODBqb0FNUHcwdWVEUitRSHh0dURjVG9tMnJtSGtJMUZvbmt6aTZCb3RicFVjYlNpNFBpSWdtZmRidlZ3aEc2WitpNG52dCtJWWE0OGw1YUxBN1BMZ0RpRVJwdU9zMzFhSGFYbGdGc3dUODdYeVRiOFFhRjRDdXpLV0p1WHB0d05UanZYQVM5S0hkeEg0OUF5K2hmQkFCMmJDdlVmNENNb2xkRjJ3WlV2MG1JMnFZOTY2ZXJGcE9GZytGT2M3dDg4RVVIOGo4QUNYUXRISmlLQzlSUStTYUxJRjA9IgoJCX0sCgkJewoJCQkia2V5IjogIuWlh+WlhyIsCgkJCSJuYW1lIjogIvCfpYflpYfoibrilIPlrpjmupAiLAoJCQkidHlwZSI6IDMsCgkJCSJzZWFyY2hhYmxlIjogMSwKCQkJInF1aWNrU2VhcmNoIjogMSwKCQkJImNoYW5nZWFibGUiOiAwLAoJCQkiYXBpIjogIi4vanMvZHJweTIubWluLmpzIiwKCQkJImV4dCI6ICIuL2pzL+Wlh+Wlhy5ibXAiCgkJfSwKCQl7CgkJCSJrZXkiOiAi6IW+6IW+IiwKCQkJIm5hbWUiOiAi8J+liOiFvuiur+KUg+WumOa6kCIsCgkJCSJ0eXBlIjogMywKCQkJInNlYXJjaGFibGUiOiAxLAoJCQkicXVpY2tTZWFyY2giOiAxLAoJCQkiY2hhbmdlYWJsZSI6IDAsCgkJCSJhcGkiOiAiLi9qcy9kcnB5Mi5taW4uanMiLAoJCQkiZXh0IjogIi4vanMv6IW+6IW+LmJtcCIKCQl9LAoJCXsKCQkJImtleSI6ICLkvJjkvJgiLAoJCQkibmFtZSI6ICLwn6WJ5LyY6YW34pSD5a6Y5rqQIiwKCQkJInR5cGUiOiAzLAoJCQkic2VhcmNoYWJsZSI6IDEsCgkJCSJxdWlja1NlYXJjaCI6IDEsCgkJCSJjaGFuZ2VhYmxlIjogMCwKCQkJImFwaSI6ICIuL2pzL2RycHkyLm1pbi5qcyIsCgkJCSJleHQiOiAiLi9qcy/kvJjkvJguYm1wIgoJCX0sCgkJewoJCQkia2V5IjogIuiMq+iMqyIsCgkJCSJuYW1lIjogIvCfj4XoipLmnpzilIPlrpjmupAiLAoJCQkidHlwZSI6IDMsCgkJCSJzZWFyY2hhYmxlIjogMSwKCQkJInF1aWNrU2VhcmNoIjogMSwKCQkJImNoYW5nZWFibGUiOiAwLAoJCQkiYXBpIjogIi4vanMvZHJweTIubWluLmpzIiwKCQkJImV4dCI6ICIuL2pzL+iMq+iMqy5ibXAiCgkJfSwKCQl7CgkJCSJrZXkiOiAiQmlsaSIsCgkJCSJuYW1lIjogIvCfhbHlk5Tlk6nilIPlkIjpm4YiLAoJCQkidHlwZSI6IDMsCgkJCSJhcGkiOiAiY3NwX0JpbGlHdWFyZCIsCgkJCSJzdHlsZSI6IHsKCQkJCSJ0eXBlIjogInJlY3QiLAoJCQkJInJhdGlvIjogMS41OTcKCQkJfSwKCQkJInNlYXJjaGFibGUiOiAxLAoJCQkicXVpY2tTZWFyY2giOiAwLAoJCQkiY2hhbmdlYWJsZSI6IDAsCgkJCSJleHQiOiB7CgkJCQkianNvbiI6ICJodHRwczovL25vcy5uZXRlYXNlLmNvbS95c2YvMDA3NTM4OWRjYTlhZmFkZDQ2MTRlOTcxMzc2NWZmMTcudHh0IgoJCQl9CgkJfSwKCQl7CgkJCSJrZXkiOiAiQmlsaXljaCIsCgkJCSJuYW1lIjogIvCfhbHlk5Tlk6nilIPmvJTllLHkvJoiLAoJCQkidHlwZSI6IDMsCgkJCSJhcGkiOiAiY3NwX0JpbGlHdWFyZCIsCgkJCSJzdHlsZSI6IHsKCQkJCSJ0eXBlIjogInJlY3QiLAoJCQkJInJhdGlvIjogMS41OTcKCQkJfSwKCQkJInNlYXJjaGFibGUiOiAwLAoJCQkicXVpY2tTZWFyY2giOiAwLAoJCQkiY2hhbmdlYWJsZSI6IDAsCgkJCSJleHQiOiB7CgkJCQkianNvbiI6ICJodHRwczovL25vcy5uZXRlYXNlLmNvbS95c2YvNjQ5NjM1NjI4NjU4OWM2OGY1MmMyZjk5YzBjNjc0YzcudHh0IgoJCQl9CgkJfSwKCQl7CgkJCSJrZXkiOiAiZHJf5YWU5bCP6LSdIiwKCQkJIm5hbWUiOiAi8J+TmuWEv+erpeKUg+WQr+iSmSIsCgkJCSJ0eXBlIjogMywKCQkJImFwaSI6ICJodHRwczovL2dpdC55eWx4Lndpbi9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZmFudGFpeWluZzcvRVhUL3JlZnMvaGVhZHMvbWFpbi9kcnB5Mi5taW4uanMiLAoJCQkiZXh0IjogImh0dHBzOi8vZ2l0Lnl5bHgud2luL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9mYW50YWl5aW5nNy9FWFQvcmVmcy9oZWFkcy9tYWluLyVFNSU4NSU5NCVFNSVCMCU4RiVFOCVCNCU5RC5qcyIsCgkJCSJzdHlsZSI6IHsKCQkJCSJ0eXBlIjogInJlY3QiLAoJCQkJInJhdGlvIjogMS41OTcKCQkJfSwKCQkJInNlYXJjaGFibGUiOiAwLAoJCQkicXVpY2tTZWFyY2giOiAwLAoJCQkiY2hhbmdlYWJsZSI6IDAKCQl9LAoJCXsKCQkJImtleSI6ICLlsJHlhL/mlZnogrIiLAoJCQkibmFtZSI6ICLwn5Oa5bCR5YS/4pSD5pWZ6IKyIiwKCQkJInR5cGUiOiAzLAoJCQkiYXBpIjogImNzcF9CaWxpR3VhcmQiLAoJCQkic3R5bGUiOiB7CgkJCQkidHlwZSI6ICJyZWN0IiwKCQkJCSJyYXRpbyI6IDEuNTk3CgkJCX0sCgkJCSJzZWFyY2hhYmxlIjogMCwKCQkJInF1aWNrU2VhcmNoIjogMCwKCQkJImNoYW5nZWFibGUiOiAwLAoJCQkiZXh0IjogewoJCQkJImpzb24iOiAiaHR0cHM6Ly9ub3MubmV0ZWFzZS5jb20veXNmLzg5MzcwYzhkZGYzNmI1ZTFiZWI0ZDcxYWRiOTIxYmRhLnR4dCIKCQkJfQoJCX0sCgkJewoJCQkia2V5IjogIuWwj+WtpuivvuWggiIsCgkJCSJuYW1lIjogIvCfk5rlsI/lrabilIPor77loIIiLAoJCQkidHlwZSI6IDMsCgkJCSJhcGkiOiAiY3NwX0JpbGlHdWFyZCIsCgkJCSJzdHlsZSI6IHsKCQkJCSJ0eXBlIjogInJlY3QiLAoJCQkJInJhdGlvIjogMS41OTcKCQkJfSwKCQkJInNlYXJjaGFibGUiOiAwLAoJCQkicXVpY2tTZWFyY2giOiAwLAoJCQkiY2hhbmdlYWJsZSI6IDAsCgkJCSJleHQiOiB7CgkJCQkianNvbiI6ICJodHRwczovL25vcy5uZXRlYXNlLmNvbS95c2YvZDdhMjFjZjM0ZWRlNTZmNWM2ODZlY2ZiYTVmYzdlM2YudHh0IgoJCQl9CgkJfSwKCQl7CgkJCSJrZXkiOiAi5Yid5Lit6K++5aCCIiwKCQkJIm5hbWUiOiAi8J+TmuWIneS4reKUg+ivvuWggiIsCgkJCSJ0eXBlIjogMywKCQkJImFwaSI6ICJjc3BfQmlsaUd1YXJkIiwKCQkJInN0eWxlIjogewoJCQkJInR5cGUiOiAicmVjdCIsCgkJCQkicmF0aW8iOiAxLjU5NwoJCQl9LAoJCQkic2VhcmNoYWJsZSI6IDAsCgkJCSJxdWlja1NlYXJjaCI6IDAsCgkJCSJjaGFuZ2VhYmxlIjogMCwKCQkJImV4dCI6IHsKCQkJCSJqc29uIjogImh0dHBzOi8vbm9zLm5ldGVhc2UuY29tL3lzZi84ZjU1ZDUyMGY4ZDcwMDU2Njk1NzQwZWYxNTE3NDRhNy50eHQiCgkJCX0KCQl9LAoJCXsKCQkJImtleSI6ICLpq5jkuK3mlZnogrIiLAoJCQkibmFtZSI6ICLwn5Oa6auY5Lit4pSD6K++5aCCIiwKCQkJInR5cGUiOiAzLAoJCQkiYXBpIjogImNzcF9CaWxpR3VhcmQiLAoJCQkic3R5bGUiOiB7CgkJCQkidHlwZSI6ICJyZWN0IiwKCQkJCSJyYXRpbyI6IDEuNTk3CgkJCX0sCgkJCSJzZWFyY2hhYmxlIjogMCwKCQkJInF1aWNrU2VhcmNoIjogMCwKCQkJImNoYW5nZWFibGUiOiAwLAoJCQkiZXh0IjogewoJCQkJImpzb24iOiAiaHR0cHM6Ly9ub3MubmV0ZWFzZS5jb20veXNmL2M2NmE0YjUzNTYxNDFjNDlmZDQ1ZWM1MTU2ODAxN2I0LnR4dCIKCQkJfQoJCX0KCV0sCgkicGFyc2VzIjogWwoJCXsKCQkJIm5hbWUiOiAi8J+Nieilv+eTnCIsCgkJCSJ0eXBlIjogMSwKCQkJInVybCI6ICJodHRwczovL3dmczEwMzAudG9wL2p4L+ilv+eTnOino+aekC5waHA/dXJsPSIKCQl9CgldLAoJImxpdmVzIjogWwoJCXsKCQkJIm5hbWUiOiAi8J+ToWxpdmUiLAoJCQkidHlwZSI6IDAsCgkJCSJ1cmwiOiAiaHR0cHM6Ly9naXRlZS5jb20vaGFwcHkxLWlzLWhlLXdoby1pcy1jb250ZW50L3dmcy5jb20vcmF3L21haW4vbGl2ZS50eHQiLAoJCQkicGxheWVyVHlwZSI6IDIsCgkJCSJ1YSI6ICJva2h0dHAvMy4xNSIsCgkJCSJlcGciOiAiaHR0cDovL2VwZy4xMTIxMTQueHl6Lz9jaD17bmFtZX0mZGF0ZT17ZGF0ZX0iLAoJCQkibG9nbyI6ICJodHRwczovL2VwZy4xMTIxMTQueHl6L2xvZ28ve25hbWV9LnBuZyIKCQl9LAoJCXsKCQkJIm5hbWUiOiAi8J+ToUx2ZSIsCgkJCSJ0eXBlIjogMCwKCQkJInVybCI6ICJodHRwczovL2Qua3N0b3JlLmRldi9kb3dubG9hZC82NTk1L2xpdmUudHh0IiwKCQkJInBsYXllclR5cGUiOiAyLAoJCQkidWEiOiAib2todHRwLzMuMTUiLAoJCQkiZXBnIjogImh0dHA6Ly9lcGcuMTEyMTE0Lnh5ei8/Y2g9e25hbWV9JmRhdGU9e2RhdGV9IiwKCQkJImxvZ28iOiAiaHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9sb2dvL3tuYW1lfS5wbmciCgkJfQoJXQp9
+{
+	"wallpaper": "https://bing.img.run/rand.php",
+	"spider": "./jar/fty.jar",
+	"logo": "./json/logo.gif",
+	"sites": [
+		{
+			"key": "豆豆",
+			"name": "🌈小柱子┃7月17日┃修复失效源！广告勿信❗️",
+			"type": 3,
+			"api": "csp_DouDouGuard",
+			"indexs": 1,
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0
+		},
+		{
+			"key": "MDrive",
+			"name": "🗂云盘┃配置",
+			"type": 3,
+			"api": "csp_MyDriveGuard",
+			"changeable": 0,
+			"indexs": 0,
+			"searchable": 1,
+			"style": {
+				"type": "oval"
+			},
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
+			"key": "本地接口",
+			"name": "📦 本地┃配置",
+			"type": 3,
+			"api": "csp_DecryptConfig",
+			"jar": "./jar/fmao.jar",
+			"searchable": 0,
+			"changeable": 0,
+			"indexs": 0,
+			"style": {
+				"type": "list"
+			}
+		},
+		{
+			"key": "玩偶",
+			"name": "👽玩偶┃网盘",
+			"type": 3,
+			"api": "csp_WoGGGuard",
+			"timeout": 30,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
+			"key": "UC",
+			"name": "🌈优汐┃网盘",
+			"type": 3,
+			"api": "csp_UuSsGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
+			"key": "BpanSo",
+			"name": "🐞盘他┃嘟嘟",
+			"type": 3,
+			"api": "csp_BpanSoGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
+			"key": "YpanSo",
+			"name": "🐟盘她┃夸父",
+			"type": 3,
+			"api": "csp_YpanSoGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
+			"key": "抠搜",
+			"name": "🍄抠搜┃网盘",
+			"type": 3,
+			"api": "csp_KkSsGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": {
+				"Cloud-drive": "tvfan/Cloud-drive.txt"
+			}
+		},
+		{
+			"key": "ZPan",
+			"name": "🎈聚搜┃网盘",
+			"type": 3,
+			"api": "csp_S_zpsGuard",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"siteUrl": "http://107.173.211.148/"
+			},
+			"indexs": 0,
+			"style": {
+				"type": "list"
+			}
+		},
+		{
+			"key": "热播",
+			"name": "📺热播┃多线",
+			"type": 3,
+			"api": "csp_AppTTGuard",
+			"timeout": 10,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "uqGL1bNENExT7/hGxpSE5qU="
+		},
+		{
+			"key": "糯米",
+			"name": "🍓糯米┃多线",
+			"type": 3,
+			"api": "csp_NmyswvGuard",
+			"timeout": 15,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "文采",
+			"name": "💮文采┃秒播",
+			"type": 3,
+			"api": "csp_JpysGuard",
+			"timeout": 10,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "厂长",
+			"name": "📔厂长┃秒播",
+			"type": 3,
+			"api": "csp_NewCzGuard",
+			"timeout": 10,
+			"playerType": 2,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "比特",
+			"name": "🍄比特┃秒播",
+			"type": 3,
+			"api": "csp_BttwooGuard",
+			"timeout": 10,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "奶酪",
+			"name": "🧀奶酪┃秒播",
+			"type": 3,
+			"api": "csp_T4Guard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="
+		},
+		{
+			"key": "瓜子影视",
+			"name": "🍉瓜子┃影视",
+			"type": 3,
+			"api": "csp_Gz360",
+			"searchable": 1,
+			"quickSearch": 1,
+			"jar": "./jar/fmao.jar",
+			"filterable": 1
+		},
+		{
+			"key": "麦田",
+			"name": "🌾麦田┃影视",
+			"type": 3,
+			"api": "csp_AppV6",
+			"jar": "./jar/fmao.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": "http://172.247.227.203:25321/mtys.php"
+		},
+		{
+			"key": "华谊",
+			"name": "🎬华谊┃影视",
+			"type": 3,
+			"api": "csp_AppDrama",
+			"jar": "./jar/fmao.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"appName": "华谊",
+				"publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
+				"dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
+				"dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+				"pkg": "com.muyue.tool",
+				"host": "",
+				"site": "https://vip.123pan.cn/1851089669/oss/az5.txt",
+				"version": "1.0.0.4",
+				"decrypt": "1"
+			}
+		},
+		{
+			"key": "橘汁",
+			"name": "🍊橘汁┃影视",
+			"type": 3,
+			"api": "csp_AppDrama",
+			"jar": "./jar/fmao.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"appName": "橘汁",
+				"publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+				"dataKey": "RTRTUJZWWMO0ZWV6EFBOSURNCTK4PQ==",
+				"dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+				"pkg": "com.tjjiangh.android",
+				"host": "",
+				"site": "https://vip.123pan.cn/1848463092/cct/az5.txt",
+				"version": "3.0.1.9",
+				"decrypt": "1"
+			}
+		},
+		{
+			"key": "三秋影视",
+			"name": "🍂三秋┃影视",
+			"type": 3,
+			"api": "csp_App3Q",
+			"jar": "./jar/fmao.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"ext": {
+				"host": "https://asd123sx23xdacsx.top",
+				"mode": "app",
+				"hosts": [
+					"https://asd123sx23xdacsx.top",
+					"https://bbys.app"
+				]
+			}
+		},
+		{
+			"key": "剧圈99",
+			"name": "🍩剧圈┃影视",
+			"type": 3,
+			"api": "csp_App99",
+			"jar": "./jar/fmao.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"host": "http://124.221.3.182:19987/app/bn",
+				"appkey": "d1f0c269eab74d93821fffc9befdbbba",
+				"versionName": "1.2.0",
+				"name": "剧圈圈",
+				"package": "com.qingtangxiaozhuan.xyz",
+				"buildNumber": "2002",
+				"buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"
+			}
+		},
+		{
+			"key": "枫叶",
+			"name": "🍁枫叶┃影视",
+			"type": 3,
+			"api": "csp_FengYe",
+			"jar": "./jar/fmao.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": "https://www.vip1949.com/"
+		},
+		{
+			"key": "腾腾",
+			"name": "🌈腾讯┃官源",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/腾腾.bmp"
+		},
+		{
+			"key": "优优",
+			"name": "🌈优酷┃官源",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/优优.bmp"
+		},
+		{
+			"key": "奇奇",
+			"name": "🌈奇艺┃官源",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"api": "./js/drpy2.min.js",
+			"ext": "./js/奇奇.bmp"
+		},
+		{
+			"key": "馆源",
+			"name": " 🌈360┃聚搜",
+			"type": 3,
+			"api": "csp_HB360",
+			"jar": "./jar/jusou.jar"
+		},
+		{
+			"key": "Bili",
+			"name": "🅱哔哩┃合集",
+			"type": 3,
+			"api": "csp_BiliGuard",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
+			}
+		},
+		{
+			"key": "Biliych",
+			"name": "🅱哔哩┃演唱会",
+			"type": 3,
+			"api": "csp_BiliGuard",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
+			}
+		},
+		{
+			"key": "dr_兔小贝",
+			"name": "📚儿童┃启蒙",
+			"type": 3,
+			"api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+			"ext": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0
+		},
+		{
+			"key": "少儿教育",
+			"name": "📚少儿┃教育",
+			"type": 3,
+			"api": "csp_BiliGuard",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
+			}
+		},
+		{
+			"key": "小学课堂",
+			"name": "📚小学┃课堂",
+			"type": 3,
+			"api": "csp_BiliGuard",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+			}
+		},
+		{
+			"key": "初中课堂",
+			"name": "📚初中┃课堂",
+			"type": 3,
+			"api": "csp_BiliGuard",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
+			}
+		},
+		{
+			"key": "高中教育",
+			"name": "📚高中┃课堂",
+			"type": 3,
+			"api": "csp_BiliGuard",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": {
+				"json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
+			}
+		}
+	],
+	"parses": [
+		{
+			"name": "🌈SOTVLA",
+			"type": 1,
+			"url": "https://wfs1030.top/jx/sotvla.php?url="
+		}
+	],
+	"lives": [
+		{
+			"name": "📡live",
+			"type": 0,
+			"url": "https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/live.txt",
+			"playerType": 2,
+			"ua": "okhttp/3.15",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
+		},
+		{
+			"name": "📡Lve",
+			"type": 0,
+			"url": "https://d.kstore.dev/download/6595/live.txt",
+			"playerType": 2,
+			"ua": "okhttp/3.15",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
+		}
+	]
+}
